@@ -25,7 +25,7 @@ Create a Wind and Current object as well as a Chart to keep track of your naviga
 
 Your boats should turn more easily if MonoHull but be more stable if MultiHull.  
 
-A sail is greatly impacted by the wind and can never move you within 45 degrees of direction of the wind. Doing so will capsize your boat. However, your speed will be greatly increased by a sail.  
+A sail is greatly impacted by the wind and can never move you within 45 degrees of direction of the wind. Doing so will capsize your boat. However, your speed will be greatly increased by a sail.  A MultiHull boat isn't as easy to capsize and your code should reflect this. 
 
 A raft has no control and is only able to drift with the current.  
 
@@ -33,8 +33,8 @@ Simulate the conditions of a voyage and chart your course around the entire coas
 
 After you have tested your boats, be able to explain which one would be your choice for a trip across the Pacific Ocean.  
 
-Feel free to add provisions such as gear (compass, ropes, Food, Water, Compass.  
+Feel free to add provisions and gear (compass, ropes, food, drinking water, ...) as you see fit.  
 
-There is no points given for being fast, your only goal is to create your boats to specfication, describe how you assembled them, and demo testing them. Be sure you account for rough seas in your simulation and have your safety code (assertions, exceptions, ...) ready and be able to demonstrate it functioning.  
+There are no points given for being fast, your only goal is to create your boats to the UML specification, describe how you assembled them, and demo testing them. Be sure you account for rough seas in your simulation and have your safety code (assertions, exceptions, ...) ready and be able to demonstrate it functioning.  
 
 Be creative and have fun on your test voyage. 
