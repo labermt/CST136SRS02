@@ -33,7 +33,7 @@ Simulate the conditions of a voyage and chart your course around the entire coas
 
 After you have tested your boats, be able to explain which one would be your choice for a trip across the Pacific Ocean.  
 
-Feel free to add provisions and gear (compass, ropes, food, drinking water, ...) as you see fit.  
+Feel free to add provisions and gear (compass, ropes, food, drinking water, ...) as you see fit.  Also feel free to add any additional boat items such as an anchor, rudder, ...  
 
 There are no points given for being fast or even successful navigation, your only goal is to create your boats to the UML specification, describe how you assembled them, and demo testing them. 
 
