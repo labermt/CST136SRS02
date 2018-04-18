@@ -39,4 +39,6 @@ There are no points given for being fast or even successful navigation, your onl
 
 Be sure you account for rough seas in your simulation and have your safety gear ... urrr... code (assertions, exceptions, ...) ready and be able to demonstrate it functioning.  
 
+If you have a destructor in any class, follow the guideline [C.35: A base class destructor should be either public and virtual, or protected and nonvirtual](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rc-dtor-virtual)  
+
 Be creative and have fun on your test voyage. 
