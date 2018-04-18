@@ -25,7 +25,7 @@ Create a Wind and Current object as well as a Chart to keep track of your naviga
 
 Your boats should turn more easily if MonoHull but be more stable if MultiHull.  
 
-A sail is greatly impacted by the wind and can never move you within 45 degrees of direction of the wind. Doing so will capsize your boat. However, your speed will be greatly increased by a sail.  A MultiHull boat isn't as easy to capsize and your code should reflect this. 
+A sail is greatly impacted by the wind and can never move you within +-45 degrees of direction of the wind. Doing so will capsize your boat. However, your speed will be greatly increased by a sail.  A MultiHull boat isn't as easy to capsize and your code should reflect this. 
 
 A raft has no control and is only able to drift with the current.  
 
