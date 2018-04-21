@@ -21,7 +21,7 @@ You will find the UML blueprints to assemble your boats in a file called Waka.pn
 
 After you have assembled your boats to specification, take them on a test voyage.  
 
-Create a Wind and Current object as well as a Chart to keep track of your navigation.  
+Create a Wind and Water object as well as a Chart to keep track of your navigation.  
 
 Your boats should turn more easily if MonoHull but be more stable if MultiHull.  
 
