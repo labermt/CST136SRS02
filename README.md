@@ -13,7 +13,7 @@ Purpose:
 
 In this assignment you will create different boats to take you on your voyage around the Pacific Ocean. You already have all the safety gear and the knowledge to use it should you run across rough seas. Many wonders await you, but before you do that, you must make sure you can handle your boat, so we will be sticking close to the coast of New Zealand.  
 
-You will create 3 different types of boats. A raft, a canoe, and a sailboat.  Only a sailboat may have a sail. 
+You will create at least 3 different types of boats. A raft, a canoe, and a sailboat.  Only a sailboat may have a sail. 
 
 You must name each of your boats for them to have [mana](https://en.wikipedia.org/wiki/Mana#M%C4%81ori_use).  
 
