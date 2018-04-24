@@ -6,5 +6,9 @@ class Propulsion :
 public:
 	Propulsion();
 	virtual ~Propulsion();
+
+	void minTurnRadius();
+	void maxWaveHeight();
+
 };
 

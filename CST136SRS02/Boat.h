@@ -4,5 +4,8 @@ class Boat
 public:
 	Boat();
 	virtual ~Boat();
+
+	void getSpeed();
+
 };
 
