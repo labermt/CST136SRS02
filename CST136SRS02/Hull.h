@@ -1,18 +1,18 @@
 #pragma once
 #include <string>
-#include "Boat.h"
+
 
 using namespace std;
 
 
-class Hull :
-	public Boat
+class Hull 
 {
 public:
 	Hull();
 	virtual ~Hull();
 
-	void getName();
+	float minTurnRadius() { return 0; }
+	float maxWaveHeight() { return 0; }
 
 };
 

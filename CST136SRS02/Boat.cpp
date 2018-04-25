@@ -10,3 +10,10 @@ Boat::Boat()
 Boat::~Boat()
 {
 }
+
+
+int Boat::isFinished()
+{
+	return c.isFinished();
+
+}

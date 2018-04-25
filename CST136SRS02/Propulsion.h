@@ -1,14 +1,12 @@
 #pragma once
-#include "Boat.h"
-class Propulsion :
-	public Boat
+
+class Propulsion 
 {
 public:
 	Propulsion();
 	virtual ~Propulsion();
 
-	void minTurnRadius();
-	void maxWaveHeight();
+	float getSpeed();
 
 };
 
