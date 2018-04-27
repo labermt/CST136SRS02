@@ -1,7 +1,7 @@
 
-class chart
+class Chart
 {
 public:
-	chart();
-	~chart();
+	Chart();
+	~Chart();
 };

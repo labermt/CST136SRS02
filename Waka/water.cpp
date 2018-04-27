@@ -2,11 +2,11 @@
 
 
 
-water::water()
+water::Water()
 {
 }
 
 
-water::~water()
+water::~Water()
 {
 }

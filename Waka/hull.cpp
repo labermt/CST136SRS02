@@ -2,11 +2,11 @@
 
 
 
-hull::hull()
+Hull::Hull()
 {
 }
 
 
-hull::~hull()
+Hull::~Hull()
 {
 }

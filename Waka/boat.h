@@ -1,9 +1,9 @@
 #pragma once
-class boat
+class Boat
 {
 
 
 public:
-	virtual ~boat() = default;
+	virtual ~Boat() = default;
 };
 

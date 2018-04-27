@@ -1,7 +1,7 @@
 
-class hull
+class Hull
 {
 public:
-	hull();
-	virtual ~hull();
+	Hull();
+	virtual ~Hull();
 };

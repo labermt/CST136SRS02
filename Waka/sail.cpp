@@ -2,11 +2,11 @@
 
 
 
-sail::sail()
+sail::Sail()
 {
 }
 
 
-sail::~sail()
+sail::~Sail()
 {
 }

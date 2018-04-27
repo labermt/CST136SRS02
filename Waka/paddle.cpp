@@ -2,11 +2,11 @@
 
 
 
-paddle::paddle()
+paddle::Paddle()
 {
 }
 
 
-paddle::~paddle()
+paddle::~Paddle()
 {
 }

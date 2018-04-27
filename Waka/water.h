@@ -1,7 +1,7 @@
 
-class water
+class Water
 {
 public:
-	water();
-	~water();
+	Water();
+	~Water();
 };

@@ -1,7 +1,7 @@
 
-class wind
+class Wind
 {
 public:
-	wind();
-	~wind();
+	Wind();
+	~Wind();
 };

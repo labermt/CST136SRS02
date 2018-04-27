@@ -2,11 +2,11 @@
 
 
 
-wind::wind()
+wind::Wind()
 {
 }
 
 
-wind::~wind()
+wind::~Wind()
 {
 }

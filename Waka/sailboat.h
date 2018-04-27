@@ -1,7 +1,7 @@
 #pragma once
 #include "boat.h"
-class sailboat :
-	public boat
+class Sailboat :
+	public Boat
 {
 public:
 	

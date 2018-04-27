@@ -2,11 +2,11 @@
 
 
 
-chart::chart()
+chart::Chart()
 {
 }
 
 
-chart::~chart()
+chart::~Chart()
 {
 }

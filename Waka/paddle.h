@@ -1,9 +1,9 @@
 
 #include "propultion.h"
-class paddle :
-	public propultion
+class Paddle :
+	public Propultion
 {
 public:
-	paddle();
-	~paddle();
+	Paddle();
+	~Paddle();
 };

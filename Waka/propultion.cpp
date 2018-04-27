@@ -2,11 +2,11 @@
 
 
 
-propultion::propultion()
+propultion::Propultion()
 {
 }
 
 
-propultion::~propultion()
+propultion::~Propultion()
 {
 }

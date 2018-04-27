@@ -1,7 +1,7 @@
 
-class propultion
+class Propultion
 {
 public:
-	propultion();
-	~propultion();
+	Propultion();
+	~Propultion();
 };
