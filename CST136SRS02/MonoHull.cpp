@@ -7,9 +7,11 @@ MonoHull::MonoHull()
 }
 
 
+/**
+ * \brief 
+ */
 MonoHull::~MonoHull()
-{
-}
+= default;
 
 float MonoHull::minTurnRadius()
 {

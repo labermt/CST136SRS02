@@ -12,9 +12,12 @@ class Boat
 {
 
 public:
-	Boat() { p = NULL, h = nullptr ; }
+	
+	Boat() { p = NULL, h = nullptr; }
+
 	Boat(Propulsion *prop, Hull *hull) { p = prop, h = hull; }
-	virtual ~Boat();
+	
+	virtual ~Boat() { ; }
 
 	void getSpeed();
 
