@@ -1,17 +1,10 @@
 #pragma once
 
-class monohull
-{
-	
-};
-
-class multihull
-{
-	
-};
-
 class hull
 {
-	minTurnRadius();
-	maxWaveHeight();
+private:
+	
+public:
+	int minTurnRadius();
+	int maxWaveHeight();
 };

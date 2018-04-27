@@ -153,15 +153,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="boat.h" />
+    <ClInclude Include="canoe.h" />
+    <ClInclude Include="chart.h" />
     <ClInclude Include="hull.h" />
-    <ClInclude Include="ocean.h" />
+    <ClInclude Include="monohull.h" />
+    <ClInclude Include="multihull.h" />
+    <ClInclude Include="paddle.h" />
     <ClInclude Include="propulsion.h" />
+    <ClInclude Include="raft.h" />
+    <ClInclude Include="sail.h" />
+    <ClInclude Include="sailboat.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="water.h" />
+    <ClInclude Include="wind.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="paddle.cpp" />
     <ClCompile Include="propulsion.cpp" />
+    <ClCompile Include="sail.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

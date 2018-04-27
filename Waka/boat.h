@@ -1,25 +1,12 @@
 #pragma once
-
-class raft
-{
-	
-};
-
-class canoe
-{
-	
-};
-
-class sailBoat
-{
-	
-};
+#include "hull.h"
+#include "propulsion.h"
 
 class boat
 {
 private:
 
-	
+
 public:
-	const void getname();
+	void getname();
 };

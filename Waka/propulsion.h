@@ -1,22 +1,6 @@
 #pragma once
-
-class paddle
-{
-private:
-	const int speed_{ 2 };
-
-public:
-	const int getSpeed();
-};
-
-class sail
-{
-private:
-	const int speed_{ 5 };
-
-public:
-	const int getSpeed();
-};
+#include "paddle.h"
+#include "sail.h"
 
 class propulsion
 {

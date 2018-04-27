@@ -21,16 +21,43 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="boat.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="hull.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ocean.h">
+    <ClInclude Include="propulsion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="propulsion.h">
+    <ClInclude Include="boat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="raft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sailboat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="canoe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monohull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multihull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chart.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -42,6 +69,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="propulsion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paddle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
