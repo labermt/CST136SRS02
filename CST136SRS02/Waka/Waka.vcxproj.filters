@@ -21,12 +21,30 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="boat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="raft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="anchor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="boat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="raft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="anchor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
