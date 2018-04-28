@@ -156,6 +156,8 @@
     <ClInclude Include="canoe.h" />
     <ClInclude Include="chart.h" />
     <ClInclude Include="hull.h" />
+    <ClInclude Include="mono_hull.h" />
+    <ClInclude Include="multi_hull.h" />
     <ClInclude Include="paddle.h" />
     <ClInclude Include="propultion.h" />
     <ClInclude Include="raft.h" />
@@ -171,6 +173,8 @@
     <ClCompile Include="canoe.cpp" />
     <ClCompile Include="chart.cpp" />
     <ClCompile Include="hull.cpp" />
+    <ClCompile Include="mono_hull.cpp" />
+    <ClCompile Include="multi_hull.cpp" />
     <ClCompile Include="paddle.cpp" />
     <ClCompile Include="propultion.cpp" />
     <ClCompile Include="raft.cpp" />

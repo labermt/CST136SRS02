@@ -54,6 +54,12 @@
     <ClInclude Include="boat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="mono_hull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multi_hull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -93,6 +99,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="boat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mono_hull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multi_hull.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

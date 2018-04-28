@@ -1,12 +1,13 @@
+#include "stdafx.h"
 #include "wind.h"
 
 
 
-wind::Wind()
+Wind::Wind()
 {
 }
 
 
-wind::~Wind()
+Wind::~Wind()
 {
 }

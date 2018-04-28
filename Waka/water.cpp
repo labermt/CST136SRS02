@@ -1,12 +1,13 @@
+#include "stdafx.h"
 #include "water.h"
 
 
 
-water::Water()
+Water::Water()
 {
 }
 
 
-water::~Water()
+Water::~Water()
 {
 }

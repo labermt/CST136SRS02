@@ -1,12 +1,13 @@
+#include "stdafx.h"
 #include "sail.h"
 
 
 
-sail::Sail()
+Sail::Sail()
 {
 }
 
 
-sail::~Sail()
+Sail::~Sail()
 {
 }

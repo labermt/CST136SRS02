@@ -1,12 +1,13 @@
+#include "stdafx.h"
 #include "propultion.h"
 
 
 
-propultion::Propultion()
+Propultion::Propultion()
 {
 }
 
 
-propultion::~Propultion()
+Propultion::~Propultion()
 {
 }

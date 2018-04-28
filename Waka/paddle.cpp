@@ -1,12 +1,13 @@
+#include "stdafx.h"
 #include "paddle.h"
 
 
 
-paddle::Paddle()
+Paddle::Paddle()
 {
 }
 
 
-paddle::~Paddle()
+Paddle::~Paddle()
 {
 }
