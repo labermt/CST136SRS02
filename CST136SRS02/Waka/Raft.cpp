@@ -2,15 +2,7 @@
 #include "Raft.h"
 
 
-Raft::Raft()
+std::string Raft::getName()
 {
-}
-
-
-Raft::~Raft()
-{
-}
-
-void Raft::getName()
-{
+	return Boat::getName();
 }

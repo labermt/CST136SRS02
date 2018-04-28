@@ -3,8 +3,10 @@
 class Canoe final : public Boat
 {
 public:
-	Canoe();
-	~Canoe();
-	void getName() override;
+	Canoe() = default;
+	Canoe(const std::string boatName) : Boat(boatName) {};	// use base class cstr)
+	~Canoe() = default;
+
+	std::string getName() override;
 };
 

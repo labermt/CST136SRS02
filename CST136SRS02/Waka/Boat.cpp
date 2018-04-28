@@ -2,6 +2,7 @@
 #include "Boat.h"
 
 
-void Boat::getName()
+std::string Boat::getName()
 {
+	return this->name;
 }

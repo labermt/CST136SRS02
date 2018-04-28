@@ -2,15 +2,9 @@
 #include "Canoe.h"
 
 
-Canoe::Canoe()
+
+std::string Canoe::getName()
 {
+	return Boat::getName();
 }
 
-
-Canoe::~Canoe()
-{
-}
-
-void Canoe::getName()
-{
-}

@@ -3,8 +3,11 @@
 class Raft final : public Boat
 {
 public:
-	Raft();
-	~Raft();
-	void getName() override;
+	Raft() = default;
+	Raft(const std::string boatName) : Boat(boatName) {};	// use base class cstr
+	~Raft() = default;
+
+	std::string getName() override;
+
 };
 

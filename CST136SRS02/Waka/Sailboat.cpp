@@ -2,15 +2,8 @@
 #include "Sailboat.h"
 
 
-Sailboat::Sailboat()
+std::string Sailboat::getName()
 {
+	return Boat::getName();
 }
 
-
-Sailboat::~Sailboat()
-{
-}
-
-void Sailboat::getName()
-{
-}
