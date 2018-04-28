@@ -2,7 +2,7 @@
 #include "Boat.h"
 
 
-int Boat::isFinished()
+int Boat::is_finished()
 {
 	return c.isFinished();
 

@@ -13,26 +13,26 @@ class Boat
 
 public:
 	
-	Boat() { p = NULL, h = nullptr; }
+	Boat() { prop_ = nullptr, hull_ = nullptr; }
 
-	Boat(Propulsion *prop, Hull *hull) { p = prop, h = hull; }
+	Boat(Propulsion *prop, Hull *hull) { prop_ = prop, hull_ = hull; }
 	
 	virtual ~Boat() { ; }
 
-	void getSpeed();
+	float getSpeed();// { return speed; }
 
-	string getName();
+	string getName() { return name_; }
 	void setName(string n);
 
 	virtual void updateBoat(Water wa, Wind wi) {}
 
-	int isFinished();
+	int is_finished();
 
 protected:
-	Propulsion *p; 
-	Hull *h; 
-	Chart c; 
+	Propulsion *prop_; 
+	Hull *hull_; 
+	Chart chart_; 
 
-	string name; 
+	string name_; 
 };
 

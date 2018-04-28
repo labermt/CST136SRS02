@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Boat" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAEAAjBQEAEAAQAAAI=</HashCode>
+      <FileName>Boat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canoe" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Canoe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chart" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIAAAAgAAAgAAAAQgAAEwEAAEAAAAAAAQAAEg=</HashCode>
+      <FileName>Chart.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hull" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Hull.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoHull" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAACAAIAAAAA=</HashCode>
+      <FileName>MonoHull.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiHull" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAABAAAAAAAEAIAAAAA=</HashCode>
+      <FileName>MultiHull.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paddle" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Paddle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Propulsion" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAgA=</HashCode>
+      <FileName>Propulsion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Raft" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAgAA=</HashCode>
+      <FileName>Raft.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sail" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sail.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sailboat" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Sailboat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Simulation" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAQCAAAAAAAAAAAQAAAAAAAAIABAAAAAA=</HashCode>
+      <FileName>Simulation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Water" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAIAAAAAAAAAAAAAAkAwABAAAAAAAAAAA=</HashCode>
+      <FileName>Water.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wind" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAIAAAAAAAAAAEAAAAAQAhAAAEAAAAAAA=</HashCode>
+      <FileName>Wind.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

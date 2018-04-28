@@ -7,40 +7,39 @@
 
 Simulation::Simulation()
 {
-	Raft b1; 
-	Canoe b2;
-	Sailboat b3; 
+	Raft hms_titanic; 
+	Canoe uss_arizona;
+	Sailboat rms_lusitania;
 
-	fleet.push_back(b1);
-	fleet.push_back(b2);
-	fleet.push_back(b3);
+	fleet.push_back(hms_titanic);
+	fleet.push_back(uss_arizona);
+	fleet.push_back(rms_lusitania);
 
 }
 
 
 Simulation::~Simulation()
-{
-}
+= default;
 
 
 void Simulation::simulate()
 {
-	while(1)
+	while(true)
 	{
 		wa.updateCurrent();
 		wi.updateWind();
 
-		for (int j = 0; j < fleet.size(); j++)
+		for (auto j = 0; j < fleet.size(); j++)
 		{
 			fleet[j].updateBoat(wa, wi); 
 
 		}
 
-		int notFinished = 0; 
+		auto notFinished = 0; 
 
-		for (int j = 0; j < fleet.size(); j++)
+		for (auto j = 0; j < fleet.size(); j++)
 		{
-			if(!fleet[j].isFinished())
+			if(!fleet[j].is_finished())
 			{
 				notFinished = 1;
 			}
