@@ -1,7 +1,7 @@
 ﻿# CST136SRS02
 Polynesian Polymorphism
 
-Name:
+Name: Fennekin
 
 Notes: worked with Drew, Mike, Sasha, and Jen
 ---

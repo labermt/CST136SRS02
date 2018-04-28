@@ -2,3 +2,7 @@
 #include "boat.h"
 
 
+void Boat::move()
+{
+	do_move();
+}

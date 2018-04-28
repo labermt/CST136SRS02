@@ -5,7 +5,7 @@ class Canoe :
 	public Boat
 {
 
-	void move() override;
+	void do_move() override;
 	void turn() override;
 	std::string get_name() override;
 public:
