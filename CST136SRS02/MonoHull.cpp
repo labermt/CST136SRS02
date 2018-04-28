@@ -13,12 +13,12 @@ MonoHull::MonoHull()
 MonoHull::~MonoHull()
 = default;
 
-float MonoHull::minTurnRadius()
+float MonoHull::min_turn_radius()
 {
 	return 30;
 }
 
-float MonoHull::maxWaveHeight()
+float MonoHull::max_wave_height()
 {
 	return 5;
 }

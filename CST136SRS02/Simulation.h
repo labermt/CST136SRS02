@@ -12,8 +12,8 @@ public:
 	void simulate();
 
 private:
-	Water wa;
-	Wind wi;
-	vector<Boat> fleet; 
+	Water wa_;
+	Wind wi_;
+	vector<Boat> fleet_; 
 };
 

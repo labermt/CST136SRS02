@@ -9,23 +9,23 @@ public:
 	Chart();
 	virtual ~Chart();
 
-	int isFinished();
+	int is_finished();
 
-	int getLeg() { return legNumber; }
-	int journeySize() { return distances.size(); }
+	int get_leg() { return leg_number_; }
+	int journey_size() { return distances_.size(); }
 
-	float getCurrentDistance() { return currentDistance; }
-	float getLegDirection() { return directions[legNumber - 1]; }
-	float getLegDistance() { return distances[legNumber - 1]; }
+	float get_current_distance() { return current_distance_; }
+	float get_leg_direction() { return directions_[leg_number_ - 1]; }
+	float get_leg_distance() { return distances_[leg_number_ - 1]; }
 
-	void incrementLeg() { legNumber++; }
-	void setCurrentDistance(float d) { currentDistance = d; }
+	void increment_leg() { leg_number_++; }
+	void set_current_distance(float d) { current_distance_ = d; }
 
 private: 
-	vector<float> distances; 
-	vector<float> directions;
-	int legNumber;
-	int currentDistance;
+	vector<float> distances_; 
+	vector<float> directions_;
+	int leg_number_;
+	float current_distance_;
 
 };
 

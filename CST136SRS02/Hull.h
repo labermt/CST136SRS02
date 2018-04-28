@@ -11,8 +11,8 @@ public:
 	Hull();
 	virtual ~Hull();
 
-	float minTurnRadius() { return 0; }
-	float maxWaveHeight() { return 0; }
+	float min_turn_radius() { return 0; }
+	float max_wave_height() { return 0; }
 
 };
 

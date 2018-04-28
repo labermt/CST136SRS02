@@ -12,19 +12,19 @@ Water::Water()
 Water::~Water()
 {
 }
-float Water::getSpeed()
+float Water::get_speed()
 {
-	return speed;
+	return speed_;
 }
 
 
-float Water::getDirection()
+float Water::get_direction()
 {
-	return direction;
+	return direction_;
 }
 
-void Water::updateCurrent()
+void Water::update_current()
 {
-	speed = rand() % 15; 
-	direction = rand() % 360; 
+	speed_ = float(rand() % 15); 
+	direction_ = float(rand() % 360); 
 }

@@ -4,13 +4,13 @@ class Water
 public:
 	Water();
 	virtual ~Water();
-	float getSpeed();
-	float getDirection();
+	float get_speed();
+	float get_direction();
 
-	void updateCurrent();
+	void update_current();
 
 private:
-	float speed;
-	float direction;
+	float speed_;
+	float direction_;
 };
 

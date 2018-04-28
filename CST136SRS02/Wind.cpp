@@ -11,20 +11,20 @@ Wind::~Wind()
 {
 }
 
-float Wind::getSpeed()
+float Wind::get_speed()
 {
-	return speed;
+	return speed_;
 }
 
 
-float Wind::getDirection()
+float Wind::get_direction()
 {
-	return direction;
+	return direction_;
 }
 
 
-void Wind::updateWind()
+void Wind::update_wind()
 {
-	speed = rand() % 15;
-	direction = rand() % 360;
+	speed_ = float(rand() % 15);
+	direction_ = float(rand() % 360);
 }

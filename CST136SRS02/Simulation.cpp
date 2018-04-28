@@ -11,9 +11,9 @@ Simulation::Simulation()
 	Canoe uss_arizona;
 	Sailboat rms_lusitania;
 
-	fleet.push_back(hms_titanic);
-	fleet.push_back(uss_arizona);
-	fleet.push_back(rms_lusitania);
+	fleet_.push_back(hms_titanic);
+	fleet_.push_back(uss_arizona);
+	fleet_.push_back(rms_lusitania);
 
 }
 
@@ -26,27 +26,27 @@ void Simulation::simulate()
 {
 	while(true)
 	{
-		wa.updateCurrent();
-		wi.updateWind();
+		wa_.update_current();
+		wi_.update_wind();
 
-		for (auto j = 0; j < fleet.size(); j++)
+		for (auto j = 0; j < fleet_.size(); j++)
 		{
-			fleet[j].updateBoat(wa, wi); 
+			fleet_[j].updateBoat(wa_, wi_); 
 
 		}
 
-		auto notFinished = 0; 
+		auto not_finished = 0; 
 
-		for (auto j = 0; j < fleet.size(); j++)
+		for (auto j = 0; j < fleet_.size(); j++)
 		{
-			if(!fleet[j].is_finished())
+			if(!fleet_[j].is_finished())
 			{
-				notFinished = 1;
+				not_finished = 1;
 			}
 
 		}
 
-		if (notFinished == 0)
+		if (not_finished == 0)
 		{
 			break; 
 		}

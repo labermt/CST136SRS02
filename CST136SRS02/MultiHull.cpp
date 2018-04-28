@@ -11,12 +11,12 @@ MultiHull::~MultiHull()
 {
 }
 
-float MultiHull::minTurnRadius()
+float MultiHull::min_turn_radius()
 {
 	return 100;
 }
 
-float MultiHull::maxWaveHeight()
+float MultiHull::max_wave_height()
 {
 	return 30;
 }

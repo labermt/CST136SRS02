@@ -8,8 +8,8 @@ public:
 	MultiHull();
 	virtual ~MultiHull();
 
-	float minTurnRadius();
-	float maxWaveHeight();
+	float min_turn_radius();
+	float max_wave_height();
 
 };
 

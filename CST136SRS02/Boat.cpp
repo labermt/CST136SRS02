@@ -4,6 +4,6 @@
 
 int Boat::is_finished()
 {
-	return c.isFinished();
+	return chart_.is_finished();
 
 }

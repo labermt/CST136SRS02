@@ -6,7 +6,7 @@ public:
 	Propulsion();
 	virtual ~Propulsion();
 
-	float getSpeed();
+	float get_speed();
 
 };
 

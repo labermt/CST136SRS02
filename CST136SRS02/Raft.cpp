@@ -14,20 +14,20 @@ Raft::~Raft()
 
 void Raft::updateBoat(Water wa, Wind wi)
 {
-	if(c.getLeg() <= c.journeySize())
+	if(chart_.get_leg() <= chart_.journey_size())
 	{
-		int myDirection = c.getLegDirection();
-		float mySpeed = cos((myDirection - wa.getDirection())*3.1416 / 180)*wa.getSpeed();
+		auto my_direction = chart_.get_leg_direction();
+		float my_speed = cos((my_direction - wa.get_direction()) * 3.1416 / 180) * wa.get_speed();
 
-		if (mySpeed > 0)
+		if (my_speed > 0)
 		{
-			float progress = mySpeed * 0.5f;
-			float total = progress + c.getCurrentDistance(); 
+			auto progress = my_speed * 0.5f;
+			auto total = progress + chart_.get_current_distance(); 
 
-			if (total > c.getLegDistance())
+			if (total > chart_.get_leg_distance())
 			{
-				c.incrementLeg(); 
-				c.setCurrentDistance(c.getLegDirection() - total);
+				chart_.increment_leg(); 
+				chart_.set_current_distance(chart_.get_leg_direction() - total);
 			}
 		}
 

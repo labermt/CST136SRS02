@@ -4,18 +4,13 @@ class MonoHull :
 	public Hull
 {
 public:
-	/**
-	 * \ default constructor
-	 */
 	MonoHull();
-	/**
-	 * \brief 
-	 */
+
 	virtual ~MonoHull();
 
 
-	float minTurnRadius();
-	float maxWaveHeight();
+	float min_turn_radius();
+	float max_wave_height();
 
 };
 

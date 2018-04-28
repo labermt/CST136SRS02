@@ -5,14 +5,14 @@ public:
 	Wind();
 	virtual ~Wind();
 
-	float getSpeed();
-	float getDirection();
+	float get_speed();
+	float get_direction();
 
-	void updateWind();
+	void update_wind();
 
 private: 
-	float speed;
-	float direction;
+	float speed_;
+	float direction_;
 
 
 
