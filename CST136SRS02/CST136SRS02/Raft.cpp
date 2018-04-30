@@ -10,7 +10,3 @@ std::string Raft::do_get_name() const
 Raft::Raft(std::string name): Boat(name)
 {
 }
-
-Raft::~Raft()
-{
-}

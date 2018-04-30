@@ -6,6 +6,7 @@
 Water::Water()
 	:waveSize{20}
 {
+	update();
 }
 
 int Water::getWaveSize() const

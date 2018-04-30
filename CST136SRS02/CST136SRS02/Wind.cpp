@@ -6,6 +6,7 @@
 Wind::Wind()
 	:direction{ Direction::North }, mph{ 20 }
 {
+	update();
 }
 
 Wind::Direction Wind::getDirection() const

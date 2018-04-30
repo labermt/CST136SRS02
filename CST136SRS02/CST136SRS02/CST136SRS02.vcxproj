@@ -161,8 +161,10 @@
     <ClInclude Include="Boat.h" />
     <ClInclude Include="Chart.h" />
     <ClInclude Include="Hull.h" />
+    <ClInclude Include="Paddle.h" />
     <ClInclude Include="Propulsion.h" />
     <ClInclude Include="Raft.h" />
+    <ClInclude Include="Sail.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Water.h" />
@@ -173,8 +175,10 @@
     <ClCompile Include="Chart.cpp" />
     <ClCompile Include="Hull.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Paddle.cpp" />
     <ClCompile Include="Propulsion.cpp" />
     <ClCompile Include="Raft.cpp" />
+    <ClCompile Include="Sail.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
