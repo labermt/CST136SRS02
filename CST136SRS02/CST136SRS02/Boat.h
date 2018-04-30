@@ -19,6 +19,6 @@ public:
 
 	Chart getChart() const;
 
-	//add move function
+	//add move towards function
 };
 

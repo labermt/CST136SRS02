@@ -159,12 +159,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Boat.h" />
+    <ClInclude Include="Canoe.h" />
     <ClInclude Include="Chart.h" />
     <ClInclude Include="Hull.h" />
+    <ClInclude Include="MonoHull.h" />
+    <ClInclude Include="MultiHull.h" />
     <ClInclude Include="Paddle.h" />
     <ClInclude Include="Propulsion.h" />
     <ClInclude Include="Raft.h" />
     <ClInclude Include="Sail.h" />
+    <ClInclude Include="Sailboat.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Water.h" />
@@ -172,13 +176,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Boat.cpp" />
+    <ClCompile Include="Canoe.cpp" />
     <ClCompile Include="Chart.cpp" />
     <ClCompile Include="Hull.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MonoHull.cpp" />
+    <ClCompile Include="MultiHull.cpp" />
     <ClCompile Include="Paddle.cpp" />
     <ClCompile Include="Propulsion.cpp" />
     <ClCompile Include="Raft.cpp" />
     <ClCompile Include="Sail.cpp" />
+    <ClCompile Include="Sailboat.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
