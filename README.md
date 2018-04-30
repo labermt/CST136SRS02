@@ -11,9 +11,12 @@ Purpose:
 - Practice creating classes
 - Understand abstraction and abstract classes
 
+Solution Name: CST136SRS02
+Project Name: Waka
+
 In this assignment you will create different boats to take you on your voyage around the Pacific Ocean. You already have all the safety gear and the knowledge to use it should you run across rough seas. Many wonders await you, but before you do that, you must make sure you can handle your boat, so we will be sticking close to the coast of New Zealand.  
 
-You will create 3 different types of boats. A raft, a canoe, and a sailboat.  Only a sailboat may have a sail. 
+You will create at least 3 different types of boats. A raft, a canoe, and a sailboat.  Only a sailboat may have a sail. 
 
 You must name each of your boats for them to have [mana](https://en.wikipedia.org/wiki/Mana#M%C4%81ori_use).  
 
@@ -21,7 +24,7 @@ You will find the UML blueprints to assemble your boats in a file called Waka.pn
 
 After you have assembled your boats to specification, take them on a test voyage.  
 
-Create a Wind and Current object as well as a Chart to keep track of your navigation.  
+Create a Wind and Water object as well as a Chart to keep track of your navigation.  
 
 Your boats should turn more easily if MonoHull but be more stable if MultiHull.  
 
