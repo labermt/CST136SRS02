@@ -16,3 +16,13 @@ Boat::Boat(std::string boatName)
 	:name{boatName}
 {
 }
+
+bool Boat::isCapsized() const
+{
+	return capsized;
+}
+
+void Boat::capsizeBoat()
+{
+	capsized = true;
+}
