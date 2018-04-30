@@ -1,12 +1,35 @@
 #include "stdafx.h"
 #include "Chart.h"
 
-Chart::Feature Chart::getFeature(int lat, int lng) const
+Chart::Chart(int lat_, int lng_, int angle_)
+	:lat {lat_}, lng { lng_ }, angle { angle_ }, timeElapsed {0}
 {
-	return Feature();
 }
 
-Chart::Chart()
+int Chart::getLat() const
 {
+	return lat;
+}
 
+int Chart::getLng() const
+{
+	return lng;
+}
+
+int Chart::getAngle() const
+{
+	return angle;
+}
+
+int Chart::getTimeElapsed() const
+{
+	return timeElapsed;
+}
+
+void Chart::setCoordinates(int lat_, int lng_, int angle_)
+{
+	lat = lat_;
+	lng = lng_;
+	angle = angle_;
+	timeElapsed++;
 }

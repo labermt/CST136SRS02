@@ -13,7 +13,7 @@ std::string Boat::getName() const
 }
 
 Boat::Boat(std::string boatName)
-	:name{boatName}
+	:name{boatName}, chart { Chart(0,0,90) }
 {
 }
 
@@ -25,4 +25,9 @@ bool Boat::isCapsized() const
 void Boat::capsizeBoat()
 {
 	capsized = true;
+}
+
+Chart Boat::getChart() const
+{
+	return chart;
 }

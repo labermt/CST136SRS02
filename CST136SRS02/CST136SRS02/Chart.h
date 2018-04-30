@@ -2,16 +2,17 @@
 class Chart
 {
 public:
-	Chart();
-	enum class Feature
-	{
-		kWater = 0, 
-		kLand = 1,
-		kBorder = 2
-	};
-	Feature getFeature(int lat, int lng) const;
+	Chart(int lat_, int lng_, int angle_);
+	int getLat() const;
+	int getLng() const;
+	int getAngle() const;
+	int getTimeElapsed() const;
+
+	void setCoordinates(int lat_, int lng_, int angle_);
 
 private:
-	Feature map_[20][20];
+	int lat, lng; //x and y
+	int angle;
+	int timeElapsed;
 };
 
