@@ -7,8 +7,8 @@
 
 Simulation::Simulation()
 {
-	Raft hms_titanic; 
-	Canoe uss_arizona;
+	Raft hms_titanic;		
+	Canoe uss_arizona;		
 	Sailboat rms_lusitania;
 
 	fleet_.push_back(hms_titanic);
