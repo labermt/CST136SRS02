@@ -1,8 +1,7 @@
 #pragma once
 #include "boat.h"
 
-class Canoe :
-	public Boat
+class Canoe : public Boat
 {
 
 	void do_move() override;
