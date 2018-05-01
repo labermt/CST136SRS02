@@ -2,8 +2,16 @@
 
 class Boat
 {
+private:
+	virtual void do_get_name() = 0;
+
 public:
-	Boat();
-	~Boat();
+	Boat() = default;
+
+public:
+	void get_name()
+	{
+		do_get_name();
+	}
 };
 

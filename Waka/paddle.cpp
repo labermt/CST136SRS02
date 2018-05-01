@@ -1,3 +1,2 @@
 #include "stdafx.h"
-#include "canoe.h"
-
+#include "paddle.h"

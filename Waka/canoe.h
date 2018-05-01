@@ -1,10 +1,9 @@
 #pragma once
 #include "boat.h"
-class Canoe :
-	public Boat
+
+class Canoe final : public Boat
 {
 public:
-	Canoe();
-	~Canoe();
+	Canoe() = default;
 };
 
