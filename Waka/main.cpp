@@ -10,6 +10,7 @@ int main()
 {
 	std::vector<Boat> boat_list;
 	Canoe canoe("Miranda", Boat::hull::Mono_hull);
+	// will this cause slicing?
 	boat_list.emplace_back(canoe);
 	Raft raft("Sea Hag", Boat::hull::Mono_hull);
 	boat_list.emplace_back(raft);
@@ -19,7 +20,7 @@ int main()
 	// either do this loop, or possibly just include run game in the constructor?
 	for(auto& boat : boat_list)
 	{
-		//navigate course
+		boat.start_voyage();
 	}
 
 
