@@ -30,6 +30,42 @@
     <ClInclude Include="anchor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="canoe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monoHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multiHall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sailboat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="propulsion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -45,6 +81,39 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="anchor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="canoe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monoHull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multiHall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sailboat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="propulsion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paddle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sail.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

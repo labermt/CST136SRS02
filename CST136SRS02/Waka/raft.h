@@ -1,10 +1,10 @@
 #pragma once
 #include "boat.h"
+#include <string>
 
 class Raft : public Boat
 {
 private:
-	void do_foo() override;
-
+	 std::string getName() override;	 
 };
 

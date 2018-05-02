@@ -1,8 +1,16 @@
 #include "stdafx.h"
+#include <vector>
+#include "chart.h"
+#include "propulsion.h"
+#include "environment.h"
 #include "boat.h"
 
-
-void Boat::do_foo()
+Boat::Boat(const Hull& hull, const std::vector<Propulsion*>& propulsion) : hull_{ hull }, chart_{ new Chart }, propulsion_{ propulsion }
 {
+	Environment::wind;
 }
 
+Boat::~Boat()
+{
+	delete chart_; 
+}
