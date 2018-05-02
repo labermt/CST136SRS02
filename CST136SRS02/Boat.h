@@ -5,6 +5,7 @@
 #include "Chart.h"
 #include "Water.h"
 #include "Wind.h"
+#include <iostream>
 
 using namespace std; 
 
@@ -22,9 +23,9 @@ public:
 	float getSpeed();// { return speed; }
 
 	string getName() { return name_; }
-	void setName(string n);
+	void setName(string n) { name_ = n; }
 
-	virtual void updateBoat(Water wa, Wind wi) {}
+	virtual void updateBoat(Water wa, Wind wi) = 0;
 
 	int is_finished();
 

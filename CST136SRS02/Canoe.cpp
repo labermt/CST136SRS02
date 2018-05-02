@@ -9,6 +9,7 @@ using namespace std;
 Canoe::Canoe()
 	: Boat(new Paddle, new MonoHull)
 {
+
 }
 
 

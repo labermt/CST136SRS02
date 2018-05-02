@@ -14,6 +14,6 @@ public:
 private:
 	Water wa_;
 	Wind wi_;
-	vector<Boat> fleet_; 
+	vector<Boat*> fleet_; 
 };
 
