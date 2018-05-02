@@ -2,7 +2,9 @@
 #include "boat.h"
 
 //default constructor
-Boat::Boat() : name("Odin"){}
+Boat::Boat() : name("Odin") {}
+
+Boat::Boat(std::string inputName) : name(inputName){}
 
 std::string Boat::do_getName() const
 {

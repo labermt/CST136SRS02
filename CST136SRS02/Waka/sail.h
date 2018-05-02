@@ -1,5 +1,6 @@
 #pragma once
 
+#include <string>
 #include "propulsion.h"
 #include "cardinal.h"
 
@@ -15,12 +16,16 @@ public:
 	void setDirection(Cardinal direction) noexcept;
 
 	Cardinal getDirection() const;
+	std::string getDirectionString() const;
 
-	//do get speed next
+	void setSpeed(const int current, const Cardinal windDirection) noexcept;
 
 private:
 
-	Cardinal direction;
+	int do_getSpeed() const override;
+	void do_setSpeed(int n) noexcept override;
+
+	Cardinal sailDirection;
 
 };
 

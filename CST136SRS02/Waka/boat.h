@@ -10,6 +10,7 @@ public:
 	void setName(std::string n) noexcept;
 
 	Boat();
+	Boat(std::string inputName);
 	virtual ~Boat() = default;
 
 protected:
