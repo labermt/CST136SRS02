@@ -8,6 +8,6 @@ class Canoe : public Boat
 	void turn() override;
 	std::string get_name() override;
 public:
-	
+	Canoe(std::string name, Hull);
 };
 
