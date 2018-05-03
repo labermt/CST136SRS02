@@ -1,5 +1,6 @@
 #pragma once
 #include "Boat.h"
+
 class Raft final : public Boat
 {
 public:

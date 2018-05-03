@@ -1,6 +1,6 @@
 #pragma once
 #include "Boat.h"
-class Propulsion : public Boat
+class Propulsion
 {
 public:
 	Propulsion();
