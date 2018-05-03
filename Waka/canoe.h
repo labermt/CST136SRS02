@@ -5,5 +5,8 @@ class Canoe final : public Boat
 {
 public:
 	Canoe() = default;
+
+private:
+	void doGetName() noexcept override;
 };
 

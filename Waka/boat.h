@@ -1,17 +1,21 @@
 #pragma once
+#include <string>
+#include "hull.h"
 
 class Boat
 {
-private:
-	virtual void do_get_name() = 0;
+public:
+	Boat(Hull const &hull);
+	virtual ~Boat() = default; // Guildline C35
+
+protected:
+	virtual void doGetName() noexcept = 0;
 
 public:
-	Boat() = default;
+	void getName() noexcept;
 
 public:
-	void get_name()
-	{
-		do_get_name();
-	}
+	std::string name_;
+	Hull const &hull_;
 };
 

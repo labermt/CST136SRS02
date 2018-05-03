@@ -154,6 +154,12 @@
   <ItemGroup>
     <ClInclude Include="boat.h" />
     <ClInclude Include="canoe.h" />
+    <ClInclude Include="chart.h" />
+    <ClInclude Include="direction.h" />
+    <ClInclude Include="gps.h" />
+    <ClInclude Include="hull.h" />
+    <ClInclude Include="monohull.h" />
+    <ClInclude Include="multihull.h" />
     <ClInclude Include="paddle.h" />
     <ClInclude Include="propulsion.h" />
     <ClInclude Include="raft.h" />
@@ -165,6 +171,11 @@
   <ItemGroup>
     <ClCompile Include="boat.cpp" />
     <ClCompile Include="canoe.cpp" />
+    <ClCompile Include="chart.cpp" />
+    <ClCompile Include="gps.cpp" />
+    <ClCompile Include="hull.cpp" />
+    <ClCompile Include="monohull.cpp" />
+    <ClCompile Include="multihull.cpp" />
     <ClCompile Include="paddle.cpp" />
     <ClCompile Include="propulsion.cpp" />
     <ClCompile Include="raft.cpp" />

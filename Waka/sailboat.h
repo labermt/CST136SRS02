@@ -7,6 +7,6 @@ public:
 	Sailboat() = default;
 
 public:
-	void do_get_name() override;
+	void doGetName() noexcept override;
 };
 

@@ -4,9 +4,9 @@
 class Raft final : public Boat
 {
 public:
-	Raft() = default;
+	Raft(Hull const &hull);
 
-public:
-	void do_get_name() override;
+private:
+	void doGetName() noexcept override;
 };
 
