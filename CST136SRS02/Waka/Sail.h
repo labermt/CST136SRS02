@@ -6,6 +6,7 @@ public:
 	Sail();
 	~Sail();
 
-	void getKnots();
+	void getKnots() override;
+
 };
 

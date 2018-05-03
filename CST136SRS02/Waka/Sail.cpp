@@ -6,11 +6,12 @@ Sail::Sail()
 {
 }
 
-
 Sail::~Sail()
 {
 }
 
 void Sail::getKnots()
 {
+	setKnots(15);
 }
+

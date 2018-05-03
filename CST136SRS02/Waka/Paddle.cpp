@@ -6,11 +6,11 @@ Paddle::Paddle()
 {
 }
 
-
 Paddle::~Paddle()
 {
 }
 
 void Paddle::getKnots()
 {
+	setKnots(5);
 }

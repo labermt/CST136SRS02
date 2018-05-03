@@ -6,6 +6,6 @@ public:
 	Paddle();
 	~Paddle();
 
-	void getKnots();
+	void getKnots() override;
 };
 
