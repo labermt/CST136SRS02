@@ -7,7 +7,8 @@ protected:
 	enum class WaveHeight {kSmall, kLarge, kNotSet};
 
 public:
-	Hull();
+	Hull() = default;
+	virtual ~Hull() = default;
 	
 private:
 	Radius turnRadius_{Radius::kNotSet};
