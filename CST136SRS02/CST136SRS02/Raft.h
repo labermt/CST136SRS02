@@ -1,6 +1,7 @@
 #pragma once
 #include "Boat.h"
 #include <string>
+#include "MonoHull.h"
 
 class Raft : public Boat
 {
