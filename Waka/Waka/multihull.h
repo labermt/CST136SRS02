@@ -1,14 +1,15 @@
-//
-//  multihull.hpp
-//  Waka
-//
-//  Created by Thea Van Kessel on 5/2/18.
-//  Copyright © 2018 Thea Van Kessel. All rights reserved.
-//
-
-#ifndef multihull_hpp
-#define multihull_hpp
+#ifndef multihull_h
+#define multihull_h
 
 #include <stdio.h>
+#include "hull.h"
 
-#endif /* multihull_hpp */
+class MultiHull final : public Hull 
+{
+private:
+    int do_minTurnRadius() const noexcept override;
+    int do_maxWaveHeight() const noexcept override;
+};
+
+
+#endif

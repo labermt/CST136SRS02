@@ -1,14 +1,17 @@
-//
-//  raft.hpp
-//  Waka
-//
-//  Created by Thea Van Kessel on 4/28/18.
-//  Copyright © 2018 Thea Van Kessel. All rights reserved.
-//
-
-#ifndef raft_hpp
-#define raft_hpp
+#ifndef raft_h
+#define raft_h
 
 #include <stdio.h>
+#include <string>
+#include "boat.h"
 
-#endif /* raft_hpp */
+using namespace std::literals::string_literals;
+
+class Raft final : public Boat // A raft is a boat
+{
+private:
+    const std::string name{"Slow Poke"s};
+    std::string do_getName() const noexcept override;
+};
+
+#endif /* raft_h */

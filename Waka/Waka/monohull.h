@@ -1,14 +1,15 @@
-//
-//  monohull.hpp
-//  Waka
-//
-//  Created by Thea Van Kessel on 5/2/18.
-//  Copyright © 2018 Thea Van Kessel. All rights reserved.
-//
-
-#ifndef monohull_hpp
-#define monohull_hpp
+#ifndef monohull_h
+#define monohull_h
 
 #include <stdio.h>
+#include "hull.h"
 
-#endif /* monohull_hpp */
+class MonoHull final : public Hull 
+{
+private:
+    int do_minTurnRadius() const noexcept override;
+    int do_maxWaveHeight() const noexcept override;
+};
+
+
+#endif

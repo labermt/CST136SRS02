@@ -1,14 +1,6 @@
-//
-//  chart.hpp
-//  Waka
-//
-//  Created by Thea Van Kessel on 5/2/18.
-//  Copyright © 2018 Thea Van Kessel. All rights reserved.
-//
-
-#ifndef chart_hpp
-#define chart_hpp
+#ifndef chart_h
+#define chart_h
 
 #include <stdio.h>
-
-#endif /* chart_hpp */
+//CHART WITHIN BOAT?
+#endif

@@ -1,14 +1,16 @@
-//
-//  sail.hpp
-//  Waka
-//
-//  Created by Thea Van Kessel on 5/2/18.
-//  Copyright © 2018 Thea Van Kessel. All rights reserved.
-//
-
-#ifndef sail_hpp
-#define sail_hpp
+#ifndef sail_h
+#define sail_h
 
 #include <stdio.h>
+#include "propulsion.h"
 
-#endif /* sail_hpp */
+//set knots somewhere
+
+class Sail final : public Propulsion 
+{
+private:
+    int knots = 0;
+    int do_getKnots() const noexcept override;
+};
+
+#endif

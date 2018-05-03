@@ -1,14 +1,16 @@
-//
-//  paddle.hpp
-//  Waka
-//
-//  Created by Thea Van Kessel on 5/2/18.
-//  Copyright © 2018 Thea Van Kessel. All rights reserved.
-//
-
-#ifndef paddle_hpp
-#define paddle_hpp
+#ifndef paddle_h
+#define paddle_h
 
 #include <stdio.h>
+#include "propulsion.h"
 
-#endif /* paddle_hpp */
+//set knots somewhere
+
+class Paddle final : public Propulsion 
+{
+private:
+    int knots = 0;
+    int do_getKnots() const noexcept override;
+};
+
+#endif

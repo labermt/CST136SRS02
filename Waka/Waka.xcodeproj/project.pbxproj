@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		99EE192F2094C56F003D2FAB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE192E2094C56F003D2FAB /* main.cpp */; };
+		99EE19372094C860003D2FAB /* boat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE19352094C860003D2FAB /* boat.cpp */; };
+		99EE193A2094C879003D2FAB /* raft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE19382094C879003D2FAB /* raft.cpp */; };
+		99EE193D2094C8BC003D2FAB /* canoe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE193B2094C8BC003D2FAB /* canoe.cpp */; };
+		99EE19402094E203003D2FAB /* sailboat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE193E2094E203003D2FAB /* sailboat.cpp */; };
+		99EE1969209ACC1D003D2FAB /* wind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE1967209ACC1D003D2FAB /* wind.cpp */; };
+		99EE196C209ACC6B003D2FAB /* water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE196A209ACC6B003D2FAB /* water.cpp */; };
+		99EE196F209ACCAA003D2FAB /* chart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE196D209ACCAA003D2FAB /* chart.cpp */; };
+		99EE1972209ACF35003D2FAB /* propulsion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE1970209ACF35003D2FAB /* propulsion.cpp */; };
+		99EE1975209ACF76003D2FAB /* paddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE1973209ACF76003D2FAB /* paddle.cpp */; };
+		99EE1978209ACFC5003D2FAB /* sail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE1976209ACFC5003D2FAB /* sail.cpp */; };
+		99EE197B209ACFE5003D2FAB /* hull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE1979209ACFE5003D2FAB /* hull.cpp */; };
+		99EE197E209AD017003D2FAB /* monohull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE197C209AD017003D2FAB /* monohull.cpp */; };
+		99EE1981209AD03A003D2FAB /* multihull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE197F209AD03A003D2FAB /* multihull.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,32 @@
 /* Begin PBXFileReference section */
 		99EE192B2094C56F003D2FAB /* Waka */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Waka; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EE192E2094C56F003D2FAB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		99EE19352094C860003D2FAB /* boat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = boat.cpp; sourceTree = "<group>"; };
+		99EE19362094C860003D2FAB /* boat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boat.h; sourceTree = "<group>"; };
+		99EE19382094C879003D2FAB /* raft.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = raft.cpp; sourceTree = "<group>"; };
+		99EE19392094C879003D2FAB /* raft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = raft.h; sourceTree = "<group>"; };
+		99EE193B2094C8BC003D2FAB /* canoe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = canoe.cpp; sourceTree = "<group>"; };
+		99EE193C2094C8BC003D2FAB /* canoe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = canoe.h; sourceTree = "<group>"; };
+		99EE193E2094E203003D2FAB /* sailboat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sailboat.cpp; sourceTree = "<group>"; };
+		99EE193F2094E203003D2FAB /* sailboat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sailboat.h; sourceTree = "<group>"; };
+		99EE1967209ACC1D003D2FAB /* wind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wind.cpp; sourceTree = "<group>"; };
+		99EE1968209ACC1D003D2FAB /* wind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wind.h; sourceTree = "<group>"; };
+		99EE196A209ACC6B003D2FAB /* water.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = water.cpp; sourceTree = "<group>"; };
+		99EE196B209ACC6B003D2FAB /* water.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = water.h; sourceTree = "<group>"; };
+		99EE196D209ACCAA003D2FAB /* chart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chart.cpp; sourceTree = "<group>"; };
+		99EE196E209ACCAA003D2FAB /* chart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chart.h; sourceTree = "<group>"; };
+		99EE1970209ACF35003D2FAB /* propulsion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = propulsion.cpp; sourceTree = "<group>"; };
+		99EE1971209ACF35003D2FAB /* propulsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = propulsion.h; sourceTree = "<group>"; };
+		99EE1973209ACF76003D2FAB /* paddle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = paddle.cpp; sourceTree = "<group>"; };
+		99EE1974209ACF76003D2FAB /* paddle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = paddle.h; sourceTree = "<group>"; };
+		99EE1976209ACFC5003D2FAB /* sail.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sail.cpp; sourceTree = "<group>"; };
+		99EE1977209ACFC5003D2FAB /* sail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sail.h; sourceTree = "<group>"; };
+		99EE1979209ACFE5003D2FAB /* hull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hull.cpp; sourceTree = "<group>"; };
+		99EE197A209ACFE5003D2FAB /* hull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hull.h; sourceTree = "<group>"; };
+		99EE197C209AD017003D2FAB /* monohull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = monohull.cpp; sourceTree = "<group>"; };
+		99EE197D209AD017003D2FAB /* monohull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = monohull.h; sourceTree = "<group>"; };
+		99EE197F209AD03A003D2FAB /* multihull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = multihull.cpp; sourceTree = "<group>"; };
+		99EE1980209AD03A003D2FAB /* multihull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multihull.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,32 @@
 			isa = PBXGroup;
 			children = (
 				99EE192E2094C56F003D2FAB /* main.cpp */,
+				99EE19352094C860003D2FAB /* boat.cpp */,
+				99EE19362094C860003D2FAB /* boat.h */,
+				99EE19382094C879003D2FAB /* raft.cpp */,
+				99EE19392094C879003D2FAB /* raft.h */,
+				99EE193B2094C8BC003D2FAB /* canoe.cpp */,
+				99EE193C2094C8BC003D2FAB /* canoe.h */,
+				99EE193E2094E203003D2FAB /* sailboat.cpp */,
+				99EE193F2094E203003D2FAB /* sailboat.h */,
+				99EE1967209ACC1D003D2FAB /* wind.cpp */,
+				99EE1968209ACC1D003D2FAB /* wind.h */,
+				99EE196A209ACC6B003D2FAB /* water.cpp */,
+				99EE196B209ACC6B003D2FAB /* water.h */,
+				99EE196D209ACCAA003D2FAB /* chart.cpp */,
+				99EE196E209ACCAA003D2FAB /* chart.h */,
+				99EE1970209ACF35003D2FAB /* propulsion.cpp */,
+				99EE1971209ACF35003D2FAB /* propulsion.h */,
+				99EE1973209ACF76003D2FAB /* paddle.cpp */,
+				99EE1974209ACF76003D2FAB /* paddle.h */,
+				99EE1976209ACFC5003D2FAB /* sail.cpp */,
+				99EE1977209ACFC5003D2FAB /* sail.h */,
+				99EE1979209ACFE5003D2FAB /* hull.cpp */,
+				99EE197A209ACFE5003D2FAB /* hull.h */,
+				99EE197C209AD017003D2FAB /* monohull.cpp */,
+				99EE197D209AD017003D2FAB /* monohull.h */,
+				99EE197F209AD03A003D2FAB /* multihull.cpp */,
+				99EE1980209AD03A003D2FAB /* multihull.h */,
 			);
 			path = Waka;
 			sourceTree = "<group>";
@@ -118,7 +183,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99EE193D2094C8BC003D2FAB /* canoe.cpp in Sources */,
+				99EE1975209ACF76003D2FAB /* paddle.cpp in Sources */,
+				99EE197B209ACFE5003D2FAB /* hull.cpp in Sources */,
 				99EE192F2094C56F003D2FAB /* main.cpp in Sources */,
+				99EE19372094C860003D2FAB /* boat.cpp in Sources */,
+				99EE196C209ACC6B003D2FAB /* water.cpp in Sources */,
+				99EE1978209ACFC5003D2FAB /* sail.cpp in Sources */,
+				99EE197E209AD017003D2FAB /* monohull.cpp in Sources */,
+				99EE1981209AD03A003D2FAB /* multihull.cpp in Sources */,
+				99EE196F209ACCAA003D2FAB /* chart.cpp in Sources */,
+				99EE19402094E203003D2FAB /* sailboat.cpp in Sources */,
+				99EE193A2094C879003D2FAB /* raft.cpp in Sources */,
+				99EE1969209ACC1D003D2FAB /* wind.cpp in Sources */,
+				99EE1972209ACF35003D2FAB /* propulsion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

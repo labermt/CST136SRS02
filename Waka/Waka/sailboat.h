@@ -1,14 +1,16 @@
-//
-//  sailboat.hpp
-//  Waka
-//
-//  Created by Thea Van Kessel on 4/28/18.
-//  Copyright © 2018 Thea Van Kessel. All rights reserved.
-//
-
-#ifndef sailboat_hpp
-#define sailboat_hpp
+#ifndef sailboat_h
+#define sailboat_h
 
 #include <stdio.h>
+#include "boat.h"
 
-#endif /* sailboat_hpp */
+using namespace std::literals::string_literals;
+
+class SailBoat final : public Boat
+{
+private:
+    const std::string name{"Sea Breeze"s};
+    std::string do_getName() const noexcept override;
+};
+
+#endif /* sailboat_h */

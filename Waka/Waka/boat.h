@@ -1,14 +1,19 @@
-//
-//  boat.hpp
-//  Waka
-//
-//  Created by Thea Van Kessel on 4/28/18.
-//  Copyright © 2018 Thea Van Kessel. All rights reserved.
-//
-
-#ifndef boat_hpp
-#define boat_hpp
+#ifndef boat_h
+#define boat_h
 
 #include <stdio.h>
+#include <string>
 
-#endif /* boat_hpp */
+//Abstract class has at least one pure virtual function
+class Boat
+{
+public:
+    virtual ~Boat() = default;
+    std::string getName() const noexcept;
+    
+protected:
+    //pure virtual function
+    virtual std::string do_getName() const noexcept = 0;
+};
+
+#endif /* boat_h */

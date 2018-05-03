@@ -1,14 +1,22 @@
-//
-//  hull.hpp
-//  Waka
-//
-//  Created by Thea Van Kessel on 5/2/18.
-//  Copyright © 2018 Thea Van Kessel. All rights reserved.
-//
-
-#ifndef hull_hpp
-#define hull_hpp
+#ifndef hull_h
+#define hull_h
 
 #include <stdio.h>
 
-#endif /* hull_hpp */
+//There must be a boat for there to be hull
+
+//Abstract class has at least one pure virtual function
+class Hull
+{
+public:
+    virtual ~Hull() = default;
+    int minTurnRadius() const noexcept;
+    int maxWaveHeight() const noexcept;
+    
+protected:
+    //pure virtual function
+    virtual int do_minTurnRadius() const noexcept = 0;
+    virtual int do_maxWaveHeight() const noexcept = 0;
+};
+
+#endif
