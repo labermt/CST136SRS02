@@ -1,5 +1,6 @@
 #pragma once
 
+// TODO: Will this work for setting radius and height? or should minTurnRadius just display the radius.
 class Hull
 {
 protected:
