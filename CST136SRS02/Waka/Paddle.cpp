@@ -12,5 +12,5 @@ Paddle::~Paddle()
 
 void Paddle::getKnots()
 {
-	setKnots(5);
+	//setKnots(5);
 }

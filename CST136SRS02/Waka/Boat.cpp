@@ -2,8 +2,8 @@
 #include "Boat.h"
 
 
-Boat::Boat(const std::string boatName)
-	:name(boatName)
+Boat::Boat(const std::string boatName, Propulsion* propType)
+	:name(boatName), myProp(propType)
 {
 }
 

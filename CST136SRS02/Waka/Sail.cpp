@@ -3,6 +3,7 @@
 
 
 Sail::Sail()
+	:Propulsion(15)
 {
 }
 
@@ -12,6 +13,5 @@ Sail::~Sail()
 
 void Sail::getKnots()
 {
-	setKnots(15);
 }
 

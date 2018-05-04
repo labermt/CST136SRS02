@@ -1,6 +1,5 @@
 #pragma once
 #include "Boat.h"
-#include "Sail.h"
 
 class Sailboat final : public Boat
 {
@@ -11,7 +10,5 @@ public:
 
 	std::string getName() override;
 
-private:
-	Sail hasSail;
 };
 

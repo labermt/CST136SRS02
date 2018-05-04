@@ -4,13 +4,14 @@
 
 
 Sailboat::Sailboat(const std::string boatName)
-	: Boat(boatName)
+	: Boat(boatName, new Sail())
 {
-	hasSail.getKnots();
 }
 
 std::string Sailboat::getName()
 {
 	return Boat::getName();
 }
+
+
 

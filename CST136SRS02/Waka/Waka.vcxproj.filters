@@ -24,21 +24,6 @@
     <ClInclude Include="Boat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Wind.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Chart.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Water.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Raft.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Canoe.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Sailboat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -49,15 +34,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Sail.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Hull.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MonoHull.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MultiHull.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -71,21 +47,6 @@
     <ClCompile Include="Boat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Wind.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Chart.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Water.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Raft.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Canoe.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Sailboat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -96,15 +57,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Sail.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Hull.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MonoHull.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MultiHull.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
