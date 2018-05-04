@@ -169,9 +169,15 @@
     <ClInclude Include="wind.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="boat.cpp" />
+    <ClCompile Include="canoe.cpp" />
+    <ClCompile Include="hull.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="monohull.cpp" />
+    <ClCompile Include="multihull.cpp" />
     <ClCompile Include="paddle.cpp" />
     <ClCompile Include="propulsion.cpp" />
+    <ClCompile Include="raft.cpp" />
     <ClCompile Include="sail.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

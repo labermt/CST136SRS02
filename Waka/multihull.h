@@ -1,11 +1,13 @@
 #pragma once
 #include "hull.h"
 
-class multihull
+class MultiHull : public Hull
 {
 private:
-	hull hull_{};
+	int turnRadius_{ 45 };
+	int waveHeight_{ 7 };
 
 public:
-
+	int minTurnRadius() override;
+	int maxWaveHeight() override;
 };

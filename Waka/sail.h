@@ -1,12 +1,11 @@
 #pragma once
 #include "propulsion.h"
 
-class sail
+class Sail : public Propulsion
 {
 private:
-	propulsion propulsion_{};
 	const int speed_{ 5 };
 
 public:
-	const int getSpeed();
+	const int do_getKnots() override;
 };

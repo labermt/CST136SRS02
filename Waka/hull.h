@@ -1,10 +1,10 @@
 #pragma once
 
-class hull
+class Hull
 {
 private:
 	
 public:
-	int minTurnRadius();
-	int maxWaveHeight();
+	virtual int minTurnRadius();
+	virtual int maxWaveHeight();
 };

@@ -1,12 +1,17 @@
 #pragma once
-#include "hull.h"
-#include "propulsion.h"
+#include <string>
 
-class boat
+class Boat
 {
 private:
+	std::string name_{};
+	int orientation_{ 0 };
 
+protected:
+	virtual std::string do_getName();
 
 public:
-	void getname();
+	std::string getName();
+	void turnRight();
+	void turnLeft();
 };

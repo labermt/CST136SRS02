@@ -1,13 +1,16 @@
 #pragma once
-#include "paddle.h"
-#include "sail.h"
 
-class propulsion
+class Propulsion
 {
 private:
-	paddle paddle_{};
-	sail sail_{};
+	const int paddles_{};
+	const int sails_{};
+
+protected:
+	const virtual int do_getKnots();
 
 public:
-	const int getSpeed();
+	Propulsion(const int d0, const int d1);
+
+	const int getKnots();
 };

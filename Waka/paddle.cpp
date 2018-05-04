@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "paddle.h"
 
-const int paddle::getSpeed()
+const int Paddle::do_getKnots()
 {
-	return 0;
+	return speed_;
 }
