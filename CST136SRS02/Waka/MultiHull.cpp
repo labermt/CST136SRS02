@@ -3,7 +3,7 @@
 
 
 MultiHull::MultiHull()
-	:Hull(60, 4)
+	:Hull(30, 8)
 {
 }
 

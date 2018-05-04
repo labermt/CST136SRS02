@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include "MonoHull.h"
-#include "Sail.h"
 
 
 MonoHull::MonoHull()
