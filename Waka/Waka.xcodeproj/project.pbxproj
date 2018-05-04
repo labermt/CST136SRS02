@@ -64,6 +64,7 @@
 		99EE197D209AD017003D2FAB /* monohull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = monohull.h; sourceTree = "<group>"; };
 		99EE197F209AD03A003D2FAB /* multihull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = multihull.cpp; sourceTree = "<group>"; };
 		99EE1980209AD03A003D2FAB /* multihull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multihull.h; sourceTree = "<group>"; };
+		99EE1982209BFC28003D2FAB /* environment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = environment.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +124,7 @@
 				99EE197D209AD017003D2FAB /* monohull.h */,
 				99EE197F209AD03A003D2FAB /* multihull.cpp */,
 				99EE1980209AD03A003D2FAB /* multihull.h */,
+				99EE1982209BFC28003D2FAB /* environment.h */,
 			);
 			path = Waka;
 			sourceTree = "<group>";

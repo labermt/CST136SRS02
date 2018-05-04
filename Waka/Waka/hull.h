@@ -9,11 +9,11 @@
 class Hull
 {
 public:
-    virtual ~Hull() = default;
     int minTurnRadius() const noexcept;
     int maxWaveHeight() const noexcept;
     
 protected:
+    virtual ~Hull() = default;
     //pure virtual function
     virtual int do_minTurnRadius() const noexcept = 0;
     virtual int do_maxWaveHeight() const noexcept = 0;

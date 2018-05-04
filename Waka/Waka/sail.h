@@ -5,12 +5,13 @@
 #include "propulsion.h"
 
 //set knots somewhere
+//Sail knots will depend on the wind 
 
 class Sail final : public Propulsion 
 {
 private:
-    int knots = 0;
-    int do_getKnots() const noexcept override;
+    double knots = 0;
+    double do_getKnots() const noexcept override;
 };
 
 #endif

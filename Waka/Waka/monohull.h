@@ -7,6 +7,8 @@
 class MonoHull final : public Hull 
 {
 private:
+    int minTurnRadius = 10;
+    int maxWaveHeight = 5;
     int do_minTurnRadius() const noexcept override;
     int do_maxWaveHeight() const noexcept override;
 };
