@@ -4,9 +4,8 @@ class MonoHull final : public Hull
 {
 public:
 	MonoHull();
-	~MonoHull();
 
-	void minTurnRadius();
-	void maxWaveHeight();
+	void minTurnRadius() override;
+	void maxWaveHeight() override;
 };
 

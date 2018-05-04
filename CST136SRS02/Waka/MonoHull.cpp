@@ -1,13 +1,10 @@
 #include "stdafx.h"
 #include "MonoHull.h"
+#include "Sail.h"
 
 
 MonoHull::MonoHull()
-{
-}
-
-
-MonoHull::~MonoHull()
+	:Hull(60,4)
 {
 }
 

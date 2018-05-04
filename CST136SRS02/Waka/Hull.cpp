@@ -2,15 +2,6 @@
 #include "Hull.h"
 
 
-Hull::Hull()
-{
-}
-
-
-Hull::~Hull()
-{
-}
-
 void minTurnRadius()
 {
 
@@ -19,4 +10,9 @@ void minTurnRadius()
 void maxWaveHeight()
 {
 
+}
+
+Hull::Hull(int const minTurn, int const maxWave)
+	:minTurnRad(minTurn), maxWaveHt(maxWave)
+{
 }

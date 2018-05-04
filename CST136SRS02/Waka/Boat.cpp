@@ -3,11 +3,18 @@
 
 
 Boat::Boat(const std::string boatName, Propulsion* propType)
-	:name(boatName), myProp(propType)
+	:myProp(propType), name(boatName)
 {
+	myHull = nullptr;
+	maxBoatSpeed = myProp->knots;
 }
 
 std::string Boat::getName()
 {
 	return this->name;
+}
+
+void Boat::setHull(Hull* hullType)
+{
+	myHull = hullType;
 }

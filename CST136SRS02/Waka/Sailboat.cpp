@@ -13,5 +13,10 @@ std::string Sailboat::getName()
 	return Boat::getName();
 }
 
+void Sailboat::setHull(Hull* hullType)
+{
+	Boat::setHull(hullType);
+}
+
 
 

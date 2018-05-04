@@ -4,9 +4,8 @@ class MultiHull final : public Hull
 {
 public:
 	MultiHull();
-	~MultiHull();
 
-	void minTurnRadius();
-	void maxWaveHeight();
+	void minTurnRadius() override;
+	void maxWaveHeight() override;
 };
 

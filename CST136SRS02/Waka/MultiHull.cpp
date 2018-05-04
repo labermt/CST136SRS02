@@ -3,13 +3,10 @@
 
 
 MultiHull::MultiHull()
+	:Hull(60, 4)
 {
 }
 
-
-MultiHull::~MultiHull()
-{
-}
 
 void MultiHull::minTurnRadius()
 {

@@ -4,7 +4,7 @@ class Propulsion
 {
 protected:
 	virtual ~Propulsion() = default;
-	int knots{1};
+	
 
 public:
 	Propulsion() = default;
@@ -12,6 +12,7 @@ public:
 
 	virtual void getKnots() = 0;
 
+	int knots{};
 	//void setKnots(const int newKnots) { knots = newKnots; };
 
 	
