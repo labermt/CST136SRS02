@@ -1,6 +1,7 @@
+#include <string>
 #include "canoe.h"
 
-Canoe::Canoe() : Boat(twoHull)
+Canoe::Canoe() : Boat(twoHull, paddleVector_)
 {
     
 }

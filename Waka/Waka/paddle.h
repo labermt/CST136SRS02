@@ -9,7 +9,7 @@
 class Paddle final : public Propulsion 
 {
 private:
-    double knots = 0;
+    double knots = 3;
     double do_getKnots() const noexcept override;
 };
 

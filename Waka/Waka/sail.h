@@ -10,7 +10,7 @@
 class Sail final : public Propulsion 
 {
 private:
-    double knots = 0;
+    double knots = 50;
     double do_getKnots() const noexcept override;
 };
 

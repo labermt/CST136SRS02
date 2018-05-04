@@ -5,6 +5,11 @@ Boat::Boat(Hull& hull) : hull_{hull}
     
 }
 
+Boat::Boat(Hull& hull, std::vector<Propulsion&> propulsion) : hull_{hull}, propulsion_{propulsion}
+{
+    
+}
+
 std::string Boat::getName() const noexcept
 {
     return do_getName();

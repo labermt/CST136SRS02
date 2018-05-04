@@ -1,6 +1,7 @@
+#include <string>
 #include "sailboat.h"
 
-SailBoat::SailBoat() : Boat{twoHull}
+SailBoat::SailBoat() : Boat{twoHull, sailVector_}
 {
     
 }

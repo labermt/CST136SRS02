@@ -1,9 +1,12 @@
 #ifndef canoe_h
 #define canoe_h
 
-#include <stdio.h>
+#include <string>
+#include <vector>
+#include <functional>
 #include "boat.h"
 #include "multihull.h"
+#include "paddle.h"
 
 using namespace std::literals::string_literals;
 
@@ -15,6 +18,9 @@ public:
 private:
     const std::string name{"I'm A Boat"s};
     MultiHull twoHull;
+    Paddle paddle1;
+    Paddle paddle2;
+    std::vector<std::reference_wrapper<Propulsion>> paddleVector_{paddle1, paddle2};
     std::string do_getName() const noexcept override;
     int do_getMinTurnRadius() const noexcept override;
     int do_getMaxWaveHeight() const noexcept override;

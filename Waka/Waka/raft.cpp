@@ -2,7 +2,7 @@
 #include "raft.h"
 
 
-Raft::Raft() : Boat(oneHull)
+Raft::Raft() : Boat(oneHull, empty)
 {
     
 }
