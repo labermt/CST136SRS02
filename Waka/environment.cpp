@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include "environment.h"
+#include "boat.h"
 
 environment::environment() :
 	topography_
@@ -16,3 +17,8 @@ environment::environment() :
 	{ properties::kunknown, properties::kunknown, properties::kunknown, properties::kunknown, properties::kunknown, properties::kunknown, properties::kunknown, properties::kunknown }
 }
 { }
+
+environment::properties environment::getTileProperties(int lat, int lng)
+{
+	return topography_[lat][lng];;
+}

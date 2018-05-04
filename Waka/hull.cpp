@@ -11,12 +11,20 @@ int Hull::do_maxWaveHeight()
 	return 0;
 }
 
-void Hull::minTurnRadius()
+int Hull::minTurnRadius()
 {
-	do_minTurnRadius();
+	return do_minTurnRadius();
 }
 
-void Hull::maxWaveHeight()
+int Hull::maxWaveHeight()
 {
-	do_maxWaveHeight();
+	return do_maxWaveHeight();
+}
+
+void Hull::turnRight()
+{
+}
+
+void Hull::turnLeft()
+{
 }

@@ -1,9 +1,14 @@
 #pragma once
-#include "chart.h"
+#include "compass.h"
 
 class Water
 {
-	Chart::orientation dirrection_{ Chart::orientation::nw };
+private:
+	compass::orientation direction_{ compass::orientation::nw };
 	int currentstrength_{ 1 };
 	int waveheight_{ 1 };
+public:
+	const compass::orientation getDirrection();
+	const int getCurrentStrenght();
+	const int getWaveHeight();
 };

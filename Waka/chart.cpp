@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "chart.h"
 
-Chart::Chart(int lat, int lng, orientation facing) : lat_(lat), lng_(lng), dirrection(facing)
+Chart::Chart(int lat, int lng) : lat_(lat), lng_(lng)
 { }
 
 const int Chart::getlat()
@@ -14,20 +14,32 @@ const int Chart::getlng()
 	return lng_;
 }
 
-Chart::orientation Chart::getdirrection()
-{
-	return dirrection;
-}
-
 void Chart::setlat(const int data)
 {
-
+	lat_ += data;
 }
 
 void Chart::setlng(const int data)
 {
+	lng_ += data;
 }
 
-void Chart::setdirrection()
+void Chart::hitauckland()
 {
+	auckland_ = true;
+}
+
+void Chart::hitwellington()
+{
+	wellington_ = true;
+}
+
+void Chart::hitstewardIsland()
+{
+	stewardIsland_ = true;
+}
+
+void Chart::hitnelson()
+{
+	nelson_ = true;
 }

@@ -1,8 +1,8 @@
 #include "stdafx.h"
+#include <vector>
 #include "canoe.h"
 
-
-Canoe::Canoe(const std::string name) : Boat(name)
+Canoe::Canoe(const std::string name, Hull * hull) : name_(name)
 { }
 
 std::string Canoe::do_getName()
@@ -10,12 +10,12 @@ std::string Canoe::do_getName()
 	return name_;
 }
 
-void Canoe::turnRight()
+void Canoe::do_turnRight()
 {
 
 }
 
-void Canoe::turnLeft()
+void Canoe::do_turnLeft()
 {
-
+	
 }

@@ -7,6 +7,9 @@ protected:
 	virtual int do_maxWaveHeight();
 	
 public:
-	void minTurnRadius();
-	void maxWaveHeight();
+	int minTurnRadius();
+	int maxWaveHeight();
+	void turnRight();
+	void turnLeft();
+
 };

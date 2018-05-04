@@ -1,7 +1,12 @@
 #pragma once
+#include "compass.h"
 
 class Wind
 {
-	Chart::orientation dirrection_{ Chart::orientation::nw };
-	int strenght_{ 3 };
+private:
+	compass::orientation direction_{ compass::orientation::ne };
+	int strength_{ 3 };
+public:
+	const compass::orientation getDirection();
+	const int getStrength();
 };

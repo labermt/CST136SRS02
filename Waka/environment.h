@@ -9,11 +9,12 @@ public:
 
 private:
 	properties topography_[10][8];
+
+public:
 	Water water_;
 	Wind wind_;
 
-public:
 	environment();
 
-
+	properties getTileProperties(int lat, int lng);
 };

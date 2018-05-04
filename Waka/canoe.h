@@ -1,17 +1,16 @@
 #pragma once
 #include "boat.h"
-#include "monohull.h"
 
 class Canoe : public Boat
 {
 private:
-	MonoHull canoehull_;
+	std::string name_{};
 
 public:
-	Canoe(const std::string name);
+	Canoe(const std::string name, Hull * hull);
 
 	std::string do_getName() override;
 
-	void turnRight();
-	void turnLeft();
+	void do_turnRight() override;
+	void do_turnLeft() override;
 };
