@@ -2,9 +2,11 @@
 
 class Hull
 {
-private:
+protected:
+	virtual int do_minTurnRadius();
+	virtual int do_maxWaveHeight();
 	
 public:
-	virtual int minTurnRadius();
-	virtual int maxWaveHeight();
+	void minTurnRadius();
+	void maxWaveHeight();
 };

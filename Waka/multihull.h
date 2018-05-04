@@ -4,10 +4,10 @@
 class MultiHull : public Hull
 {
 private:
-	int turnRadius_{ 45 };
+	int turnRadius_{ 1 };
 	int waveHeight_{ 7 };
 
 public:
-	int minTurnRadius() override;
-	int maxWaveHeight() override;
+	int do_minTurnRadius() override;
+	int do_maxWaveHeight() override;
 };

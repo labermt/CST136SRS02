@@ -155,6 +155,7 @@
     <ClInclude Include="boat.h" />
     <ClInclude Include="canoe.h" />
     <ClInclude Include="chart.h" />
+    <ClInclude Include="environment.h" />
     <ClInclude Include="hull.h" />
     <ClInclude Include="monohull.h" />
     <ClInclude Include="multihull.h" />
@@ -171,6 +172,8 @@
   <ItemGroup>
     <ClCompile Include="boat.cpp" />
     <ClCompile Include="canoe.cpp" />
+    <ClCompile Include="chart.cpp" />
+    <ClCompile Include="environment.cpp" />
     <ClCompile Include="hull.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="monohull.cpp" />
@@ -185,6 +188,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="water.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
