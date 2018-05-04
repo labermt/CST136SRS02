@@ -10,9 +10,9 @@ class Boat
 public:
 	Chart chart;
 	
-
 protected:
 	std::string name_{};
+	const char marker_{ 'b' };
 
 
 public:
@@ -20,8 +20,7 @@ public:
 	virtual std::string getName();
 	virtual void nameBoat(std::string);
 	void pushIn(int, int);
-	void move
-	
+	void move(const int);
 };
 
 

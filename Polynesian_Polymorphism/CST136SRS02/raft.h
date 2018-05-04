@@ -4,7 +4,7 @@
 class Raft : public Boat 
 {
 private:
-	char marker_{ 'r' };
+	const char marker_{ 'r' };
 
 public:
 	std::string getName() override;

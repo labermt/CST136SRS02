@@ -4,7 +4,7 @@
 class Canoe : Boat
 {
 private:
-	char marker_{ 'c' };
+	const char marker_{ 'c' };
 
 public:
 	std::string getName() override;

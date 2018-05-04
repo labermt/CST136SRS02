@@ -5,7 +5,7 @@ Name:
 
 ---
 Notes:
-- set gps function from Mitch Laber cst126srs03
+- North: 0, East: 1, South: 2, West: 3
 
 
 Purpose:

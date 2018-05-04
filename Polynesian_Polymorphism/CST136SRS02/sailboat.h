@@ -4,7 +4,7 @@
 class Sailboat : Boat
 {
 private:
-	char marker_{ 's' };
+	const char marker_{ 's' };
 
 public:
 	std::string getName() override;
