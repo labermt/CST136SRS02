@@ -4,22 +4,17 @@
 class Hull
 {
 protected:
-	enum class Radius {kShort, kLong, kNotSet};
-	enum class WaveHeight {kSmall, kLarge, kNotSet};
+	enum class TurnRadius {kShort, kLong};
+	enum class WaveHeight {kSmall, kLarge};
 
-public:
-	Hull() = default;
+protected:
 	virtual ~Hull() = default;
 	
 private:
-	Radius turnRadius_{Radius::kNotSet};
-	WaveHeight maxWaveHeight_{WaveHeight::kNotSet};
+	virtual TurnRadius doGetMinTurnRadius() const noexcept = 0;
+	virtual WaveHeight doGetMaxWaveHeight() const noexcept = 0;
 
 public:
-	Radius getTurnRadius() const noexcept;
-	WaveHeight getMaxWaveHeight() const noexcept;
-
-	virtual void setTurnRadius(Radius const radius) noexcept = 0;
-	virtual void setMaxWaveHeight(WaveHeight const height) noexcept = 0;
+	TurnRadius getMinTurnRadius() const noexcept { return doGetMinTurnRadius(); }
+	WaveHeight getMaxWaveHeight() const noexcept { return doGetMaxWaveHeight(); }
 };
-

@@ -1,18 +1,12 @@
 #include "stdafx.h"
 #include "monohull.h"
 
-void MonoHull::setTurnRadius(Radius const radius) noexcept
+Hull::TurnRadius MonoHull::doGetMinTurnRadius() const noexcept
 {
-	Hull::setTurnRadius(radius);
+	return TurnRadius::kShort;
 }
 
-void MonoHull::setMaxWaveHeight(WaveHeight const height) noexcept
+Hull::WaveHeight MonoHull::doGetMaxWaveHeight() const noexcept
 {
-	Hull::setMaxWaveHeight(height);
-}
-
-MonoHull::MonoHull() noexcept
-{
-	setTurnRadius(Radius::kShort);
-	setMaxWaveHeight(WaveHeight::kSmall);
+	return WaveHeight::kSmall;
 }

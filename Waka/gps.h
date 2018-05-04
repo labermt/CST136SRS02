@@ -4,7 +4,6 @@
 
 #include "direction.h"
 
-
 class GPS
 {
 public:

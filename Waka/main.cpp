@@ -8,9 +8,14 @@
 
 int main()
 {
-	auto myRaft = Raft(MonoHull());
+	MultiHull const testHull;
 
-	MultiHull testHull;
+	auto myRaft = Raft(testHull);
+
+	auto testHeight = testHull.getMaxWaveHeight();
+
+	myRaft.hull_.getMaxWaveHeight();
+
 
 	return 0;
 }

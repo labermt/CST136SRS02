@@ -1,18 +1,12 @@
 #include "stdafx.h"
 #include "multihull.h"
 
-void MultiHull::setTurnRadius(Radius const radius) noexcept
+Hull::TurnRadius MultiHull::doGetMinTurnRadius() const noexcept
 {
-	Hull::setTurnRadius(radius);
+	return TurnRadius::kLong;
 }
 
-void MultiHull::setMaxWaveHeight(WaveHeight const height) noexcept
+Hull::WaveHeight MultiHull::doGetMaxWaveHeight() const noexcept
 {
-	Hull::setMaxWaveHeight(height);
-}
-
-MultiHull::MultiHull() noexcept
-{
-	setTurnRadius(Radius::kLong);
-	setMaxWaveHeight(WaveHeight::kLarge);
+	return WaveHeight::kLarge;
 }
