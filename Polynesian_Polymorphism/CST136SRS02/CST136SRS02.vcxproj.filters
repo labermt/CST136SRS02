@@ -36,7 +36,7 @@
     <ClInclude Include="chart.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="wind.h">
+    <ClInclude Include="water.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -62,7 +62,7 @@
     <ClCompile Include="chart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="wind.cpp">
+    <ClCompile Include="water.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

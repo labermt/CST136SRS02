@@ -2,25 +2,28 @@
 #include "stdafx.h"
 #include <string>
 #include "chart.h"
+#include "water.h"
 
 
 class Boat
 {
-
 public:
 	Chart chart;
 	
 protected:
 	std::string name_{};
-	const char marker_{ 'b' };
 
+private:
+	const char marker_{ 'b' };
+	Water water_;
 
 public:
 	virtual ~Boat() = default;
 	virtual std::string getName();
 	virtual void nameBoat(std::string);
-	void pushIn(int, int);
-	void move(const int);
+	virtual void pushIn(int, int);
+	virtual void move();
+	virtual char checkAhead();
 };
 
 
