@@ -4,6 +4,9 @@ Polynesian Polymorphism
 Name:
 
 ---
+Notes:
+- set gps function from Mitch Laber cst126srs03
+
 
 Purpose:
 

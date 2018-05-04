@@ -1,13 +1,12 @@
 #pragma once
 #include "boat.h"
 
-class Raft : public Boat 
+class Sailboat : Boat
 {
 private:
-	char marker_{ 'r' };
+	char marker_{ 's' };
 
 public:
 	std::string getName() override;
 	void nameBoat(std::string) override;
 };
-

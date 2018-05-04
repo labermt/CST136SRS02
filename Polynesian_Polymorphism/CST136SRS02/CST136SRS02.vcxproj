@@ -153,17 +153,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="island.h" />
+    <ClInclude Include="canoe.h" />
+    <ClInclude Include="chart.h" />
     <ClInclude Include="raft.h" />
     <ClInclude Include="boat.h" />
+    <ClInclude Include="sailboat.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="island.cpp" />
+    <ClCompile Include="canoe.cpp" />
+    <ClCompile Include="chart.cpp" />
     <ClCompile Include="boat.cpp" />
     <ClCompile Include="raft.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="sailboat.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

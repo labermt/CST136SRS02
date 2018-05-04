@@ -27,7 +27,13 @@
     <ClInclude Include="raft.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="island.h">
+    <ClInclude Include="canoe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sailboat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chart.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -44,7 +50,13 @@
     <ClCompile Include="raft.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="island.cpp">
+    <ClCompile Include="sailboat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="canoe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

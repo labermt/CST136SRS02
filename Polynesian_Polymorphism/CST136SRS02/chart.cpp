@@ -5,14 +5,16 @@
 #include <list>
 #include<algorithm>
 #include <vector>
+#include "chart.h"
 using namespace std;
 
 
-vector<vector<char>> import_island(const char* file)
+
+vector<vector<char>> Chart::import_chart(const char* file)
 {
 	ifstream infile;
 	string line;
-	vector<vector<char>> island;
+	vector<vector<char>> mahere;
 
 	infile.open(file);
 	if (infile.is_open())
@@ -30,7 +32,7 @@ vector<vector<char>> import_island(const char* file)
 				temp.push_back(line[i]);
 			}
 
-			island.push_back(temp);
+			mahere.push_back(temp);
 		}
 
 		infile.close();
@@ -44,13 +46,14 @@ vector<vector<char>> import_island(const char* file)
 	else {
 		cout << "File closed\n";
 	}
-
-	return island;
+	map = mahere;
+	return mahere;
 }
 
-void display_island(vector<vector<char>> island) {
-	for (auto n : island) {
-		for (char const k : n)
+void Chart::display_chart(std::vector<std::vector<char>> map) 
+{
+	for (auto n : map) {
+		for (auto const k : n)
 		{
 			cout << k;
 		}
