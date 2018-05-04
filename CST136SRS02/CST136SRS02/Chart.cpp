@@ -26,10 +26,14 @@ int Chart::getTimeElapsed() const
 	return timeElapsed;
 }
 
+void Chart::incrementTimeElapsed()
+{
+	timeElapsed++;
+}
+
 void Chart::setCoordinates(int lat_, int lng_, int angle_)
 {
 	lat = lat_;
 	lng = lng_;
 	angle = angle_;
-	timeElapsed++;
 }

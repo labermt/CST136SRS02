@@ -7,6 +7,7 @@ public:
 	int getLng() const;
 	int getAngle() const;
 	int getTimeElapsed() const;
+	void incrementTimeElapsed();
 
 	void setCoordinates(int lat_, int lng_, int angle_);
 

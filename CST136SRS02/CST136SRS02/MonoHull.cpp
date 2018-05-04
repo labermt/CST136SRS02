@@ -12,6 +12,6 @@ int MonoHull::do_get_max_wave_height() const
 }
 
 MonoHull::MonoHull()
-	:Hull(45, 80)
+	:Hull(25, 80)
 {
 }

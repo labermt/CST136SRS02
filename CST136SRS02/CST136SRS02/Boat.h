@@ -9,19 +9,22 @@ class Boat
 private:
 	std::string name;
 	bool capsized = false;
+	bool journeyComplete = false;
 	Chart chart;
 	Hull * hull;
 	Propulsion * propulsion;
 protected:
 	virtual std::string do_get_name() const = 0; //behind the scenes function
-	virtual ~Boat() = default;
+	~Boat() = default;
 public:
 	std::string getName() const; //publicly used get name
 	Boat(std::string boatName, Hull * hull_, Propulsion * propulsion_);
 	bool isCapsized() const;
+	bool isJourneyComplete() const;
 	void capsizeBoat();
+	void completeJourney();
 
-	Chart getChart() const;
+	Chart & getChart();
 	Hull * getHull() const;
 	Propulsion * getPropulsion() const;
 

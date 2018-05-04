@@ -12,6 +12,6 @@ int MultiHull::do_get_max_wave_height() const
 }
 
 MultiHull::MultiHull()
-	:Hull(65, 70)
+	:Hull(15, 70)
 {
 }

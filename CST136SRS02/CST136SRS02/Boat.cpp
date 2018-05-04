@@ -22,12 +22,22 @@ bool Boat::isCapsized() const
 	return capsized;
 }
 
+bool Boat::isJourneyComplete() const
+{
+	return journeyComplete;
+}
+
 void Boat::capsizeBoat()
 {
 	capsized = true;
 }
 
-Chart Boat::getChart() const
+void Boat::completeJourney()
+{
+	journeyComplete = true;
+}
+
+Chart& Boat::getChart()
 {
 	return chart;
 }
