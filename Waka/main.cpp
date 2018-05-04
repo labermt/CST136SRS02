@@ -13,14 +13,14 @@ int main()
 	std::vector<Boat> boat_list;
 	Multi_hull canoe_hull;
 	Chart canoe_chart;
-	std::vector<Propulsion> canoe_prop;
-	Canoe canoe("Miranda", canoe_hull, canoe_prop, canoe_chart);
+	std::vector<Propulsion> canoe_prop(Propulsion::movement::paddle, 4, Propulsion::movement::sail, 2);
+	Canoe canoe("Jennnay", canoe_hull, canoe_prop, canoe_chart);
 	boat_list.emplace_back(canoe);
 	Mono_hull raft_hull;
 	Raft raft("Sea Hag", raft_hull );
 	boat_list.emplace_back(raft);
 	Mono_hull sail_hull;
-	Sailboat sailboat("Tamberine",sail_hull );
+	Sailboat sailboat("Boaty McBoat Face",sail_hull );
 	boat_list.emplace_back(sailboat);
 
 	for(auto& boat : boat_list)

@@ -17,6 +17,6 @@ protected:
 
 public:
 
-	turn_radius get_turn_radius();
-	max_wave_height get_max_wave_height();
+	turn_radius get_turn_radius() const;
+	max_wave_height get_max_wave_height() const;
 };
