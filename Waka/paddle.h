@@ -1,8 +1,8 @@
 #pragma once
-#include "propultion.h"
+#include "Propulsion.h"
 
 class Paddle :
-	public Propultion
+	public Propulsion
 {
 
 	int get_speed() override;

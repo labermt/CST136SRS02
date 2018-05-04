@@ -2,12 +2,7 @@
 #include "sail.h"
 
 
-
-Sail::Sail()
+int Sail::do_get_knots()
 {
-}
-
-
-Sail::~Sail()
-{
+	return speed_;
 }

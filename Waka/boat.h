@@ -1,25 +1,37 @@
 #pragma once
 #include <string>
-#include "propultion.h"
+#include <vector>
+#include "Propulsion.h"
 #include "chart.h"
 #include "hull.h"
+#include "direction.h"
 
 class Boat
-// make chart and hull friends?
-// how do I tie chart, a hull type, and propultion to each individual boat?
 {
-	//TODO: determine, should / can data members go here? instead of the derived classes.
+	//virtual void do_move();
+	virtual void do_turn(Direction directon);
+	virtual std::string do_get_name() = 0;
 
 protected:
-	virtual void do_move()=0;
-	virtual void do_turn()=0;
-	virtual std::string get_name() = 0;
+
+	enum class ship_status { capsized, good };
+
+	std::string name_;
+	Hull& hull_;
+	Chart& chart_;
+	std::vector<Propulsion> propultion_;
+	ship_status status_{ ship_status::good };
+	Direction heading_{ Direction::north };
+	
 
 public:
-	enum class hull { Mono_hull, Multi_Hull };
 	void start_voyage();
-	Boat();
+	Boat(std::string name, Hull& hull_type, std::vector<Propulsion>& prop, Chart& chart);
 	void move();
-	void turn();
+	void turn( Direction directon);
+	
+
+	std::string get_name();
+
 	virtual ~Boat() = default;
 };

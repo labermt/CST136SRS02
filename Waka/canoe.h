@@ -4,17 +4,12 @@
 class Canoe : 
 	public Boat
 {
-	Hull hull_;
-	Chart chart_;
-	Propultion prop_;
-	std::string name_;
-
 protected:
 	void do_move() override;
-	void do_turn() override;
-	std::string get_name() override;
+	void do_turn(Direction directon) override;
+	std::string do_get_name() override;
+
 public:
-	Canoe(std::string name, hull);
-	~Canoe();
+	Canoe(std::string name, Hull& hull_type, std::vector<Propulsion>& prop, Chart& chart);
 };
 

@@ -6,9 +6,7 @@ class Multi_hull :
 {
 	turn_radius min_turn_radius_{turn_radius::large};
 	max_wave_height max_wave_height_{max_wave_height::large};
-	
-public:
-	Multi_hull();
-	~Multi_hull();
+	turn_radius do_get_turn_rad() override;
+	max_wave_height do_get_max_wave_height() override;
 };
 

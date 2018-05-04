@@ -1,13 +1,10 @@
 #pragma once
-#include "propultion.h"
+#include "Propulsion.h"
 
 class Sail :
-	public Propultion
+	public Propulsion
 {
 	movement speed_{ movement::fast };
 
 	int do_get_knots() override;
-public:
-	Sail();
-	~Sail();
 };

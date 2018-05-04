@@ -39,9 +39,6 @@
     <ClInclude Include="wind.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="propultion.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="paddle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -58,6 +55,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="multi_hull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="direction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Propulsion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -86,9 +92,6 @@
     <ClCompile Include="wind.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="propultion.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="paddle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -105,6 +108,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="multi_hull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Propulsion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

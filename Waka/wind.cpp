@@ -2,12 +2,7 @@
 #include "wind.h"
 
 
-
-Wind::Wind()
+Wind::wind_direction Wind::get_wind_direction() const
 {
-}
-
-
-Wind::~Wind()
-{
+	return wind_;
 }

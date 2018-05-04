@@ -4,22 +4,28 @@
 #include "raft.h"
 #include "sailboat.h"
 #include <vector>
+#include "multi_hull.h"
+#include "mono_hull.h"
 
 
 int main()
 {
 	std::vector<Boat> boat_list;
-	Canoe canoe("Miranda", Boat::hull::Mono_hull);
-	// will this cause slicing?
+	Multi_hull canoe_hull;
+	Chart canoe_chart;
+	std::vector<Propulsion> canoe_prop;
+	Canoe canoe("Miranda", canoe_hull, canoe_prop, canoe_chart);
 	boat_list.emplace_back(canoe);
-	Raft raft("Sea Hag", Boat::hull::Mono_hull);
+	Mono_hull raft_hull;
+	Raft raft("Sea Hag", raft_hull );
 	boat_list.emplace_back(raft);
-	Sailboat sailboat("Tamberine", Boat::hull::Multi_Hull);
+	Mono_hull sail_hull;
+	Sailboat sailboat("Tamberine",sail_hull );
 	boat_list.emplace_back(sailboat);
 
-	// either do this loop, or possibly just include run game in the constructor?
 	for(auto& boat : boat_list)
 	{
+		auto name = boat.get_name();
 		boat.start_voyage();
 	}
 
