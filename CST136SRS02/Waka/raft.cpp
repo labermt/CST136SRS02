@@ -1,9 +1,10 @@
 #include "stdafx.h"
 #include "raft.h"
+#include "current.h"
 
 Raft::Raft(Cardinal directionOfCurrent, int speedOfCurrent) : direction(directionOfCurrent), speed(speedOfCurrent) {}
 
-std::string Raft::getDirectionString() noexcept
+std::string Raft::getDirectionString() const noexcept
 {
 	//could have used Boost preprocessing stuff for enum conversion, but didn't understand how it worked, so implimented a switch for output
 	switch (direction)
@@ -28,16 +29,16 @@ std::string Raft::getDirectionString() noexcept
 	}
 }
 
-Cardinal Raft::getDirection() noexcept
+Cardinal Raft::getDirection() const noexcept
 {
 	return direction;
 }
 
 
-void Raft::setDirection(const Cardinal directionOfCurrent)
+void Raft::setDirection(const Current& current)
 {
 
-	direction = directionOfCurrent;
+	direction = current.getDirection();
 
 }
 

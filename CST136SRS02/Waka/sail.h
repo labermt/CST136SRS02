@@ -11,13 +11,14 @@ class Sail : public Propulsion
 public:
 
 	Sail();
-	~Sail();
+	~Sail() = default;
 
 	void setDirection(Cardinal direction) noexcept;
 
 	Cardinal getDirection() const;
 	std::string getDirectionString() const;
 
+	//change these arguments to const ref to Current and Wind
 	void setSpeed(const int current, const Cardinal windDirection) noexcept;
 
 private:

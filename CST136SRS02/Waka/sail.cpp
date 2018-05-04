@@ -2,12 +2,8 @@
 #include "sail.h"
 
 
-Sail::Sail() : sailDirection(Cardinal::N) {}
+Sail::Sail() : sailDirection(Cardinal::ANCHORED) {}
 
-
-Sail::~Sail()
-{
-}
 
 void Sail::setDirection(Cardinal direction) noexcept
 {
