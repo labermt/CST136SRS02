@@ -38,7 +38,7 @@ void Sailboat::setSpeed(Current current, Wind windDirection) noexcept
 
 std::string Sailboat::do_getName() const
 {
-	return Boat::getName();
+	return Boat::do_getName();
 }
 
 void Sailboat::do_setName(std::string name) noexcept

@@ -52,7 +52,7 @@ void Canoe::setPaddleStrength(int strength) noexcept
 
 std::string Canoe::do_getName() const
 {
-	return Boat::getName();
+	return Boat::do_getName();
 }
 
 void Canoe::do_setName(std::string name) noexcept
