@@ -16,17 +16,17 @@ public:
     virtual ~Boat() = default;
     std::string getName() const noexcept;
     int getHull() const noexcept;
-    //Get the height of the current waves
-    int getWaveHeight();
+    int getWaveHeight(); //Get the height of the current waves
+    
     //Determine if the height of the current wave is larger than the maximumWaveHeight -- capsize or not?
+    
     int getWindSpeed();
     int getMinTurnRadius() const noexcept;
     int getMaxWaveHeight() const noexcept;
-    int getKnots() const noexcept;
+    double getKnots() const noexcept;
     
 protected:
-    /*explicit*/ Boat(Hull& hull);
-    //Hull cannot be treated like a boat with explicit
+    explicit Boat(Hull& hull); //Hull cannot be treated like a boat with explicit
     Boat(Hull& hull, std::vector<std::reference_wrapper<Propulsion>>& propulsion);
     //pure virtual function
     virtual std::string do_getName() const noexcept = 0;

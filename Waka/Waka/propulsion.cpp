@@ -1,6 +1,6 @@
 #include "propulsion.h"
 
-double Propulsion::getKnots() const noexcept
+double Propulsion::knots() const noexcept
 {
     return do_getKnots();
 }

@@ -10,7 +10,7 @@ class Propulsion
 {
 public:
     virtual ~Propulsion() = default;
-    double getKnots() const noexcept;
+    double knots() const noexcept;
     
 protected:
     //pure virtual function

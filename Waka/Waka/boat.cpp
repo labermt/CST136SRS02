@@ -35,9 +35,15 @@ int Boat::getMaxWaveHeight() const noexcept
     return hull_.maxWaveHeight();
 }
 
-int Boat::getKnots() const noexcept
+//http://www.cplusplus.com/reference/functional/reference_wrapper/
+double Boat::getKnots() const noexcept
 {
-    return 0; // TODO
+    int knot = 0;
+    for(Propulsion& prop : propulsion_)
+    {
+        knot += prop.knots();
+    }
+    return knot;
 }
 
 

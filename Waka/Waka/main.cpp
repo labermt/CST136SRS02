@@ -12,14 +12,14 @@ int windDirection();
 
 //determine how the sail is affected by the wind speed
 
-//Explicit demo
+//Explicit demo - uncomment foo function call
 class A
 {
 private:
     int i_;
     
 public:
-    explicit A(int i) : i_{i}{}
+    explicit A(int i) : i_{i}{} //If explicit is not declared, it may change the type to type A
 };
 
 void foo(A a)
@@ -28,24 +28,25 @@ void foo(A a)
 }
 
 int main() {
-    //create a sailboat
-//    SailBoat newBoat;
- //   std::cout << newBoat.getName() << std::endl;
-   // std::cout << newBoat.getWaveHeight() << std::endl;
-  
-    foo(42);
 
-    Raft newRaft;
-    Boat& newBoat{newRaft};
-    auto waveHeight {newBoat.getMaxWaveHeight()};
+    //foo(42); //To demonstate explicit
+
+    Raft raft;
+    Boat& raftBoat{raft};
+    auto raftWaveHeight{raftBoat.getMaxWaveHeight()};
+    auto raftTurnRadius{raftBoat.getMinTurnRadius()};
     
     Canoe canoe;
-    Boat& boat{canoe};
-    auto height{boat.getMaxWaveHeight()};
+    Boat& canoeBoat{canoe};
+    auto canoeWaveHeight{canoeBoat.getMaxWaveHeight()};
+    auto canoeTurnRadius{canoeBoat.getMinTurnRadius()};
+    auto canoeKnots{canoeBoat.getKnots()};
     
     SailBoat sailboat;
-    Boat& aBoat{sailboat};
-    auto wHeight{boat.getMaxWaveHeight()};
+    Boat& sailBoat{sailboat};
+    auto sailboatWaveHeight{sailBoat.getMaxWaveHeight()};
+    auto sailboatTurnRadius{sailBoat.getMinTurnRadius()};
+    auto sailboatKnots{sailBoat.getKnots()};
     
     return 0;
 }
