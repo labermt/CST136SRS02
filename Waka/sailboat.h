@@ -4,7 +4,7 @@
 class Sailboat :
 	public Boat
 {
-
+protected:
 	std::string do_get_name() override;
 
 public:

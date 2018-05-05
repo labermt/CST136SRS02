@@ -5,8 +5,7 @@ class Canoe :
 	public Boat
 {
 protected:
-	//void do_move() override;
-	//void do_turn(Direction directon) override;
+
 	std::string do_get_name() override;
 
 public:

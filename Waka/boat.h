@@ -10,7 +10,7 @@
 
 class Boat
 {
-	virtual std::string do_get_name() = 0;
+	
 
 protected:
 
@@ -20,10 +20,12 @@ protected:
 	Hull const& hull_;
 	std::vector<Propulsion*>& propulsion_;
 	Chart& chart_;
+
 	ship_status status_{ ship_status::good };
 	Direction heading_{ Direction::north };
 	GPS location_{GPS (10,4)};
-	
+
+	virtual std::string do_get_name() =0;
 
 public:
 	void start_voyage();
@@ -36,6 +38,4 @@ public:
 	
 
 	std::string get_name();
-
-	virtual ~Boat() = default;
 };

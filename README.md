@@ -7,8 +7,7 @@ Notes: worked with Drew, Mike, Sasha, and Jen
 	Copied GPS, Direction files from [CST126SRS03](https://github.com/labermt/CST126SRS03)
 	Used map created by Drew in chart.cpp
 
-	Issues: wasnt able to figure out how to get propultion to work, caused an error with hull class attaching to boat somehow, which caused project to not build
-	boat doesn't move or do anything with the map currently. Not enforcing sailboat to be the only boat w/ sail. I understand I broke spec name convention, per email from Mitch that was ok.
+	Issues: boat doesn't move or do anything with the map currently. Not enforcing sailboat to be the only boat w/ sail. I understand I broke spec name convention, per email from Mitch that was ok.
 	Didn't implement capsizing with wind and sail.
 
 ---
