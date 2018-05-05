@@ -5,8 +5,12 @@ Name: Jared Muralt
 
 Notes:
 I would have used smart pointers but I didn't know how to use them before I started
-and didn't want to change a bunch of my code rigt at the end.
-TODODODODODODODO: delete pointers from main? add throws?
+and didn't want to change a bunch of my code right at the end.
+
+Simulation is not perfect but it shows what you can do using all the classes.
+Boats try to go from point (0,0) to point (1000,1000), not a full circle.
+If I had to pick the best boat out of the 3 I would pick the sailboat because
+it can go faster than the others depending on the wind speed.
 
 ---
 
