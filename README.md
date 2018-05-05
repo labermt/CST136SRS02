@@ -1,7 +1,7 @@
 # CST136SRS02
 Polynesian Polymorphism
 
-Name:
+Name:Chris Michalsen
 
 ---
 
@@ -22,9 +22,9 @@ You must name each of your boats for them to have [mana](https://en.wikipedia.or
 
 You will find the UML blueprints to assemble your boats in a file called Waka.png. [See: Waka](https://en.wikipedia.org/wiki/Waka_(canoe))  
 
-After you have assembled your boats to specification, take them on a test voyage.  
+*****After you have assembled your boats to specification, take them on a test voyage.  
 
-Create a Wind and Water object as well as a Chart to keep track of your navigation.  
+*****Create a Wind and Water object as well as a Chart to keep track of your navigation.  
 
 Your boats should turn more easily if MonoHull but be more stable if MultiHull.  
 
@@ -47,3 +47,11 @@ If you have a destructor in any class, follow the guideline [C.35: A base class 
 If you want to refer to a concrete class in your code beyond construction, you must obtain permission from the master boat builder (aka your instructor). 
 
 Be creative and have fun on your test voyage. 
+
+My program is able to successfully build a boat according to the provided UML diagram. The boat can then be taken on a voyage.
+
+I was not able to complete the following:
+- Demonstrate navigation by turning or using some type of coordinates.
+- Setup a condition for a capsized boat due to wave heights or a sail boat pointed in the direction of wind.
+- Chart the course
+
