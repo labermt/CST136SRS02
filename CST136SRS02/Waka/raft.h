@@ -2,6 +2,7 @@
 #include "boat.h"
 #include "cardinal.h"
 #include "current.h"
+#include "monoHull.h"
 
 class Raft final : public Boat
 {
@@ -25,6 +26,8 @@ private:
 
 	Cardinal direction;
 	int speed;
+
+	MonoHull hull;
 
 };
 

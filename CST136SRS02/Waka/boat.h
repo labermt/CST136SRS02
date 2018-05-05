@@ -6,12 +6,12 @@ class Boat
 
 public:
 
-	std::string getName() const;
-	void setName(std::string n) noexcept;
-
 	Boat();
 	Boat(std::string inputName);
 	virtual ~Boat() = default;
+
+	std::string getName() const;
+	void setName(std::string n) noexcept;
 
 protected:
 

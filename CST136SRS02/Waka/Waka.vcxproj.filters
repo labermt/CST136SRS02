@@ -47,6 +47,21 @@
     <ClInclude Include="current.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="wind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="randomdirection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monoHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multiHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -83,6 +98,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="current.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="randomdirection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monoHull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multiHull.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

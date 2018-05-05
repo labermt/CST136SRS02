@@ -5,6 +5,7 @@
 #include "chart.h"
 #include "current.h"
 #include "string"
+#include "multiHull.h"
 
 class Chart;
 
@@ -31,10 +32,12 @@ private:
 	//Will this be deleted once Canoe leaves scope or will it leak??
 	Paddle paddle;
 
+	MultiHull hull;
+
 	std::string do_getName() const override;
 	void do_setName(std::string name) noexcept override;
 
-
+	
 
 };
 

@@ -1,8 +1,9 @@
 #include "stdafx.h"
 #include "current.h"
+#include "random"
 
 
-Current::Current() : directionOfCurrent(Cardinal::SW){}
+Current::Current() : directionOfCurrent(Cardinal::SW), speed(10), height(0) {}
 
 Cardinal Current::getDirection() const noexcept
 {
@@ -33,5 +34,31 @@ std::string Current::getDirectionString() const noexcept
 	}
 }
 
+int Current::getspeed() noexcept
+{
+	return speed;
+}
+
+int Current::getHeight() noexcept
+{
+	return height;
+}
+
+void Current::setSpeed(const int s) noexcept
+{
+	speed = s;
+}
+
+void Current::setHeight() noexcept
+{
+
+	//rand generator
+	std::random_device                  rand_dev;
+	std::mt19937                        generator(rand_dev());
+	std::uniform_int_distribution<int>  distribution(0, 12);
+	
+	height = distribution(generator);
+
+}
 
 

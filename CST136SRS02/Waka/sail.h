@@ -13,13 +13,13 @@ public:
 	Sail();
 	~Sail() = default;
 
-	void setDirection(Cardinal direction) noexcept;
+	void setDirection(const Cardinal windDirection);
 
 	Cardinal getDirection() const;
 	std::string getDirectionString() const;
 
 	//change these arguments to const ref to Current and Wind
-	void setSpeed(const int current, const Cardinal windDirection) noexcept;
+	void setSpeed(const int current, const Cardinal windDirection, int windSpeed) noexcept;
 
 private:
 
