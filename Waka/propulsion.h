@@ -4,7 +4,7 @@ class Propulsion
 {
 
 protected:
-	virtual ~Propulsion() = default;
+	~Propulsion() = default;
 
 private:
 	virtual unsigned doGetKnots() const noexcept = 0;

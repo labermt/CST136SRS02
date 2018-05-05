@@ -11,7 +11,6 @@ public:
 	Direction getCurrentHeading() const noexcept;
 	unsigned getCurrentIntensity() const noexcept;
 
-private:
 	void setCurrentHeading();
 	void setCurrentIntensity();
 };

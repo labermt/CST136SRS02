@@ -6,21 +6,22 @@
 #include "multihull.h"
 #include "raft.h"
 #include "propulsion.h"
+#include "paddle.h"
 
 int main()
 {
-	//MultiHull const testHull;
+	MultiHull const testHull;
+	Chart testChart;
 
-	//auto myRaft = Raft(testHull);
+	std::vector<Propulsion*> testPropulsion;
+	Paddle testPaddle;
+	testPropulsion.push_back(&testPaddle);
 
-	//myRaft.getName();
+	auto testRaft = Raft(testHull, testChart, testPropulsion);
 
-	//auto testHeight = testHull.getMaxWaveHeight();
+	auto testName = testRaft.getName();
 
-	//myRaft.hull_.getMaxWaveHeight();
-
-	//myRaft.propulsion_[0].getKnots();
-	//
+	testRaft.Voyage();
 
 	return 0;
 }

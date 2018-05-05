@@ -7,22 +7,22 @@
 
 #include "gps.h"
 
-GPS::GPS(const int lat, const int lng): lat_(lat), lng_(lng)
+GPS::GPS(const int lat, const int lng) noexcept : lat_(lat), lng_(lng)
 {
 }
 
-void GPS::set(const int lat, const int lng)
+void GPS::set(const int lat, const int lng) noexcept
 {
 	lat_ = lat;
 	lng_ = lng;
 }
 
-int GPS::getlat() const
+int GPS::getlat() const noexcept
 {
 	return lat_;
 }
 
-int GPS::getlng() const
+int GPS::getlng() const noexcept
 {
 	return lng_;
 }
@@ -32,7 +32,7 @@ void GPS::move(const int direction, const unsigned distance)
 	switch (distance)
 	{
 	case 0:
-	break;
+		break;
 
 	case 1:
 	{
@@ -65,11 +65,11 @@ void GPS::move(const int direction, const unsigned distance)
 
 	default:
 		assert(false);
-	break;
+		break;
 	}
 }
 
-int GPS::theta(const int x, const int y)
+int GPS::theta(const int x, const int y) noexcept
 {
 	int result = 0;
 	if (x == 0)
@@ -101,7 +101,7 @@ int GPS::theta(const int x, const int y)
 	return result;
 }
 
-Direction GPS::cardinal(const int direction)
+Direction GPS::cardinal(const int direction) noexcept
 {
 	auto result{ kNorth };
 
@@ -131,7 +131,7 @@ Direction GPS::cardinal(const int direction)
 	return result;
 }
 
-int GPS::rangeTheta(const int theta)
+constexpr int GPS::rangeTheta(const int theta) noexcept
 {
 	const auto result{ (360 * (1 - theta / 360) + theta) % 360 };
 	return result;

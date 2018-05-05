@@ -13,23 +13,24 @@ public:
 		kLand, 
 		kShal, 
 		kDeep,
-		kStrt
+		kStrt,
+		kStop
 	};
 
 private:
 	Feature map_[20][10];
+
 private:
 	static constexpr auto latExtent{ std::extent<decltype(Chart::map_), GPS::Coordinate::kLat>::value };
 	static constexpr auto lngExtent{ std::extent<decltype(Chart::map_), GPS::Coordinate::kLng>::value };
 
 public:
-	Chart();
+	Chart() noexcept;
 public:
-	void setFeature(int lat, int lng, const Feature feature);
-	void setFeature(const GPS gps, const Feature feature);
+	void setFeature(int lat, int lng, const Feature feature) noexcept;
+	void setFeature(const GPS gps, const Feature feature) noexcept;
 
-	Feature getFeature(int lat, int lng) const;
-	Feature getFeature(GPS gps) const;
-
+	Feature getFeature(int lat, int lng) const noexcept;
+	Feature getFeature(GPS gps) const noexcept;
 };
 

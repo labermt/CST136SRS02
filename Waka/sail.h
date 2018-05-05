@@ -5,5 +5,8 @@ class Sail final : public Propulsion
 {
 private:
 	unsigned doGetKnots() const noexcept override { return 2; };
+
+public:
+	~Sail() = default;
 };
 

@@ -6,5 +6,8 @@ class MonoHull final : public Hull
 private:
 	TurnRadius doGetMinTurnRadius() const noexcept override;
 	WaveHeight doGetMaxWaveHeight() const noexcept override;
+
+public:
+	~MonoHull() = default;
 };
 

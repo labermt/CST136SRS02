@@ -5,5 +5,8 @@ class Paddle final : public Propulsion
 {
 private:
 	unsigned doGetKnots() const noexcept override { return 1; };
+
+public:
+	~Paddle() = default;
 };
 

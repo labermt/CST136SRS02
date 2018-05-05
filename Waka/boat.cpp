@@ -1,5 +1,9 @@
 #include "stdafx.h"
 #include "boat.h"
+#include "monohull.h"
+#include "raft.h"
+#include "water.h"
+#include "wind.h"
 
 std::string Boat::getName() noexcept
 {
@@ -11,20 +15,13 @@ void Boat::moveBoat(Direction direction)
 	gps_.move(direction, 1);
 }
 
-void Boat::setSail()
-{
-}
-
-Boat::Boat(Hull const& hull, Chart& chart, std::vector<Propulsion*>& propulsion) :
+Boat::Boat(Hull const& hull, Chart& chart, std::vector<Propulsion*>& propulsion) noexcept:
 	hull_{ hull },
 	chart_{ chart },
-	propulsion_{propulsion}
+	propulsion_{ propulsion }
 {
-	getName();
-
 	auto speedTally = 0;
-
-	for (auto& propulsionIterator: propulsion)
+	for (auto& propulsionIterator : propulsion)
 	{
 		speedTally += (*propulsionIterator).getKnots();
 	}

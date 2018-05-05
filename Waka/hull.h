@@ -8,7 +8,7 @@ protected:
 	enum class WaveHeight {kSmall, kLarge};
 
 protected:
-	virtual ~Hull() = default;
+	~Hull() = default;
 	
 private:
 	virtual TurnRadius doGetMinTurnRadius() const noexcept = 0;

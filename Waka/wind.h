@@ -11,7 +11,6 @@ public:
 	Direction getWindHeading() const noexcept;
 	unsigned getWindIntensity() const noexcept;
 
-private:
 	void setWindHeading();
 	void setWindIntensity();
 };

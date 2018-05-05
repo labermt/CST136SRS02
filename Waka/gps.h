@@ -10,25 +10,25 @@ public:
 	enum Coordinate { kLng = 0, kLat = 1 };
 
 public:
-	GPS(const int lat, const int lng);
+	GPS(const int lat, const int lng) noexcept;
 
 private:
 	int lat_{-1};
 	int lng_{-1};
 
 public:
-	static int rangeTheta(const int theta);
+	static constexpr int rangeTheta(const int theta) noexcept;
 
 public:
-	static int theta(const int x, const int y);
-	static Direction cardinal(const int direction);
+	static int theta(const int x, const int y) noexcept;
+	static Direction cardinal(const int direction) noexcept;
 
 private:
-	void set(int lat, int lng);
+	void set(int lat, int lng) noexcept;
 
 public:
-	int getlat() const;
-	int getlng() const;
+	int getlat() const noexcept;
+	int getlng() const noexcept;
 
 public:
 	void move(const int direction, const unsigned distance);
