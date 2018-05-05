@@ -1,9 +1,13 @@
 #pragma once
-#include "Boat.h"
+
 class Water
 {
 public:
-	Water();
-	~Water();
+	Water() = default;
+	
+	void setWaterSpeed(int const waterCurrent);
+
+private:
+	int waterCurrentSpeed{};
 };
 

@@ -2,11 +2,7 @@
 #include "Water.h"
 
 
-Water::Water()
+void Water::setWaterSpeed(int const waterCurrent)
 {
-}
-
-
-Water::~Water()
-{
+	waterCurrentSpeed = waterCurrent;
 }

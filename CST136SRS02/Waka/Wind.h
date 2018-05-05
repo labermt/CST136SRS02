@@ -1,9 +1,13 @@
 #pragma once
-#include "Boat.h"
+
 class Wind
 {
 public:
-	Wind();
-	~Wind();
+	Wind() = default;
+	
+	void setWindSpeed(int const windSpeed);
+
+private:
+	int windSpd{};
 };
 

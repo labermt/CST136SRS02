@@ -1,12 +1,7 @@
 #include "stdafx.h"
 #include "Wind.h"
 
-
-Wind::Wind()
+void Wind::setWindSpeed(int const windSpeed)
 {
-}
-
-
-Wind::~Wind()
-{
+	windSpd = windSpeed;
 }
