@@ -17,6 +17,8 @@ A pictoral representation of the `map_` data member of `Chart` is below:
 
 ![alt text](map_diagram.png "Logo Title Text 1")
 
+---
+
 ### Unresolved Issues
 
 I have successfully used virtual functions, abstract classes and overrides in this software, 
@@ -28,6 +30,7 @@ circle the island.
 The concept was to do a number of trails to calculate the probability of success for each boat
 type and options, however the lack of a course around the island prevents this.
 
+---
 
 ### Purpose:
 
