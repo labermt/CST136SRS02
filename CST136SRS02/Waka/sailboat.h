@@ -20,6 +20,8 @@ public:
 	Cardinal getDirection() const noexcept;
 	std::string getDirectionString() const noexcept;
 
+	int getMaxHeight() const noexcept;
+
 	//take in the wind direction randomly pick a cardinal direction, check if they are the same, if not set to that direction
 	void setDirection( Wind& wind) noexcept;
 

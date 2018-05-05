@@ -5,7 +5,9 @@ Name: AJ Stacher
 
 Project: Waka
 
-Notes: monohull can handle 5 foot waves, multihull can handle 10 foot waves. Waves can get as high as 12 feet!
+Notes: monohull can handle 5 foot waves, multihull can handle 10 foot waves. Waves can get as high as 11 feet!
+
+Problems: Still not sure on how to create my own throws w/try+catch. Exception will be thrown if sail gets boat capsized by wind, but not really being handled
 
 ---
 

@@ -37,6 +37,11 @@ std::string Canoe::getDirectionString(const Current & current)
 	}
 }
 
+int Canoe::getMaxHeight() const noexcept
+{
+	return this->hull.getMaxWaveHeight();
+}
+
 void Canoe::setSpeed(int speedOfCurrent) noexcept
 {
 	this->paddle.setSpeed(speedOfCurrent);

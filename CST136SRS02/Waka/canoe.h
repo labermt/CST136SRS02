@@ -20,6 +20,7 @@ public:
 	int getSpeed() const;
 	Cardinal getDirection(const Current& current);
 	std::string getDirectionString(const Current& current);
+	int getMaxHeight() const noexcept;
 
 	void setSpeed(int speedOfCurrent) noexcept;
 	void setPaddleStrength(int strength) noexcept;

@@ -19,6 +19,11 @@ std::string Sailboat::getDirectionString() const noexcept
 	return this->sail.getDirectionString();
 }
 
+int Sailboat::getMaxHeight() const noexcept
+{
+	return this->hull.getMaxWaveHeight();
+}
+
 void Sailboat::setDirection( Wind & wind) noexcept
 {
 

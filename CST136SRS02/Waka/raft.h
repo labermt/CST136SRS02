@@ -14,6 +14,7 @@ public:
 
 	std::string getDirectionString() const noexcept;
 	Cardinal getDirection() const noexcept;
+	int getMaxHeight() const noexcept;
 
 	void setDirection(const Current& current);
 	void setSpeed(const int speedOfCurrent);

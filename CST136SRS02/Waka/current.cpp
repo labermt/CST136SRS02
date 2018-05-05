@@ -3,7 +3,7 @@
 #include "random"
 
 
-Current::Current() : directionOfCurrent(Cardinal::SW), speed(10), height(0) {}
+Current::Current() : directionOfCurrent(Cardinal::S), speed(10), height(0) {}
 
 Cardinal Current::getDirection() const noexcept
 {
@@ -55,10 +55,15 @@ void Current::setHeight() noexcept
 	//rand generator
 	std::random_device                  rand_dev;
 	std::mt19937                        generator(rand_dev());
-	std::uniform_int_distribution<int>  distribution(0, 12);
+	std::uniform_int_distribution<int>  distribution(0, 11);
 	
 	height = distribution(generator);
 
+}
+
+void Current::setDirection(const Cardinal direction) noexcept
+{
+	directionOfCurrent = direction;
 }
 
 

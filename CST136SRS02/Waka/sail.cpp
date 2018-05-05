@@ -7,7 +7,7 @@
 Sail::Sail() : sailDirection(Cardinal::ANCHORED) {}
 
 
-void Sail::setDirection(const Cardinal windDirection) 
+void Sail::setDirection(const Cardinal windDirection) noexcept
 {
 	Randomdirection randDir;
 
@@ -17,7 +17,7 @@ void Sail::setDirection(const Cardinal windDirection)
 	while (sailDirection == windDirection) {
 
 		throw "Bad sail direction, Strong winds caused boat to capsize!";
-		sailDirection = randDir.generate();
+		//sailDirection = randDir.generate();
 
 	}
 }

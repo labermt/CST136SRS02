@@ -34,6 +34,10 @@ Cardinal Raft::getDirection() const noexcept
 	return direction;
 }
 
+int Raft::getMaxHeight() const noexcept
+{
+	return this->hull.getMaxWaveHeight();
+}
 
 void Raft::setDirection(const Current& current)
 {

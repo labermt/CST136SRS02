@@ -13,7 +13,7 @@ public:
 	Sail();
 	~Sail() = default;
 
-	void setDirection(const Cardinal windDirection);
+	void setDirection(const Cardinal windDirection) noexcept;
 
 	Cardinal getDirection() const;
 	std::string getDirectionString() const;

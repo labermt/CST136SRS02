@@ -17,11 +17,13 @@ public:
 
 	void setSpeed(const int s) noexcept;
 	void setHeight() noexcept;
+	void setDirection(const Cardinal direction) noexcept;
 
 private:
 
 	Cardinal directionOfCurrent;
 	int speed; //in knots
 	int height; //in feet
+
 };
 
