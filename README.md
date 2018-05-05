@@ -1,7 +1,9 @@
 # CST136SRS02
 Polynesian Polymorphism
 
-Name:
+Name: Phantump
+
+Notes: I was unable to determine a way to identify what kind of propulsion was but into the array, so for all intense and purposes, a Canoe could add a sail, if it wanted. However Rafts can't add anything. The wind and water are static, and so while there is a condition to captsize a boat if the waves were high enough given the right hull, it'll never hit right now. As for propulsion, the program assumes if you're pushing harder than the waves, than you can correct for course, so even if the waves are against you, so long as your propulsion is higher, it has no effect. I put into place means and methods of traveling, but it is not implimented well, and so the boats sail about as well as I would, and crash almost immidately on land, save the raft which always drifts out to sea. At the end of the travel, there are blocks to impliment a return of what had happened during your travel (you crashed into the inland, or your boat captsized) but as there is no call for reutrning this type of information, they're simply blan with comments saying what would lead you to being in that block, and can be used for later.
 
 ---
 
