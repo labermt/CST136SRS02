@@ -41,6 +41,11 @@ const environment::properties Boat::whatAmIOn()
 	return theworld_.getTileProperties(mychart_.getlat(), mychart_.getlng());
 }
 
+const bool Boat::getcaptsized_()
+{
+	return captsized_;
+}
+
 const std::string Boat::do_getName()
 {
 	return "error";
@@ -84,6 +89,11 @@ void Boat::do_move()
 		mychart_.setlat(-theworld_.water_.getCurrentStrenght());
 		mychart_.setlng(-theworld_.water_.getCurrentStrenght());
 		break;
+	}
+
+	if (theworld_.water_.getWaveHeight() > myhull_->maxWaveHeight())
+	{
+		captsized_ = true;
 	}
 }
 

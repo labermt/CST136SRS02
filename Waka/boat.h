@@ -18,6 +18,8 @@ protected:
 	Hull* myhull_{};
 	std::vector<Propulsion*> power_;
 
+	bool captsized_{ false };
+
 	virtual const std::string do_getName();
 	virtual void do_turnRight();
 	virtual void do_turnLeft();
@@ -38,4 +40,5 @@ public:
 	const int myspeed();
 
 	const environment::properties whatAmIOn();
+	const bool getcaptsized_();
 };
