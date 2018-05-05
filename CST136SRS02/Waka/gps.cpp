@@ -1,5 +1,4 @@
 #include "stdafx.h"
-
 #include <cassert>
 #include <cmath>
 #include "gps.h"
@@ -9,7 +8,7 @@ GPS::GPS(const int lat, const int lng) : lat_(lat), lng_(lng)
 {
 }
 
-void GPS::set(const int lat, const int lng)
+void GPS::set(const int lat, const int lng) 
 {
 	lat_ = lat;
 	lng_ = lng;

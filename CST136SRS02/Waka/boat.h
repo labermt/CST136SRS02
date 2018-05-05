@@ -1,28 +1,31 @@
 #pragma once
-//#include <string.h>
 #include <string>
-#include "propulsion.h"
-#include "hull.h"
-#include "wind.h"
-#include "water.h"
 #include "chart.h"
 #include <vector>
-// I am in charge of the chart, propulsion and hull may need to be cleaned up later
+#include "gps.h"
+
 class Boat
 {
 public:
-	Boat(const Hull& hull, const std::vector<Propulsion*>& propulsion); // a reference to a vector of pointers 
 	std::string getName()
 	{
 		return doGetName();
 	}
+
 private:
-	virtual std::string doGetName() = 0; // = 0 means you cannot create a boat anymore 
-	const Hull & hull_; 
+	virtual std::string doGetName() noexcept = 0; 
+	bool floating_{ true }; 
 	Chart * const chart_; 
-	const std::vector<Propulsion*>& propulsion_; // TODO can this be a reference?
+
 protected:
 	virtual ~Boat();
 
+public:
+	void moveBoat(Direction direction);
+	void setSail(); 
+
+public:
+	Boat(); 
+	GPS position_{GPS(10, 4)};
 };
 

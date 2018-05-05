@@ -1,8 +1,6 @@
 #pragma once
 //code borrowed by professor Mitch Besser URL: https://github.com/labermt/CST126SRS03
-
 #include "direction.h"
-
 
 class GPS
 {

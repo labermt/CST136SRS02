@@ -1,11 +1,10 @@
 #include "stdafx.h"
 #include "sailboat.h"
 
-std::string Sailboat::doGetName()
+using namespace std::literals::string_literals;
+
+std::string Sailboat::doGetName() noexcept 
 {
 	return "Aquaholic"s;
 }
 
-Sailboat::Sailboat() : Boat(multiHull_, sail2_)
-{
-}

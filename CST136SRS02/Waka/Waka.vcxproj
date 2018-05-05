@@ -152,7 +152,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="anchor.h" />
     <ClInclude Include="boat.h" />
     <ClInclude Include="canoe.h" />
     <ClInclude Include="chart.h" />
@@ -181,7 +180,7 @@
     <ClCompile Include="gps.cpp" />
     <ClCompile Include="hull.cpp" />
     <ClCompile Include="monoHull.cpp" />
-    <ClCompile Include="multiHall.cpp" />
+    <ClCompile Include="multiHull.cpp" />
     <ClCompile Include="paddle.cpp" />
     <ClCompile Include="propulsion.cpp" />
     <ClCompile Include="raft.cpp" />

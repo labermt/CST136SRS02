@@ -1,17 +1,26 @@
 #include "stdafx.h"
-#include <vector>
 #include "chart.h"
-#include "propulsion.h"
 #include "environment.h"
 #include "boat.h"
 
-Boat::Boat(const Hull& hull, const std::vector<Propulsion*>& propulsion) : hull_{ hull }, chart_{ new Chart }, propulsion_{ propulsion }
+void Boat::moveBoat(Direction direction)
 {
-	Environment::wind;
+	position_.move(direction, 1);
+}
+
+void Boat::setSail()
+{
+	while (floating_ && chart_->getFeature(position_) != Chart::Feature::kFinish)
+	{
+		moveBoat(kNorth);
+	}
+}
+
+Boat::Boat() : chart_{ new Chart }
+{
 }
 
 Boat::~Boat()
 {
-	delete chart_; 
+	delete chart_;
 }
-

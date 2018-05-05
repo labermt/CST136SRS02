@@ -6,6 +6,6 @@ Direction Water::getCurrentDirection() const noexcept
 	return currentDirection_;
 }
 
-void Water::setCurrentDirection()
+void Water::setCurrentDirection()  noexcept
 {
 }

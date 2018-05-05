@@ -6,6 +6,6 @@ class Wind
 private: 
 	Direction wind_{ Direction::kNorth };
 public:
-	Direction getWindDirection(); 
+	Direction getWindDirection() noexcept; 
 }; 
 

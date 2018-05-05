@@ -1,13 +1,8 @@
 #include "stdafx.h"
-#include <string>
 #include "raft.h"
 using namespace std::literals::string_literals;
 
-std::string Raft::doGetName()
+std::string Raft::doGetName() noexcept
 {
 	return "Sea Witch"s;
-}
-
-Raft::Raft(): Boat(monoHull_, paddle_)
-{
 }

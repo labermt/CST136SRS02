@@ -27,9 +27,6 @@
     <ClInclude Include="raft.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="anchor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="canoe.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -101,9 +98,6 @@
     <ClCompile Include="monoHull.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="multiHall.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="sailboat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -129,6 +123,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="randomgen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multiHull.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

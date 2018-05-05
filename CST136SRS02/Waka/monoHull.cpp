@@ -1,10 +1,12 @@
 #include "stdafx.h"
 #include "monoHull.h"
 
-void MonoHull::minTurnRadius()
+Hull::TurnRadius MonoHull::minTurnRadius() noexcept
 {
+	 return TurnRadius::kShort; 
 }
 
-void MonoHull::maxWaveHeight()
+Hull::WaveHeight MonoHull::maxWaveHeight() noexcept
 {
+	return WaveHeight::kSmall;
 }

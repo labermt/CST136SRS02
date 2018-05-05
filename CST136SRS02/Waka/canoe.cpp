@@ -2,11 +2,7 @@
 #include "canoe.h"
 using namespace std::literals::string_literals; 
 
-std::string Canoe::doGetName()
+std::string Canoe::doGetName() noexcept
 {
 	return "Journey"s;
-}
-
-Canoe::Canoe() : Boat(monoHull_, paddle_)
-{
 }
