@@ -116,5 +116,8 @@
     <ClCompile Include="wind.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sailboat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

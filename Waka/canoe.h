@@ -4,13 +4,17 @@
 class Canoe : public Boat
 {
 private:
-	std::string name_{};
 
 public:
 	Canoe(const std::string name, Hull * hull);
 
-	std::string do_getName() override;
+	const std::string do_getName() override;
+
+	void do_addPropulsion(Propulsion* d0) override;
 
 	void do_turnRight() override;
 	void do_turnLeft() override;
+	void do_move() override;
+
+	const int do_myspeed() override;
 };

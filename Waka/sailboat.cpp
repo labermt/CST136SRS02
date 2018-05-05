@@ -1,31 +1,30 @@
 #include "stdafx.h"
-#include <vector>
-#include "canoe.h"
+#include "sailboat.h"
 
-Canoe::Canoe(const std::string name, Hull * hull) : Boat(name, hull)
+Sailboat::Sailboat(const std::string name, Hull * hull) : Boat(name, hull)
 { }
 
-const std::string Canoe::do_getName()
+const std::string Sailboat::do_getName()
 {
 	return name_;
 }
 
-void Canoe::do_addPropulsion(Propulsion* d0)
+void Sailboat::do_addPropulsion(Propulsion * d0)
 {
 	power_.push_back(d0);
 }
 
-void Canoe::do_turnRight()
+void Sailboat::do_turnRight()
 {
 	mycompass_.setdirrection(mycompass_.intToDirrection(mycompass_.dirrectionToInt(mycompass_.getdirrection()) + myhull_->minTurnRadius()));
 }
 
-void Canoe::do_turnLeft()
+void Sailboat::do_turnLeft()
 {
 	mycompass_.setdirrection(mycompass_.intToDirrection(mycompass_.dirrectionToInt(mycompass_.getdirrection()) - myhull_->minTurnRadius()));
 }
 
-void Canoe::do_move()
+void Sailboat::do_move()
 {
 	if (theworld_.water_.getCurrentStrenght() > do_myspeed())
 	{
@@ -63,17 +62,31 @@ void Canoe::do_move()
 			mychart_.setlat(-1);
 			mychart_.setlng(-1);
 			break;
-
 		}
 	}
 }
 
-const int Canoe::do_myspeed()
+const int Sailboat::do_myspeed()
 {
 	int x{ 0 };
 	for (int j = 0; j < power_.size(); j++)
 	{
-		x += power_[j]->getKnots();
+		if(theworld_.wind_.getDirection() == mycompass_.getdirrection())
+		{
+			x += 2 * power_[j]->getKnots();
+		}
+		else if (theworld_.wind_.getDirection() == mycompass_.intToDirrection(mycompass_.dirrectionToInt(mycompass_.getdirrection()) - 1))
+		{
+			x += power_[j]->getKnots();
+		}
+		else if (theworld_.wind_.getDirection() == mycompass_.intToDirrection(mycompass_.dirrectionToInt(mycompass_.getdirrection()) + 1))
+		{
+			x += power_[j]->getKnots();
+		}
+		else
+		{
+			x += 0 * power_[j]->getKnots();
+		}
 	}
 	return x;
 }

@@ -8,7 +8,7 @@ public:
 	enum class properties { kunknown, kwater, kland };
 
 private:
-	properties topography_[10][8];
+	const properties topography_[10][10];
 
 public:
 	Water water_;
@@ -16,5 +16,5 @@ public:
 
 	environment();
 
-	properties getTileProperties(int lat, int lng);
+	const properties getTileProperties(const int lat, const int lng);
 };

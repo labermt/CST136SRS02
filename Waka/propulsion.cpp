@@ -1,9 +1,9 @@
 #include "stdafx.h"
 #include "propulsion.h"
 
-void Propulsion::getKnots()
+const int Propulsion::getKnots()
 {
-	do_getKnots();
+	return do_getKnots();
 }
 
 const int Propulsion::do_getKnots()

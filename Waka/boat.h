@@ -11,24 +11,31 @@
 class Boat
 {
 protected:
+	std::string name_{};
 	environment theworld_;
 	Chart mychart_{ 4, 3 };
-	
-	virtual std::string do_getName();
+	compass mycompass_{};
+	Hull* myhull_{};
+	std::vector<Propulsion*> power_;
+
+	virtual const std::string do_getName();
 	virtual void do_turnRight();
 	virtual void do_turnLeft();
 	virtual void do_move();
-	virtual int do_myspeed();
-	virtual environment::properties do_whatAmIOn();
+	virtual void do_addPropulsion(Propulsion* d0);
+	virtual const int do_myspeed();
 
 public:
-	std::string getName();
+	Boat(std::string name, Hull* hull);
+
+	const std::string getName();
 
 	void turnRight();
 	void turnLeft();
 	void move();
 
-	int myspeed();
+	void addPropulsion(Propulsion* d0);
+	const int myspeed();
 
-	environment::properties whatAmIOn();
+	const environment::properties whatAmIOn();
 };

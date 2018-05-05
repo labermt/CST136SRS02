@@ -6,5 +6,5 @@ protected:
 	const virtual int do_getKnots();
 
 public:
-	void getKnots();
+	const int getKnots();
 };

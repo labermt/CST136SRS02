@@ -4,7 +4,7 @@
 class Sail : public Propulsion
 {
 private:
-	const int speed_{ 5 };
+	const int speed_{ 3 };
 
 public:
 	const int do_getKnots() override;

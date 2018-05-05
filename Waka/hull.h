@@ -3,13 +3,10 @@
 class Hull
 {
 protected:
-	virtual int do_minTurnRadius();
-	virtual int do_maxWaveHeight();
+	virtual const int do_minTurnRadius();
+	virtual const int do_maxWaveHeight();
 	
 public:
-	int minTurnRadius();
-	int maxWaveHeight();
-	void turnRight();
-	void turnLeft();
-
+	const int minTurnRadius();
+	const int maxWaveHeight();
 };

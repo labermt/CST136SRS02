@@ -11,5 +11,7 @@ private:
 public:
 	orientation getdirrection();
 
-	void setdirrection(orientation data);
+	void setdirrection(const orientation data);
+	const int dirrectionToInt(const orientation d0);
+	const orientation intToDirrection(int d0);
 };
