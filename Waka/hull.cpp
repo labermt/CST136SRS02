@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include "hull.h"
 
-// blank intentionally 
 Hull::turn_radius Hull::get_turn_radius() const
 {
 	return do_get_turn_rad();

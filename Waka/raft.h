@@ -11,4 +11,3 @@ protected:
 public:
 	Raft(std::string name, Hull const& hull_type, std::vector<Propulsion*>& prop, Chart& chart);
 };
-

@@ -10,7 +10,5 @@ class Multi_hull :
 	turn_radius do_get_turn_rad() const override;
 	max_wave_height do_get_max_wave_height() const override;
 
-public:
-	virtual ~Multi_hull()=default;
 };
 

@@ -2,7 +2,6 @@
 #include "mono_hull.h"
 
 
-// Intentionally blank
 Hull::turn_radius Mono_hull::do_get_turn_rad() const
 {
 	return min_turn_radius_;
