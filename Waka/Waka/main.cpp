@@ -5,13 +5,6 @@
 #include "sailboat.h"
 #include "canoe.h"
 
-//randomly generates wind speed
-double windSpeed();
-//wind direction is measured in degrees from north -- if 
-int windDirection();
-
-//determine how the sail is affected by the wind speed
-
 //Explicit demo - uncomment foo function call
 class A
 {
