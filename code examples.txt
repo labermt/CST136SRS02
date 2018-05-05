@@ -1,0 +1,40 @@
+//4.21.18 Abstract Class
+
+class AbstrClass
+{
+	virtual void foo();
+};
+class Derived:public AbstrClass // is a 
+{
+	
+}
+	
+	
+class Boat
+{
+	virtual getName()= 0; // pure virtual, no calling, must be implemented later (nothing there for it to call), compiler stops you if you don't. 
+	// getName - virtual; getSpeed(); minTurnRadius(); maxWaveHeight();
+	// one or more virtual abstract fu
+	{
+		doIt();	
+	}
+}	
+ // This virtual function is also included because it inherits from...
+ 
+ class Raft:public Boat
+ {
+	getName()override
+	{
+		doit2();
+	}
+ }
+ 
+ Raft myRaft;
+ Boat& myBoat{ myRaft };
+ 
+ myBoat.getName();
+ 
+ foo(Boat& boat)
+ {
+	boat.getName();
+ }

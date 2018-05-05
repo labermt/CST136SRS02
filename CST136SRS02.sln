@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CST136SRS02", "CST136SRS02\CST136SRS02.vcxproj", "{BA6254E5-F236-4166-9DAD-6FF94D3AD969}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6AB49332-E819-4BAA-B108-2EB0E91A65DA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA6254E5-F236-4166-9DAD-6FF94D3AD969}.Debug|x64.ActiveCfg = Debug|x64
+		{BA6254E5-F236-4166-9DAD-6FF94D3AD969}.Debug|x64.Build.0 = Debug|x64
+		{BA6254E5-F236-4166-9DAD-6FF94D3AD969}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA6254E5-F236-4166-9DAD-6FF94D3AD969}.Debug|x86.Build.0 = Debug|Win32
+		{BA6254E5-F236-4166-9DAD-6FF94D3AD969}.Release|x64.ActiveCfg = Release|x64
+		{BA6254E5-F236-4166-9DAD-6FF94D3AD969}.Release|x64.Build.0 = Release|x64
+		{BA6254E5-F236-4166-9DAD-6FF94D3AD969}.Release|x86.ActiveCfg = Release|Win32
+		{BA6254E5-F236-4166-9DAD-6FF94D3AD969}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5784C99-B689-49DF-BE44-0CE4DDC71F7D}
+	EndGlobalSection
+EndGlobal
