@@ -1,7 +1,7 @@
 #pragma once
 #include "boat.h"
 
-class Canoe : Boat
+class Canoe : public Boat
 {
 private:
 	const char marker_{ 'c' };
