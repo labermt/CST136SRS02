@@ -1,11 +1,38 @@
 # CST136SRS02
 Polynesian Polymorphism
 
-Name:
+Name: Andrew Deraita
+
+Class ID: Volbeat
 
 ---
 
-Purpose:
+### Notes
+
+The design philosophy for the software was to construct each part of the boat seperately, then construct the Boat afterwards using references to the pieces.
+
+Parts of this software were borrowed from Mitch Besser's CST126SRS03 assignment, specifically the `gps.c`, `gps,h`, and `direction.h` files. This code can be found [here](https://github.com/labermt/CST126SRS03).
+
+A pictoral representation of the `map_` data member of `Chart` is below:
+
+![alt text](map_diagram.png "Logo Title Text 1")
+
+---
+
+### Unresolved Issues
+
+I have successfully used virtual functions, abstract classes and overrides in this software, 
+however my boat does not move around the island appropriately.
+The boat can move according to its propulsion and weather/water conditions, 
+however it does not have decision making skills and or a course that allows it to
+circle the island.
+
+The concept was to do a number of trails to calculate the probability of success for each boat
+type and options, however the lack of a course around the island prevents this.
+
+---
+
+### Purpose:
 
 - Learn C++ Polymorphism
 - Practice creating classes
