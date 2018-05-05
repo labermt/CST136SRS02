@@ -20,6 +20,8 @@ void Raft::updateBoat(Water wa, Wind wi)
 	if(chart_.get_leg() <= chart_.journey_size())
 	{
 		auto my_direction = chart_.get_leg_direction();
+
+		//define boat speed by taking cosine of direction * water speed
 		auto my_speed = float(cos((my_direction - wa.get_direction()) * 3.1416 / 180) * wa.get_speed());
 
 		if (my_speed > 0)
@@ -36,16 +38,16 @@ void Raft::updateBoat(Water wa, Wind wi)
 
 			}
 
-			cout << getName() << " on trip leg " << chart_.get_leg() << " " << chart_.get_current_distance() << endl; 
+			//cout << getName() << " on trip leg " << chart_.get_leg() << " " << chart_.get_current_distance() << endl; 
 
 			if (chart_.get_leg() >= chart_.journey_size())
 			{
-				cout << getName() << " has completed the journey." << endl; 
+				//cout << getName() << " has completed the journey." << endl; 
 			}
 		}
 		else
 		{
-			cout << getName() << " current in wrong direction; Boat is anchored." << endl; 
+			//cout << getName() << " current in wrong direction." << endl; 
 		}
 
 	}
