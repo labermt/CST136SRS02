@@ -1,9 +1,18 @@
-﻿#pragma once
+﻿#ifndef PROPULSION_H
+#define PROPULSION_H
+
+#include "Speed.h"
 
 class Propulsion
 {
-private:
+protected:
+	virtual Speed doSpeed() noexcept = 0;
 
 public:
-	//getSpeed();
+	Speed getSpeed() noexcept;
+
+public:
+	virtual ~Propulsion() = default;
+ 
 };
+#endif

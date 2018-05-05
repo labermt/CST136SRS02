@@ -1,12 +1,16 @@
-﻿#pragma once
+﻿#ifndef WATER_H
+#define WATER_H
+
 #include "Current.h"
 
 class Water
 {
-private:
-	//Current current_; this has direction and speed.
 public:
-	
+	Water(Current& current);
+
+private:
+	Current current_; //this has direction and speed.	
 };
+#endif
 //association w/ Boat
 //has-a relationship with Current
