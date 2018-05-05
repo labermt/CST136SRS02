@@ -4,7 +4,6 @@
 class Sail :
 	public Propulsion
 {
-	movement speed_{ movement::fast };
-
-	int do_get_knots() override;
+protected:
+	propulsion_type do_get_knots() override;
 };

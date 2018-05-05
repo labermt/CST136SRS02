@@ -5,6 +5,7 @@ Name: Fennekin
 
 Notes: worked with Drew, Mike, Sasha, and Jen
 	Copied GPS, Direction files from [CST126SRS03](https://github.com/labermt/CST126SRS03)
+	Used map created by Drew in chart.cpp
 
 ---
 

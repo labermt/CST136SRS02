@@ -2,13 +2,14 @@
 
 class Propulsion
 {
+public:
+	enum class propulsion_type { paddle = 1, sail = 2 };
+
 protected:
-	enum class movement { paddle = 1 , sail = 2 };
-	virtual int do_get_knots() = 0;
+	virtual propulsion_type do_get_knots() = 0;
 	
 public:
-	Propulsion();
 	virtual ~Propulsion();
-	int get_knots();
+	propulsion_type get_knots();
 	
 };

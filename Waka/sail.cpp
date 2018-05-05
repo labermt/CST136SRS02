@@ -2,7 +2,7 @@
 #include "sail.h"
 
 
-int Sail::do_get_knots()
+Propulsion::propulsion_type Sail::do_get_knots()
 {
-	return speed_;
+	return propulsion_type::sail;
 }

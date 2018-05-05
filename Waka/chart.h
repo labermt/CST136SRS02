@@ -2,9 +2,9 @@
 
 class Chart
 {
-	enum class feature { deep_water, water, land };
+	enum class Feature { deep_water, water, land };
 	
-	feature feature_[10][10];
+	Feature map_[20][10];
 public:
 
 	Chart();

@@ -10,10 +10,10 @@ class Water
 	Direction direction_{Direction::west};
 
 public:
-	wave_size get_wave_size();
-	Direction get_current_direction();
+	wave_size get_wave_size() const;
+	Direction get_current_direction() const;
+
+
 	void change_wind_direction();
 	void change_wave_size();
-	Water();
-	~Water();
 };

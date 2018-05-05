@@ -168,6 +168,8 @@
     <ClInclude Include="paddle.h" />
     <ClInclude Include="Propulsion.h" />
     <ClInclude Include="raft.h" />
+    <ClInclude Include="rand_gen.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="sail.h" />
     <ClInclude Include="sailboat.h" />
     <ClInclude Include="stdafx.h" />
@@ -186,6 +188,7 @@
     <ClCompile Include="paddle.cpp" />
     <ClCompile Include="Propulsion.cpp" />
     <ClCompile Include="raft.cpp" />
+    <ClCompile Include="rand_gen.cpp" />
     <ClCompile Include="sail.cpp" />
     <ClCompile Include="sailboat.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -197,6 +200,9 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="water.cpp" />
     <ClCompile Include="wind.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Waka.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

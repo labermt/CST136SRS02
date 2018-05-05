@@ -4,9 +4,6 @@
 class Paddle :
 	public Propulsion
 {
-
-	int get_speed() override;
-public:
-	Paddle();
-	~Paddle();
+protected:
+	propulsion_type do_get_knots() override;
 };

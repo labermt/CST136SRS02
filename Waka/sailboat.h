@@ -5,6 +5,6 @@ class Sailboat :
 	public Boat
 {
 public:
-	Sailboat(std::string name, Hull& hull_type, Chart& chart);
+	Sailboat(std::string const name, Hull& hull_type, std::vector<Propulsion*>& prop, Chart& chart);
 };
 

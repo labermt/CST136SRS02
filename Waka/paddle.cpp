@@ -2,12 +2,7 @@
 #include "paddle.h"
 
 
-
-Paddle::Paddle()
+Propulsion::propulsion_type Paddle::do_get_knots()
 {
-}
-
-
-Paddle::~Paddle()
-{
+	return propulsion_type::paddle;
 }
