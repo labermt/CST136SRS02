@@ -1,9 +1,11 @@
 # CST136SRS02
 Polynesian Polymorphism
 
-Name:
+Name: Thea Van Kessel
 
 ---
+
+I was able to successfully implement all of the classes and boats to the UML specifications. What I did not manage to achieve was charting out the navigation. I also attempted to handle capsizing but I was unable to come up with a working solution. The boat I would choose is a multihull sailboat because it will be faster than a raft or a canoe and more stable than a monohull sailboat.   
 
 Purpose:
 

@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99EE192F2094C56F003D2FAB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE192E2094C56F003D2FAB /* main.cpp */; };
+		99EE19372094C860003D2FAB /* boat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE19352094C860003D2FAB /* boat.cpp */; };
+		99EE193A2094C879003D2FAB /* raft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE19382094C879003D2FAB /* raft.cpp */; };
+		99EE193D2094C8BC003D2FAB /* canoe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE193B2094C8BC003D2FAB /* canoe.cpp */; };
+		99EE19402094E203003D2FAB /* sailboat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE193E2094E203003D2FAB /* sailboat.cpp */; };
+		99EE1969209ACC1D003D2FAB /* wind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE1967209ACC1D003D2FAB /* wind.cpp */; };
+		99EE196C209ACC6B003D2FAB /* water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE196A209ACC6B003D2FAB /* water.cpp */; };
+		99EE196F209ACCAA003D2FAB /* chart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE196D209ACCAA003D2FAB /* chart.cpp */; };
+		99EE1972209ACF35003D2FAB /* propulsion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE1970209ACF35003D2FAB /* propulsion.cpp */; };
+		99EE1975209ACF76003D2FAB /* paddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE1973209ACF76003D2FAB /* paddle.cpp */; };
+		99EE1978209ACFC5003D2FAB /* sail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE1976209ACFC5003D2FAB /* sail.cpp */; };
+		99EE197B209ACFE5003D2FAB /* hull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE1979209ACFE5003D2FAB /* hull.cpp */; };
+		99EE197E209AD017003D2FAB /* monohull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE197C209AD017003D2FAB /* monohull.cpp */; };
+		99EE1981209AD03A003D2FAB /* multihull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EE197F209AD03A003D2FAB /* multihull.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99EE19292094C56F003D2FAB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		99EE192B2094C56F003D2FAB /* Waka */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Waka; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EE192E2094C56F003D2FAB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		99EE19352094C860003D2FAB /* boat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = boat.cpp; sourceTree = "<group>"; };
+		99EE19362094C860003D2FAB /* boat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boat.h; sourceTree = "<group>"; };
+		99EE19382094C879003D2FAB /* raft.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = raft.cpp; sourceTree = "<group>"; };
+		99EE19392094C879003D2FAB /* raft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = raft.h; sourceTree = "<group>"; };
+		99EE193B2094C8BC003D2FAB /* canoe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = canoe.cpp; sourceTree = "<group>"; };
+		99EE193C2094C8BC003D2FAB /* canoe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = canoe.h; sourceTree = "<group>"; };
+		99EE193E2094E203003D2FAB /* sailboat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sailboat.cpp; sourceTree = "<group>"; };
+		99EE193F2094E203003D2FAB /* sailboat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sailboat.h; sourceTree = "<group>"; };
+		99EE1967209ACC1D003D2FAB /* wind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wind.cpp; sourceTree = "<group>"; };
+		99EE1968209ACC1D003D2FAB /* wind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wind.h; sourceTree = "<group>"; };
+		99EE196A209ACC6B003D2FAB /* water.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = water.cpp; sourceTree = "<group>"; };
+		99EE196B209ACC6B003D2FAB /* water.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = water.h; sourceTree = "<group>"; };
+		99EE196D209ACCAA003D2FAB /* chart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chart.cpp; sourceTree = "<group>"; };
+		99EE196E209ACCAA003D2FAB /* chart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chart.h; sourceTree = "<group>"; };
+		99EE1970209ACF35003D2FAB /* propulsion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = propulsion.cpp; sourceTree = "<group>"; };
+		99EE1971209ACF35003D2FAB /* propulsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = propulsion.h; sourceTree = "<group>"; };
+		99EE1973209ACF76003D2FAB /* paddle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = paddle.cpp; sourceTree = "<group>"; };
+		99EE1974209ACF76003D2FAB /* paddle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = paddle.h; sourceTree = "<group>"; };
+		99EE1976209ACFC5003D2FAB /* sail.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sail.cpp; sourceTree = "<group>"; };
+		99EE1977209ACFC5003D2FAB /* sail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sail.h; sourceTree = "<group>"; };
+		99EE1979209ACFE5003D2FAB /* hull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hull.cpp; sourceTree = "<group>"; };
+		99EE197A209ACFE5003D2FAB /* hull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hull.h; sourceTree = "<group>"; };
+		99EE197C209AD017003D2FAB /* monohull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = monohull.cpp; sourceTree = "<group>"; };
+		99EE197D209AD017003D2FAB /* monohull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = monohull.h; sourceTree = "<group>"; };
+		99EE197F209AD03A003D2FAB /* multihull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = multihull.cpp; sourceTree = "<group>"; };
+		99EE1980209AD03A003D2FAB /* multihull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multihull.h; sourceTree = "<group>"; };
+		99EE1982209BFC28003D2FAB /* environment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = environment.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99EE19282094C56F003D2FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99EE19222094C56F003D2FAB = {
+			isa = PBXGroup;
+			children = (
+				99EE192D2094C56F003D2FAB /* Waka */,
+				99EE192C2094C56F003D2FAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99EE192C2094C56F003D2FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99EE192B2094C56F003D2FAB /* Waka */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99EE192D2094C56F003D2FAB /* Waka */ = {
+			isa = PBXGroup;
+			children = (
+				99EE192E2094C56F003D2FAB /* main.cpp */,
+				99EE19352094C860003D2FAB /* boat.cpp */,
+				99EE19362094C860003D2FAB /* boat.h */,
+				99EE19382094C879003D2FAB /* raft.cpp */,
+				99EE19392094C879003D2FAB /* raft.h */,
+				99EE193B2094C8BC003D2FAB /* canoe.cpp */,
+				99EE193C2094C8BC003D2FAB /* canoe.h */,
+				99EE193E2094E203003D2FAB /* sailboat.cpp */,
+				99EE193F2094E203003D2FAB /* sailboat.h */,
+				99EE1967209ACC1D003D2FAB /* wind.cpp */,
+				99EE1968209ACC1D003D2FAB /* wind.h */,
+				99EE196A209ACC6B003D2FAB /* water.cpp */,
+				99EE196B209ACC6B003D2FAB /* water.h */,
+				99EE196D209ACCAA003D2FAB /* chart.cpp */,
+				99EE196E209ACCAA003D2FAB /* chart.h */,
+				99EE1970209ACF35003D2FAB /* propulsion.cpp */,
+				99EE1971209ACF35003D2FAB /* propulsion.h */,
+				99EE1973209ACF76003D2FAB /* paddle.cpp */,
+				99EE1974209ACF76003D2FAB /* paddle.h */,
+				99EE1976209ACFC5003D2FAB /* sail.cpp */,
+				99EE1977209ACFC5003D2FAB /* sail.h */,
+				99EE1979209ACFE5003D2FAB /* hull.cpp */,
+				99EE197A209ACFE5003D2FAB /* hull.h */,
+				99EE197C209AD017003D2FAB /* monohull.cpp */,
+				99EE197D209AD017003D2FAB /* monohull.h */,
+				99EE197F209AD03A003D2FAB /* multihull.cpp */,
+				99EE1980209AD03A003D2FAB /* multihull.h */,
+				99EE1982209BFC28003D2FAB /* environment.h */,
+			);
+			path = Waka;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99EE192A2094C56F003D2FAB /* Waka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EE19322094C56F003D2FAB /* Build configuration list for PBXNativeTarget "Waka" */;
+			buildPhases = (
+				99EE19272094C56F003D2FAB /* Sources */,
+				99EE19282094C56F003D2FAB /* Frameworks */,
+				99EE19292094C56F003D2FAB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waka;
+			productName = Waka;
+			productReference = 99EE192B2094C56F003D2FAB /* Waka */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99EE19232094C56F003D2FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Thea Van Kessel";
+				TargetAttributes = {
+					99EE192A2094C56F003D2FAB = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 99EE19262094C56F003D2FAB /* Build configuration list for PBXProject "Waka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99EE19222094C56F003D2FAB;
+			productRefGroup = 99EE192C2094C56F003D2FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99EE192A2094C56F003D2FAB /* Waka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99EE19272094C56F003D2FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EE193D2094C8BC003D2FAB /* canoe.cpp in Sources */,
+				99EE1975209ACF76003D2FAB /* paddle.cpp in Sources */,
+				99EE197B209ACFE5003D2FAB /* hull.cpp in Sources */,
+				99EE192F2094C56F003D2FAB /* main.cpp in Sources */,
+				99EE19372094C860003D2FAB /* boat.cpp in Sources */,
+				99EE196C209ACC6B003D2FAB /* water.cpp in Sources */,
+				99EE1978209ACFC5003D2FAB /* sail.cpp in Sources */,
+				99EE197E209AD017003D2FAB /* monohull.cpp in Sources */,
+				99EE1981209AD03A003D2FAB /* multihull.cpp in Sources */,
+				99EE196F209ACCAA003D2FAB /* chart.cpp in Sources */,
+				99EE19402094E203003D2FAB /* sailboat.cpp in Sources */,
+				99EE193A2094C879003D2FAB /* raft.cpp in Sources */,
+				99EE1969209ACC1D003D2FAB /* wind.cpp in Sources */,
+				99EE1972209ACF35003D2FAB /* propulsion.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		99EE19302094C56F003D2FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		99EE19312094C56F003D2FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		99EE19332094C56F003D2FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99EE19342094C56F003D2FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99EE19262094C56F003D2FAB /* Build configuration list for PBXProject "Waka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EE19302094C56F003D2FAB /* Debug */,
+				99EE19312094C56F003D2FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EE19322094C56F003D2FAB /* Build configuration list for PBXNativeTarget "Waka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EE19332094C56F003D2FAB /* Debug */,
+				99EE19342094C56F003D2FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99EE19232094C56F003D2FAB /* Project object */;
+}
