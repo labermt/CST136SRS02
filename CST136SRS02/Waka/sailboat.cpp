@@ -1,12 +1,11 @@
 #include "stdafx.h"
 #include "sailboat.h"
 
-
-Sailboat::Sailboat()
+std::string Sailboat::doGetName()
 {
+	return "Aquaholic"s;
 }
 
-
-Sailboat::~Sailboat()
+Sailboat::Sailboat() : Boat(multiHull_, sail2_)
 {
 }

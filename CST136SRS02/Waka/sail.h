@@ -2,8 +2,7 @@
 #include "propulsion.h"
 class Sail : public Propulsion
 {
-public:
-	Sail();
-	~Sail();
+private:
+	void doGetKnots() override;
 };
 

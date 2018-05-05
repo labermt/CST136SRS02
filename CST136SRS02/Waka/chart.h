@@ -22,7 +22,5 @@ private:
 	void setFeature(const int lat, const int lng, const Feature feature);
 	void setFeature(const GPS gps, const Feature feature);
 	Feature getFeature(const GPS gps) const;
-
-
 };
 

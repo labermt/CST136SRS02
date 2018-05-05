@@ -14,3 +14,4 @@ Boat::~Boat()
 {
 	delete chart_; 
 }
+

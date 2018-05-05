@@ -1,6 +1,6 @@
 #pragma once
 #include "hull.h"
-class MonoHull : public Hull
+class MultiHull : public Hull
 {
 private:
 	void minTurnRadius() override; 

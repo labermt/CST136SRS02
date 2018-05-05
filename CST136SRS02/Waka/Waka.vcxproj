@@ -161,10 +161,11 @@
     <ClInclude Include="gps.h" />
     <ClInclude Include="hull.h" />
     <ClInclude Include="monoHull.h" />
-    <ClInclude Include="multiHall.h" />
+    <ClInclude Include="multiHull.h" />
     <ClInclude Include="paddle.h" />
     <ClInclude Include="propulsion.h" />
     <ClInclude Include="raft.h" />
+    <ClInclude Include="randomgen.h" />
     <ClInclude Include="sail.h" />
     <ClInclude Include="sailboat.h" />
     <ClInclude Include="stdafx.h" />
@@ -184,6 +185,7 @@
     <ClCompile Include="paddle.cpp" />
     <ClCompile Include="propulsion.cpp" />
     <ClCompile Include="raft.cpp" />
+    <ClCompile Include="randomgen.cpp" />
     <ClCompile Include="sail.cpp" />
     <ClCompile Include="sailboat.cpp" />
     <ClCompile Include="stdafx.cpp">

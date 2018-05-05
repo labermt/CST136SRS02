@@ -1,12 +1,7 @@
 #include "stdafx.h"
 #include "paddle.h"
 
-
-Paddle::Paddle()
+void Paddle::doGetKnots()
 {
-}
-
-
-Paddle::~Paddle()
-{
+	getKnots(); 
 }

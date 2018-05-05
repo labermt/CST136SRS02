@@ -39,9 +39,6 @@
     <ClInclude Include="monoHull.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="multiHall.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="sailboat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -70,6 +67,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="gps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multiHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="randomgen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -123,6 +126,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="gps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="randomgen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,7 +1,13 @@
 #include "stdafx.h"
+#include <string>
 #include "raft.h"
+using namespace std::literals::string_literals;
 
-//void Raft::do_foo()
-//{
-//	Boat::do_foo(); 
-//}
+std::string Raft::doGetName()
+{
+	return "Sea Witch"s;
+}
+
+Raft::Raft(): Boat(monoHull_, paddle_)
+{
+}

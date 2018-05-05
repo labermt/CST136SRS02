@@ -1,12 +1,7 @@
 #include "stdafx.h"
 #include "propulsion.h"
 
-
-Propulsion::Propulsion()
+void Propulsion::getKnots()
 {
-}
-
-
-Propulsion::~Propulsion()
-{
+	doGetKnots(); 
 }

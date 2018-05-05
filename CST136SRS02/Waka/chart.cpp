@@ -1,11 +1,22 @@
 #include "stdafx.h"
 #include "chart.h"
-
 #include "stdafx.h"
-
 #include <cassert>
 #include "gps.h"
 #include "chart.h"
+
+Chart::Feature Chart::getFeature(int lat, int lng) const
+{
+	return Feature();
+}
+
+void Chart::setFeature(const int lat, const int lng, const Feature feature)
+{
+}
+
+void Chart::setFeature(const GPS gps, const Feature feature)
+{
+}
 
 Chart::Feature Chart::getFeature(const GPS gps) const
 {

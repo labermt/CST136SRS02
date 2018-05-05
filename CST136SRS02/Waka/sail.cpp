@@ -1,12 +1,8 @@
 #include "stdafx.h"
 #include "sail.h"
+#include "paddle.h"
 
-
-Sail::Sail()
+void Sail::doGetKnots()
 {
-}
-
-
-Sail::~Sail()
-{
+	getKnots();
 }
