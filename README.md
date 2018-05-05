@@ -3,7 +3,11 @@ Polynesian Polymorphism
 
 Name:
 
----
+---Bobby Mahaffey
+Notes:
+ The project doesnt work at the point. I have the classes built and names assigned to each of the boats
+ Not quite sure on how to make the map of New Zealand fit into this project
+ I understand the concepts of how the different traits can affec the different boats but unsure on how to turn that into code
 
 Purpose:
 
