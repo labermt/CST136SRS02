@@ -173,7 +173,6 @@
     <ClInclude Include="wind.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="anchor.cpp" />
     <ClCompile Include="boat.cpp" />
     <ClCompile Include="canoe.cpp" />
     <ClCompile Include="chart.cpp" />

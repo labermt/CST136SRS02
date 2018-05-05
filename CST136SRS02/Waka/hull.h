@@ -8,7 +8,7 @@ protected:
 	enum class WaveHeight { kSmall, kLarge };
 
 public:
-	virtual TurnRadius minTurnRadius() = 0; // = 0 means you cannot create a boat anymore 
+	virtual TurnRadius minTurnRadius() = 0;
 	virtual WaveHeight maxWaveHeight() = 0; 
 protected:
 	~Hull() = default;

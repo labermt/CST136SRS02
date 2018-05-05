@@ -86,9 +86,6 @@
     <ClCompile Include="raft.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="anchor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="canoe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
