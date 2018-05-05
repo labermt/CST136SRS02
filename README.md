@@ -1,7 +1,14 @@
-# CST136SRS02
+﻿# CST136SRS02
 Polynesian Polymorphism
 
-Name:
+Name: Fennekin
+
+Notes: worked with Drew, Mike, Sasha, and Jen
+	Copied GPS, Direction files from [CST126SRS03](https://github.com/labermt/CST126SRS03)
+	Used map created by Drew in chart.cpp
+
+	Issues: boat doesn't move or do anything with the map currently. Not enforcing sailboat to be the only boat w/ sail. I understand I broke spec name convention, per email from Mitch that was ok.
+	Didn't implement capsizing with wind and sail.
 
 ---
 
@@ -46,4 +53,4 @@ If you have a destructor in any class, follow the guideline [C.35: A base class 
 
 If you want to refer to a concrete class in your code beyond construction, you must obtain permission from the master boat builder (aka your instructor). 
 
-Be creative and have fun on your test voyage. 
+Be creative and have fun on your test voyage.
