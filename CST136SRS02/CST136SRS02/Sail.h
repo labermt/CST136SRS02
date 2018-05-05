@@ -3,9 +3,9 @@
 class Sail : public Propulsion
 {
 protected:
-	int do_get_knots() const override;
+	int do_get_knots() const noexcept override;
 public:
-	Sail();
+	Sail() noexcept;
 	~Sail() = default;
 };
 

@@ -6,6 +6,5 @@ protected:
 	std::string do_get_name() const override;
 public:
 	Canoe(std::string name);
-	~Canoe() = default;
 };
 

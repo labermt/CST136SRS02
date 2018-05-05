@@ -3,6 +3,11 @@ Polynesian Polymorphism
 
 Name: Jared Muralt
 
+Notes:
+I would have used smart pointers but I didn't know how to use them before I started
+and didn't want to change a bunch of my code rigt at the end.
+TODODODODODODODO: delete pointers from main? add throws?
+
 ---
 
 Purpose:

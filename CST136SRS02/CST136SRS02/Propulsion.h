@@ -4,13 +4,12 @@ class Propulsion
 private:
 	int knots;
 protected:
-	virtual int do_get_knots() const = 0; //behind the scenes function
-	virtual ~Propulsion() = default;
+	virtual int do_get_knots() const noexcept = 0; //behind the scenes function
 
 public:
-	Propulsion();
-	int getKnots() const;
+	Propulsion() noexcept;
+	int getKnots() const noexcept;
 
-	void setKnots(int);
+	void setKnots(int) noexcept;
 };
 

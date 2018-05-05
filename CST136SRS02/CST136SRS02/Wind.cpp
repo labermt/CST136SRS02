@@ -3,18 +3,18 @@
 #include <random>
 
 
-Wind::Wind()
+Wind::Wind() noexcept
 	:direction{ Direction::North }, mph{ 20 }
 {
 	update();
 }
 
-Wind::Direction Wind::getDirection() const
+Wind::Direction Wind::getDirection() const noexcept
 {
 	return direction;
 }
 
-int Wind::getMPH() const
+int Wind::getMPH() const noexcept
 {
 	return mph;
 }

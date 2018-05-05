@@ -9,9 +9,9 @@ public:
 		South,
 		West
 	};
-	Wind();
-	Wind::Direction getDirection() const;
-	int getMPH() const;
+	Wind() noexcept;
+	Wind::Direction getDirection() const noexcept;
+	int getMPH() const noexcept;
 	void update();
 
 private:

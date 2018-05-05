@@ -3,9 +3,8 @@
 class Paddle : public Propulsion
 {
 protected:
-	int do_get_knots() const override;
+	int do_get_knots() const noexcept override;
 public:
-	Paddle();
-	~Paddle() = default;
+	Paddle() noexcept;
 };
 

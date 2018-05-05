@@ -9,6 +9,5 @@ protected:
 	std::string do_get_name() const override;
 public:
 	Raft(std::string name);
-	~Raft() = default;
 };
 

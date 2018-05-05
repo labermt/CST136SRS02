@@ -15,18 +15,17 @@ private:
 	Propulsion * propulsion;
 protected:
 	virtual std::string do_get_name() const = 0; //behind the scenes function
-	~Boat() = default;
 public:
-	std::string getName() const; //publicly used get name
+	std::string getName() const noexcept; //publicly used get name
 	Boat(std::string boatName, Hull * hull_, Propulsion * propulsion_);
-	bool isCapsized() const;
-	bool isJourneyComplete() const;
-	void capsizeBoat();
-	void completeJourney();
+	bool isCapsized() const noexcept;
+	bool isJourneyComplete() const noexcept;
+	void capsizeBoat() noexcept;
+	void completeJourney() noexcept;
 
-	Chart & getChart();
-	Hull * getHull() const;
-	Propulsion * getPropulsion() const;
+	Chart & getChart() noexcept;
+	Hull * getHull() const noexcept;
+	Propulsion * getPropulsion() const noexcept;
 
 	//add move towards function
 };

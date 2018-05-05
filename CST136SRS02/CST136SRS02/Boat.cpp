@@ -7,7 +7,7 @@ std::string Boat::do_get_name() const
 	return name;
 }
 
-std::string Boat::getName() const
+std::string Boat::getName() const noexcept
 {
 	return do_get_name();
 }
@@ -17,37 +17,37 @@ Boat::Boat(std::string boatName, Hull * hull_, Propulsion * propulsion_)
 {
 }
 
-bool Boat::isCapsized() const
+bool Boat::isCapsized() const noexcept
 {
 	return capsized;
 }
 
-bool Boat::isJourneyComplete() const
+bool Boat::isJourneyComplete() const noexcept
 {
 	return journeyComplete;
 }
 
-void Boat::capsizeBoat()
+void Boat::capsizeBoat() noexcept
 {
 	capsized = true;
 }
 
-void Boat::completeJourney()
+void Boat::completeJourney() noexcept
 {
 	journeyComplete = true;
 }
 
-Chart& Boat::getChart()
+Chart& Boat::getChart() noexcept
 {
 	return chart;
 }
 
-Hull * Boat::getHull() const
+Hull * Boat::getHull() const noexcept
 {
 	return hull;
 }
 
-Propulsion * Boat::getPropulsion() const
+Propulsion * Boat::getPropulsion() const noexcept
 {
 	return propulsion;
 }
