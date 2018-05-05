@@ -23,7 +23,7 @@ int main()
 	Canoe canoe("Jennnay", canoe_hull, canoe_prop, canoe_chart);
 	boat_list.emplace_back(canoe);
 
-	Mono_hull raft_hull;
+	Mono_hull const raft_hull;
 	Paddle r1;
 	std::vector<Propulsion*> raft_prop;
 	raft_prop.emplace_back(r1);
@@ -31,7 +31,7 @@ int main()
 	Raft raft("Sea Hag", raft_hull, raft_prop, raft_chart );
 	boat_list.emplace_back(raft);
 
-	Mono_hull sail_hull;
+	Mono_hull const sail_hull;
 	Chart sail_chart;
 	std::vector<Propulsion*> sail_prop;
 	Sail s1;

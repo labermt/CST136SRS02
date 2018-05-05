@@ -5,6 +5,7 @@
 
 void Boat::start_voyage()
 {
+	// not implmented
 	int clock{ 0 };
 }
 
@@ -15,11 +16,13 @@ Boat::Boat(std::string const name, Hull const& hull_type, std::vector<Propulsion
 
 void Boat::move()
 {
+	// not implmented
 	// move
 }
 
 void Boat::turn(Direction directon)
 {
+	// not implmented
 	if (hull_.get_turn_radius() == Hull::turn_radius::large)
 	{
 		move();
@@ -27,12 +30,12 @@ void Boat::turn(Direction directon)
 	heading_ = directon;
 }
 
-Hull::turn_radius Boat::get_turn_radius()
+Hull::turn_radius Boat::get_turn_radius() const
 {
 	return hull_.get_turn_radius();
 }
 
-Hull::max_wave_height Boat::get_max_wave_height()
+Hull::max_wave_height Boat::get_max_wave_height() const
 {
 	return hull_.get_max_wave_height();
 }
@@ -40,10 +43,10 @@ Hull::max_wave_height Boat::get_max_wave_height()
 int Boat::get_knots()
 {
 	auto knots{ 0 };
-	for (Propulsion& element : propulsion_)
-	{
-		knots += element;
-	}
+	//for (Propulsion* element : propulsion_)
+	//{
+	//	knots += element;
+	//}
 	return knots;
 }
 

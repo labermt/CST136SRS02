@@ -7,12 +7,9 @@
 #include "hull.h"
 #include "direction.h"
 #include "gps.h"
-#include "mono_hull.h"
 
 class Boat
 {
-	//virtual void do_move();
-	//virtual void do_turn(Direction directon);
 	virtual std::string do_get_name() = 0;
 
 protected:
@@ -33,8 +30,8 @@ public:
 	Boat(std::string name, Hull const& hull_type, std::vector<Propulsion*>& prop, Chart& chart);
 	void move();
 	void turn( Direction directon);
-	Hull::turn_radius get_turn_radius();
-	Hull::max_wave_height get_max_wave_height();
+	Hull::turn_radius get_turn_radius() const;
+	Hull::max_wave_height get_max_wave_height() const;
 	int get_knots();
 	
 
