@@ -22,8 +22,6 @@ private:
     Paddle paddle2;
     std::vector<std::reference_wrapper<Propulsion>> paddleVector_{paddle1, paddle2};
     std::string do_getName() const noexcept override;
-    int do_getMinTurnRadius() const noexcept override;
-    int do_getMaxWaveHeight() const noexcept override;
 };
 
 #endif /* canoe_h */

@@ -19,10 +19,8 @@ public:
 private:
     const std::string name{"Slow Poke"s};
     MonoHull oneHull;
-    std::vector<std::reference_wrapper<Propulsion>> empty;
+    //std::vector<std::reference_wrapper<Propulsion>> empty;
     std::string do_getName() const noexcept override;
-    int do_getMinTurnRadius() const noexcept override;
-    int do_getMaxWaveHeight() const noexcept override;
 };
 
 #endif /* raft_h */

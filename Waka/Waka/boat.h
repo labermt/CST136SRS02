@@ -23,21 +23,17 @@ public:
     int getMinTurnRadius() const noexcept;
     int getMaxWaveHeight() const noexcept;
     int getKnots() const noexcept;
-    int foo() const noexcept{return 0;}
     
 protected:
-    //explicit Boat(Hull& hull);
+    /*explicit*/ Boat(Hull& hull);
     //Hull cannot be treated like a boat with explicit
-    explicit Boat(Hull& hull, std::vector<Propulsion&> propulsion);
+    Boat(Hull& hull, std::vector<std::reference_wrapper<Propulsion>>& propulsion);
     //pure virtual function
     virtual std::string do_getName() const noexcept = 0;
-    virtual int do_getMinTurnRadius() const noexcept = 0;
-    virtual int do_getMaxWaveHeight() const noexcept = 0;
-    virtual int do_getKnots() const noexcept = 0;
     
 private:
     const Hull& hull_;
-    const std::vector<std::reference_wrapper<Propulsion>> propulsion_;
+    const std::vector<std::reference_wrapper<Propulsion>>& propulsion_{};
 };
 
 #endif /* boat_h */
