@@ -27,14 +27,17 @@ void foo(A a)
     
 }
 
+void capsize(int waveHeight, int maxWaveHeight);
+
 int main() {
 
     //foo(42); //To demonstate explicit
 
     Raft raft;
     Boat& raftBoat{raft};
-    auto raftWaveHeight{raftBoat.getMaxWaveHeight()};
+    auto raftMaxWaveHeight{raftBoat.getMaxWaveHeight()};
     auto raftTurnRadius{raftBoat.getMinTurnRadius()};
+    auto raftWaveHeight{raftBoat.getWaveHeight()};
     
     Canoe canoe;
     Boat& canoeBoat{canoe};
@@ -48,5 +51,28 @@ int main() {
     auto sailboatTurnRadius{sailBoat.getMinTurnRadius()};
     auto sailboatKnots{sailBoat.getKnots()};
     
+
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

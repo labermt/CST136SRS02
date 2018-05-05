@@ -30,8 +30,9 @@ int Boat::getMinTurnRadius() const noexcept
     return hull_.minTurnRadius();
 }
 
-int Boat::getMaxWaveHeight() const noexcept
+int Boat::getMaxWaveHeight() const
 {
+    //capsize
     return hull_.maxWaveHeight();
 }
 

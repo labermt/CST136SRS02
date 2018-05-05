@@ -22,7 +22,7 @@ public:
     
     int getWindSpeed();
     int getMinTurnRadius() const noexcept;
-    int getMaxWaveHeight() const noexcept;
+    int getMaxWaveHeight() const;
     double getKnots() const noexcept;
     
 protected:
