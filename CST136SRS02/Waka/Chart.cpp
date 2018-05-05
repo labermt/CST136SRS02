@@ -2,11 +2,7 @@
 #include "Chart.h"
 
 
-Chart::Chart()
+void Chart::equipChart()
 {
-}
-
-
-Chart::~Chart()
-{
+	haveChart = true;
 }

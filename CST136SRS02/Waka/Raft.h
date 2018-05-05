@@ -9,7 +9,7 @@ public:
 	~Raft() = default;
 
 	std::string getName() override;
-	void setHull() override;
+	void setHull(Hull* hullType) override;
 
 };
 

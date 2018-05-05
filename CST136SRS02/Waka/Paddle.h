@@ -4,7 +4,6 @@ class Paddle final : public Propulsion
 {
 public:
 	Paddle();
-	~Paddle();
 
 	void getKnots() override;
 };

@@ -12,6 +12,7 @@ public:
 
 	virtual void getKnots() = 0;
 
+	int currentKnots() const;
 
 };
 

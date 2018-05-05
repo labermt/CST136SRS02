@@ -1,9 +1,13 @@
 #pragma once
-#include "Boat.h"
+
 class Chart
 {
 public:
-	Chart();
-	~Chart();
+	Chart() = default;
+	
+	void equipChart();
+
+private:
+	bool haveChart{};
 };
 

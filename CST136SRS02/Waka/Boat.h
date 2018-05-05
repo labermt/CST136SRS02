@@ -4,6 +4,7 @@
 #include "Hull.h"
 #include "Wind.h"
 #include "Water.h"
+#include "Chart.h"
 
 
 class Boat
@@ -20,16 +21,20 @@ public:
 
 	void setWindSpeed(int const windSpeed);
 	void setWaterCurrentSpeed(int const waterSpeed);
+	void bringChart();
+	int getCurrentBoatSpeed() const;
 
 private:
 	std::string name{};
-	int currentSpeed{};
+	//int currentSpeed{};
 
 	Propulsion* myProp{ nullptr };
 	Hull* myHull{ nullptr };
 
 	Wind windConditions;
 	Water waterConditions;
+
+	Chart myChart;
 
 };
 

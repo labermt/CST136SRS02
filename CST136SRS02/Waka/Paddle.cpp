@@ -7,10 +7,7 @@ Paddle::Paddle()
 {
 }
 
-Paddle::~Paddle()
-{
-}
-
 void Paddle::getKnots()
 {
+	Propulsion::getKnots();
 }

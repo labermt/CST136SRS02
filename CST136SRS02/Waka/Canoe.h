@@ -1,6 +1,5 @@
 #pragma once
 #include "Boat.h"
-#include "Paddle.h"
 
 class Canoe final : public Boat
 {
@@ -10,8 +9,7 @@ public:
 	~Canoe() = default;
 
 	std::string getName() override;
+	void setHull(Hull* hullType) override;
 
-private:
-	Paddle hasPaddle;
 };
 

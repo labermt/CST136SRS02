@@ -6,3 +6,8 @@ NoPropulsion::NoPropulsion()
 	:Propulsion(1)
 {
 }
+
+void NoPropulsion::getKnots()
+{
+	Propulsion::getKnots();
+}

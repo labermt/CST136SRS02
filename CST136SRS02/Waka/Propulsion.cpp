@@ -11,3 +11,8 @@ void Propulsion::getKnots()
 {
 
 }
+
+int Propulsion::currentKnots() const
+{
+	return knots;
+}
