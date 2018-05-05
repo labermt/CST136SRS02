@@ -1,9 +1,20 @@
 # CST136SRS02
 Polynesian Polymorphism
 
-Name:
+Name: Nathan Tout
 
 ---
+Unresolved:
+- Currently no propulsion or hull specifiers
+- Wind is not set up yet.
+- Canoe and Sailboat are not sea-ready.
+- 
+Notes:
+- Chart reads in a text file with a map new zealand.
+	- 0: water, 1: land, 8: boarder
+- Raft drifts with the current of the water.
+- record is stored of wherre the boat has traveled
+
 
 Purpose:
 
