@@ -1,7 +1,9 @@
 # CST136SRS02
 Polynesian Polymorphism
 
-Name:
+Name: Jordan Clark  
+
+Unresolved Issues: I was getting compiler warnings when I tried using gsl.h; I would have used gsl::not_null for hull_ otherwise so that I wouldn't need to keep checking  
 
 ---
 
