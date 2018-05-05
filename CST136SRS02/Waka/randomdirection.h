@@ -5,7 +5,6 @@
 class Randomdirection
 {
 
-
 public:
 	Randomdirection() = default;
 	~Randomdirection() = default;

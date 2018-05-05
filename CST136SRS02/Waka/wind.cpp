@@ -47,7 +47,6 @@ void Wind::setSpeed(const int randomInt) noexcept
 
 void Wind::setDirection() noexcept
 {
-
 	//rand generator
 	std::random_device                  rand_dev;
 	std::mt19937                        generator(rand_dev());
@@ -80,7 +79,6 @@ void Wind::setDirection() noexcept
 		direction = Cardinal::SE;
 		break;
 	}
-
 }
 
 

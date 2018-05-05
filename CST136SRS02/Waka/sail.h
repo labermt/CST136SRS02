@@ -7,7 +7,6 @@
 class Sail : public Propulsion
 {
 
-
 public:
 
 	Sail();

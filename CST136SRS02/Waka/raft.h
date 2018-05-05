@@ -19,7 +19,6 @@ public:
 	void setDirection(const Current& current);
 	void setSpeed(const int speedOfCurrent);
 
-
 private:
 
 	std::string do_getName() const override;

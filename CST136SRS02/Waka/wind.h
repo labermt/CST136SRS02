@@ -17,12 +17,9 @@ public:
 	void setSpeed(const int randomInt) noexcept;
 	void setDirection() noexcept;
 
-
 private:
 	
 	Cardinal direction;
 	int speed;
-
-
 };
 

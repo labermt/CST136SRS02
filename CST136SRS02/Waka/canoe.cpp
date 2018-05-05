@@ -1,8 +1,6 @@
 #include "stdafx.h"
 #include "canoe.h"
 
-
-
 int Canoe::getSpeed() const
 {
 	return this->paddle.getSpeed();
@@ -45,13 +43,11 @@ int Canoe::getMaxHeight() const noexcept
 void Canoe::setSpeed(int speedOfCurrent) noexcept
 {
 	this->paddle.setSpeed(speedOfCurrent);
-
 }
 
 void Canoe::setPaddleStrength(int strength) noexcept
 {
 	this->paddle.setStrength(strength);
-
 }
 
 std::string Canoe::do_getName() const
@@ -61,7 +57,5 @@ std::string Canoe::do_getName() const
 
 void Canoe::do_setName(std::string name) noexcept
 {
-	
 	Boat::do_setName(name);
-
 }

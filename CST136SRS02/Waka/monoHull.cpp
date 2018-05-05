@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include "monoHull.h"
 
-
 MonoHull::MonoHull()
 {
 	maxWaveHeight = 5;

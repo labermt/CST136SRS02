@@ -41,9 +41,7 @@ int Raft::getMaxHeight() const noexcept
 
 void Raft::setDirection(const Current& current)
 {
-
 	direction = current.getDirection();
-
 }
 
 void Raft::setSpeed(const int speedOfCurrent)
@@ -51,16 +49,13 @@ void Raft::setSpeed(const int speedOfCurrent)
 	speed = speedOfCurrent;
 }
 
-
 ////overrides
 std::string Raft::do_getName() const
 {
 	return Boat::do_getName();
-
 }
 
-void Raft::do_setName(std::string name) noexcept {
-
+void Raft::do_setName(std::string name) noexcept
+{
 	Boat::do_setName(name);
-
 }

@@ -5,9 +5,15 @@ Name: AJ Stacher
 
 Project: Waka
 
-Notes: monohull can handle 5 foot waves, multihull can handle 10 foot waves. Waves can get as high as 11 feet!
+Notes: 
+		-monohull can handle 5 foot waves, multihull can handle 10 foot waves. Waves can get as high as 11 feet!
+		-coudl have use some BOOST stuff for switches in my classes, but didn't understand how it worked so didn't use it!
+		
 
-Problems: Still not sure on how to create my own throws w/try+catch. Exception will be thrown if sail gets boat capsized by wind, but not really being handled
+Problems: 
+		-Still not sure on how to create my own throws w/try+catch. Exception will be thrown if sail gets boat capsized by wind, but not really being handled
+		-Hull classes have minTurnRadius functions, but I didn't know how to impliment it. More time would have yielded a solution
+		-Hull and propulsion classses should be private, ran out of time to impliment
 
 ---
 

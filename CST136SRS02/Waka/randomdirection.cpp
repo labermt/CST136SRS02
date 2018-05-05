@@ -9,7 +9,6 @@ Cardinal Randomdirection::generate() noexcept
 	std::mt19937                        generator(rand_dev());
 	std::uniform_int_distribution<int>  distribution(0, 7);
 
-
 	switch (distribution(generator))
 	{
 	case 0:

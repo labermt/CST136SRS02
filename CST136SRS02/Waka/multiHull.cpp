@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include "multiHull.h"
 
-
 MultiHull::MultiHull()
 {
 	maxWaveHeight = 10;

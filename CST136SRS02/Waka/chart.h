@@ -1,8 +1,6 @@
 #pragma once
 class Chart
 {
-
-
 public:
 
 	Chart();
@@ -19,7 +17,6 @@ public:
 	void setMilesThird(int milesTraveled);
 	void setMilesFourth(int milesTraveled);
 	void setMilesFinal(int milesTraveled);
-
 	
 private:
 	int milesFirst;

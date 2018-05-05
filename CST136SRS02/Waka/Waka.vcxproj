@@ -168,7 +168,6 @@
   <ItemGroup>
     <ClCompile Include="boat.cpp" />
     <ClCompile Include="canoe.cpp" />
-    <ClCompile Include="cardinal.cpp" />
     <ClCompile Include="chart.cpp" />
     <ClCompile Include="current.cpp" />
     <ClCompile Include="hull.cpp" />

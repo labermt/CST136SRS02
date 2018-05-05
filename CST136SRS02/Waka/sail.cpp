@@ -6,19 +6,16 @@
 
 Sail::Sail() : sailDirection(Cardinal::ANCHORED) {}
 
-
 void Sail::setDirection(const Cardinal windDirection) noexcept
 {
 	Randomdirection randDir;
 
 	sailDirection = randDir.generate();
 	
-
-	while (sailDirection == windDirection) {
-
-		throw "Bad sail direction, Strong winds caused boat to capsize!";
-		//sailDirection = randDir.generate();
-
+	while (sailDirection == windDirection) 
+	{
+		//throw "Bad sail direction, Strong winds caused boat to capsize!";
+		sailDirection = randDir.generate();
 	}
 }
 
@@ -59,10 +56,6 @@ void Sail::do_setSpeed(int n) noexcept {
 
 void Sail::setSpeed(const int current, const Cardinal windDirection, int windSpeed) noexcept
 {
-	//figure out how to calculate speed based on wind direction, sail direction and current speed
-	//needs to be set right after instance created in boat
-	//do_setSpeed(1);
-
 	auto windMultiplier = 0.0;
 
 	//NORTH
@@ -196,7 +189,6 @@ void Sail::setSpeed(const int current, const Cardinal windDirection, int windSpe
 	}
 
 	do_setSpeed(current + (windMultiplier * windSpeed));
-
 }
 
 int Sail::do_getSpeed() const

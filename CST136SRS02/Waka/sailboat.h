@@ -28,19 +28,13 @@ public:
 	void setSpeed(Current current, Wind windDirection) noexcept;
 
 	
-
 private:
 
 	Sail sail;
-
 	Cardinal direction;
-
 	MultiHull hull;
-
 
 	std::string do_getName() const override;
 	void do_setName(std::string name) noexcept override;
-
-
 };
 

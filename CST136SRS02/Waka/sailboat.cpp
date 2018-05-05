@@ -26,19 +26,14 @@ int Sailboat::getMaxHeight() const noexcept
 
 void Sailboat::setDirection( Wind & wind) noexcept
 {
-
 	this->sail.setDirection(wind.getDirection());
 	direction = sail.getDirection();
-
 }
 
 void Sailboat::setSpeed(Current current, Wind windDirection) noexcept
 {
 	//passed in copies, wouldn't do with larger programs/classes
-
-
 	this->sail.setSpeed(current.getspeed(), windDirection.getDirection(), windDirection.getSpeed());
-
 }
 
 std::string Sailboat::do_getName() const
@@ -48,9 +43,7 @@ std::string Sailboat::do_getName() const
 
 void Sailboat::do_setName(std::string name) noexcept
 {
-
 	Boat::do_setName(name);
-
 }
 
 

@@ -14,12 +14,12 @@ public:
 	void setStrength(int n);
 
 private:
+
 	int do_getSpeed() const override;
 	void do_setSpeed(int n) noexcept override;
 
 	//paddle strength, speed multiplier
 	int strength;
-
 
 };
 

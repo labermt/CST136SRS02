@@ -1,13 +1,11 @@
 #include "stdafx.h"
 #include "hull.h"
 
-
 Hull::Hull() : minTurnRadius(0), maxWaveHeight(0){}
 
 int Hull::getMaxWaveHeight() const 
 {
 	return do_getMaxWaveHeight();
-
 }
 
 int Hull::getMinTurnRadius() const

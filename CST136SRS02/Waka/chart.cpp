@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include "chart.h"
 
-
 Chart::Chart() : milesFirst(380), milesSecond(618), milesThird(210), milesFourth(941), milesFinal(468){}
 
 int Chart::getMilesFirst()

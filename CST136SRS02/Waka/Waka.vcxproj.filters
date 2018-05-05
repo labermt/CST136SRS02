@@ -82,9 +82,6 @@
     <ClCompile Include="sail.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cardinal.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="raft.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

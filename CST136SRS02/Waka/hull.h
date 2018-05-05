@@ -17,8 +17,6 @@ protected:
 
 	int minTurnRadius;
 	int maxWaveHeight; //in feet
-
-private:
 	
 };
 

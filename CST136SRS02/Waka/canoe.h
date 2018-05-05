@@ -11,8 +11,6 @@ class Chart;
 
 class Canoe final : public Boat
 {
-
-
 public:
 
 	Canoe() = default;
@@ -24,9 +22,6 @@ public:
 
 	void setSpeed(int speedOfCurrent) noexcept;
 	void setPaddleStrength(int strength) noexcept;
-
-
-	
 
 private:
 
