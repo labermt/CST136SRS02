@@ -3,7 +3,7 @@
 
 
 NoPropulsion::NoPropulsion()
-	:Propulsion(1)
+	:Propulsion(0)
 {
 }
 

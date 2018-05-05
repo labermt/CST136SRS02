@@ -9,7 +9,7 @@
 
 class Boat
 {
-protected: // A derived class member or friend may access the protected members of the base class only through a derived object
+protected: 
 	virtual ~Boat() = default;
 
 public:
@@ -26,7 +26,6 @@ public:
 
 private:
 	std::string name{};
-	//int currentSpeed{};
 
 	Propulsion* myProp{ nullptr };
 	Hull* myHull{ nullptr };
