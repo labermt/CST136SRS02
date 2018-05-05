@@ -10,6 +10,6 @@ protected:
 	std::string do_get_name() override;
 
 public:
-	Canoe(std::string name, Hull& hull_type, std::vector<Propulsion*>& prop, Chart& chart);
+	Canoe(std::string name, Hull const& hull_type, std::vector<Propulsion*>& prop, Chart& chart);
 };
 

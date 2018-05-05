@@ -8,7 +8,7 @@ void Boat::start_voyage()
 	int clock{ 0 };
 }
 
-Boat::Boat(std::string const name, Hull& hull_type, std::vector<Propulsion*>& prop, Chart& chart):
+Boat::Boat(std::string const name, Hull const& hull_type, std::vector<Propulsion*>& prop, Chart& chart):
 	name_{ name }, hull_{ hull_type }, propulsion_{ prop }, chart_{ chart }
 {
 }

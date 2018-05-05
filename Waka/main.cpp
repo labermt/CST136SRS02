@@ -12,7 +12,7 @@
 int main()
 {
 	std::vector<Boat> boat_list;
-	Multi_hull canoe_hull;
+	Multi_hull const canoe_hull;
 	Chart canoe_chart;
 	//std::vector<Propulsion*> canoe_prop;
 

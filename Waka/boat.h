@@ -18,7 +18,7 @@ protected:
 	enum class ship_status { capsized, good };
 
 	std::string name_;
-	Hull& hull_;
+	Hull const& hull_;
 	std::vector<Propulsion*> propulsion_;
 	Chart& chart_;
 	ship_status status_{ ship_status::good };
@@ -28,7 +28,7 @@ protected:
 
 public:
 	void start_voyage();
-	Boat(std::string name, Hull& hull_type, std::vector<Propulsion*>& prop, Chart& chart);
+	Boat(std::string name, Hull const& hull_type, std::vector<Propulsion*>& prop, Chart& chart);
 	void move();
 	void turn( Direction directon);
 	
