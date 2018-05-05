@@ -3,6 +3,8 @@ Polynesian Polymorphism
 
 Name: AJ Stacher
 
+Solution Name: CST136SRS02
+
 Project: Waka
 
 Notes: 
