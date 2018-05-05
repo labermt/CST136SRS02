@@ -2,8 +2,17 @@
 Polynesian Polymorphism
 
 Name:
+Anil Coklar
 
 ---
+NOTES:
+Raft, canoe and sailboat were built according to UML blueprint. Map of New Zealand was created using a website called pixilart.com which was created from classmate Drew Deraita. 
+The sailboat has a sail and a multihall, the raft has two paddles and is a monohull, and the canoe has a single paddle and is a monohull. 
+The GPS and direction header file and GPS .cpp file was borrowed from Professor Besser and cited within the folders accordingly. 
+The intention was to utilize randomgenerator to randomly pick speeds of wind and direction of water, however this was not implemented in this code.  
+The boat moves but is not very smart about it. It does not intuitively move the direction it is supposed to. 
+The other intention was to utilize smartpointers instead of new/delete but was unsucesful in figuring out how they are actually implemented in this code. 
+Otherwise this code was fun to write and learned more about virtual functions and abstract classes. 
 
 Purpose:
 
