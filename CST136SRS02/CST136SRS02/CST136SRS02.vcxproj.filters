@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Boats">
+      <UniqueIdentifier>{cc6f11ac-2821-4a5c-832a-4de80815c82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment">
+      <UniqueIdentifier>{30ebeb2a-0331-420b-89d5-c6e5bceb4092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hulls">
+      <UniqueIdentifier>{ab458024-90b5-4163-abb2-898bf218bb68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Propulsion">
+      <UniqueIdentifier>{aedf3839-9d85-46a0-bcc1-2684e4f9d266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Boats">
+      <UniqueIdentifier>{32bb80cb-f489-4978-bf48-72bfb42d2d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment">
+      <UniqueIdentifier>{1f6503a8-d857-4be9-bb85-3391d0815205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hulls">
+      <UniqueIdentifier>{6425496b-001c-4bca-b950-5f7dab853677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Propulsion">
+      <UniqueIdentifier>{fe02875f-20d7-4572-a240-c2b13ad2fa2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boat.h">
+      <Filter>Header Files\Boats</Filter>
+    </ClInclude>
+    <ClInclude Include="Canoe.h">
+      <Filter>Header Files\Boats</Filter>
+    </ClInclude>
+    <ClInclude Include="Raft.h">
+      <Filter>Header Files\Boats</Filter>
+    </ClInclude>
+    <ClInclude Include="Sailboat.h">
+      <Filter>Header Files\Boats</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Wind.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Chart.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Hull.h">
+      <Filter>Header Files\Hulls</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoHull.h">
+      <Filter>Header Files\Hulls</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiHull.h">
+      <Filter>Header Files\Hulls</Filter>
+    </ClInclude>
+    <ClInclude Include="Paddle.h">
+      <Filter>Header Files\Propulsion</Filter>
+    </ClInclude>
+    <ClInclude Include="Propulsion.h">
+      <Filter>Header Files\Propulsion</Filter>
+    </ClInclude>
+    <ClInclude Include="Sail.h">
+      <Filter>Header Files\Propulsion</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boat.cpp">
+      <Filter>Source Files\Boats</Filter>
+    </ClCompile>
+    <ClCompile Include="Canoe.cpp">
+      <Filter>Source Files\Boats</Filter>
+    </ClCompile>
+    <ClCompile Include="Raft.cpp">
+      <Filter>Source Files\Boats</Filter>
+    </ClCompile>
+    <ClCompile Include="Sailboat.cpp">
+      <Filter>Source Files\Boats</Filter>
+    </ClCompile>
+    <ClCompile Include="Chart.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Wind.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Hull.cpp">
+      <Filter>Source Files\Hulls</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoHull.cpp">
+      <Filter>Source Files\Hulls</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiHull.cpp">
+      <Filter>Source Files\Hulls</Filter>
+    </ClCompile>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>Source Files\Propulsion</Filter>
+    </ClCompile>
+    <ClCompile Include="Propulsion.cpp">
+      <Filter>Source Files\Propulsion</Filter>
+    </ClCompile>
+    <ClCompile Include="Sail.cpp">
+      <Filter>Source Files\Propulsion</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
