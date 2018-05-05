@@ -5,17 +5,22 @@
 #include "monohull.h"
 #include "multihull.h"
 #include "raft.h"
+#include "propulsion.h"
 
 int main()
 {
-	MultiHull const testHull;
+	//MultiHull const testHull;
 
-	auto myRaft = Raft(testHull);
+	//auto myRaft = Raft(testHull);
 
-	auto testHeight = testHull.getMaxWaveHeight();
+	//myRaft.getName();
 
-	myRaft.hull_.getMaxWaveHeight();
+	//auto testHeight = testHull.getMaxWaveHeight();
 
+	//myRaft.hull_.getMaxWaveHeight();
+
+	//myRaft.propulsion_[0].getKnots();
+	//
 
 	return 0;
 }

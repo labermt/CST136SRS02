@@ -60,6 +60,15 @@
     <ClInclude Include="multihull.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="randomgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -102,6 +111,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="randomgen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wind.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -4,9 +4,8 @@
 class Sailboat final : public Boat
 {
 public:
-	Sailboat() = default;
-
+	Sailboat(Hull const& hull, Chart& chart, std::vector<Propulsion*>& propulsion);
 public:
-	void doGetName() noexcept override;
+	std::string doGetName() noexcept override;
 };
 

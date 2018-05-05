@@ -4,9 +4,9 @@
 class Canoe final : public Boat
 {
 public:
-	Canoe() = default;
+	Canoe(Hull const& hull, Chart& chart, std::vector<Propulsion*>& propulsion);
 
 private:
-	void doGetName() noexcept override;
+	std::string doGetName() noexcept override;
 };
 

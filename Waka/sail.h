@@ -1,9 +1,9 @@
 #pragma once
 #include "propulsion.h"
-class Sail :
-	public Propulsion
+
+class Sail final : public Propulsion
 {
-public:
-	Sail();
+private:
+	unsigned doGetKnots() const noexcept override { return 2; };
 };
 

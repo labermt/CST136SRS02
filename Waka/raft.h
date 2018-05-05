@@ -4,9 +4,9 @@
 class Raft final : public Boat
 {
 public:
-	Raft(Hull const &hull);
+	Raft(Hull const& hull, Chart& chart, std::vector<Propulsion*>& propulsion);
 
 private:
-	void doGetName() noexcept override;
+	std::string doGetName() noexcept override;
 };
 

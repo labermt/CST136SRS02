@@ -8,25 +8,25 @@
 class Boat
 {
 public:
-	Boat(Hull const &hull);
+	Boat(Hull const& hull, Chart& chart, std::vector<Propulsion*>& propulsion);
 
 protected:
-	virtual ~Boat() = default; 
+	virtual ~Boat() = default;
 
 protected:
-	virtual void doGetName() noexcept = 0;
+	virtual std::string doGetName() noexcept = 0;
 
 public:
-	void getName() noexcept;
-	void moveBoat();
-	void turnBoat();
+	std::string getName() noexcept;
+	void moveBoat(Direction direction);
+	void setSail();
 
 public:
-	std::string name_;
-	Hull const &hull_;
+	Hull const& hull_;
 	Chart &chart_;
-	std::vector<Propulsion> propulsion_;
+	std::vector<Propulsion*>& propulsion_;
 
-
+	unsigned maxSpeed_{ 0 };
+	GPS gps_{ GPS(10,4) };
 };
 

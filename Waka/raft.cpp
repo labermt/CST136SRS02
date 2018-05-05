@@ -1,14 +1,12 @@
 #include "stdafx.h"
 #include "raft.h"
 
-Raft::Raft(Hull const& hull):
-Boat::Boat(hull)
+Raft::Raft(Hull const& hull, Chart& chart, std::vector<Propulsion*>& propulsion) :
+	Boat(hull, chart, propulsion)
 {
-
 }
 
-void Raft::doGetName()noexcept
+std::string Raft::doGetName()noexcept
 {
-	Boat::doGetName();
-	// TODO: Raft specific names
+	return "USS Black Jim";
 }

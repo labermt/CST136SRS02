@@ -1,7 +1,14 @@
 #pragma once
+
 class Propulsion
 {
-public:
-	Propulsion() = default;
-};
 
+protected:
+	virtual ~Propulsion() = default;
+
+private:
+	virtual unsigned doGetKnots() const noexcept = 0;
+
+public:
+	unsigned getKnots() const noexcept { return doGetKnots(); };
+};

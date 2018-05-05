@@ -1,0 +1,16 @@
+#include "stdafx.h"
+#include "raft.h"
+
+Raft::Raft(Hull const& hull):
+Boat::Boat(hull)
+{
+
+}
+
+std::string Raft::doGetName()noexcept
+{
+	Boat::doGetName();
+
+	return "USS Black Jim";
+
+}

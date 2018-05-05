@@ -1,4 +1,4 @@
 #include "stdafx.h"
 #include "hull.h"
 
-//This file is intentionally blank, yo
+//This file is intentionally blank

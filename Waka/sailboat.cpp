@@ -1,8 +1,12 @@
 #include "stdafx.h"
 #include "sailboat.h"
 
-void Sailboat::doGetName() noexcept
+Sailboat::Sailboat(Hull const& hull, Chart& chart, std::vector<Propulsion*>& propulsion) :
+	Boat(hull, chart, propulsion)
 {
-	Boat::doGetName();
-	// TODO: Sailboat specific names
+}
+
+std::string Sailboat::doGetName() noexcept
+{
+	return "USS Archimedes";
 }
