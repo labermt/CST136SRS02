@@ -4,12 +4,12 @@
 Chart::Chart(int lat, int lng) : lat_(lat), lng_(lng)
 { }
 
-const int Chart::getlat()
+int Chart::getlat() const
 {
 	return lat_;
 }
 
-const int Chart::getlng()
+int Chart::getlng() const
 {
 	return lng_;
 }

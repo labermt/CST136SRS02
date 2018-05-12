@@ -6,7 +6,7 @@
 Boat::Boat(std::string name, Hull* hull) : name_(name), myhull_(hull)
 { }
 
-const std::string Boat::getName()
+std::string Boat::getName() const
 {
 	return do_getName();
 }
@@ -31,22 +31,22 @@ void Boat::addPropulsion(Propulsion* d0)
 	do_addPropulsion(d0);
 }
 
-const int Boat::myspeed()
+int Boat::myspeed() const
 {
 	return do_myspeed();
 }
 
-const environment::properties Boat::whatAmIOn()
+environment::properties Boat::whatAmIOn() const
 {
 	return theworld_.getTileProperties(mychart_.getlat(), mychart_.getlng());
 }
 
-const bool Boat::getcaptsized_()
+bool Boat::getcaptsized_() const
 {
 	return captsized_;
 }
 
-const std::string Boat::do_getName()
+std::string Boat::do_getName() const
 {
 	return "error";
 }
@@ -100,7 +100,7 @@ void Boat::do_move()
 void Boat::do_addPropulsion(Propulsion* d0)
 { }
 
-const int Boat::do_myspeed()
+int Boat::do_myspeed() const
 {
 	return 0;
 }

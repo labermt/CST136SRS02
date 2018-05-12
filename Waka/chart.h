@@ -14,8 +14,8 @@ private:
 public:
 	Chart(int lat, int lng);
 
-	const int getlat();
-	const int getlng();
+	int getlat() const;
+	int getlng() const;
 
 	void setlat(const int data);
 	void setlng(const int data);

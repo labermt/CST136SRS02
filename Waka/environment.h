@@ -16,5 +16,5 @@ public:
 
 	environment();
 
-	const properties getTileProperties(const int lat, const int lng);
+	properties getTileProperties(const int lat, const int lng) const;
 };

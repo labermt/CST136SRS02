@@ -20,25 +20,25 @@ protected:
 
 	bool captsized_{ false };
 
-	virtual const std::string do_getName();
+	virtual std::string do_getName() const;
 	virtual void do_turnRight();
 	virtual void do_turnLeft();
 	virtual void do_move();
 	virtual void do_addPropulsion(Propulsion* d0);
-	virtual const int do_myspeed();
+	virtual int do_myspeed() const;
 
 public:
 	Boat(std::string name, Hull* hull);
 
-	const std::string getName();
+	std::string getName() const;
 
 	void turnRight();
 	void turnLeft();
 	void move();
 
 	void addPropulsion(Propulsion* d0);
-	const int myspeed();
+	int myspeed() const;
 
-	const environment::properties whatAmIOn();
-	const bool getcaptsized_();
+	environment::properties whatAmIOn() const;
+	bool getcaptsized_() const;
 };

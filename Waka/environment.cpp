@@ -18,7 +18,7 @@ environment::environment() :
 }
 { }
 
-const environment::properties environment::getTileProperties(const int lat, const int lng)
+environment::properties environment::getTileProperties(const int lat, const int lng) const
 {
 	return topography_[lat][lng];;
 }
