@@ -1,7 +1,22 @@
 # CST136SRS02
 Polynesian Polymorphism
 
-Name:
+Name: AJ Stacher
+
+Solution Name: CST136SRS02
+
+Project: Waka
+
+Notes: 
+		-monohull can handle 5 foot waves, multihull can handle 10 foot waves. Waves can get as high as 11 feet!
+		-coudl have use some BOOST stuff for switches in my classes, but didn't understand how it worked so didn't use it!
+		-assert will be thrown if waves are too high and crash the program/boat, bad sail direction will autocorrect but is tracked inmy code
+		
+
+Problems: 
+		-Still not sure on how to create my own throws w/try+catch. Exception will be thrown if sail gets boat capsized by wind, but not really being handled
+		-Hull classes have minTurnRadius functions, but I didn't know how to impliment it. More time would have yielded a solution
+		-Hull and propulsion classses should be private, ran out of time to impliment
 
 ---
 
